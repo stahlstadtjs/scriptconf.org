@@ -6,7 +6,7 @@
     <style>
       @font-face{
         font-family: 'Montserrat';
-        src: url('font/Montserrat-Bold.woff2') format('woff2');
+        src: url('/font/Montserrat-Bold.woff2') format('woff2');
         font-display: swap;
         font-weight: 700;
         font-style: normal;
@@ -24,7 +24,7 @@
         margin: 0;
         background-color: #2F2F2C;
         color: white;
-        font-family: 'Montserrat';
+        font-family: 'Helvetica Neue', sans-serif;
       }
 
       main {
@@ -37,6 +37,7 @@
       }
 
       header {
+        font-family: 'Montserrat';
         position: absolute;
         left: 50%;
         top: 50%;
@@ -48,6 +49,18 @@
         display: block;
         color: white;
       }
+
+      footer,
+      a {
+        color: white;
+      }
+
+      footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+      }
       /* SCRIPT: */
       /* background: #F3DF56; */
     </style>
@@ -56,9 +69,13 @@
     <main>
       <header>
         <h1>Save the Date for</h1>
-        <img src="images/logo.svg" alt="Script 17 Logo" />
+        <img src="images/logo.svg" alt="Script 17" />
         <h2>A one-day JavaScript event in Linz, Austria <span class="highlight">January, 27th 2017</span></h2>
       </header>
+      <footer>
+        <p><a href="/code-of-conduct/">Code of Conduct</a> | <a href="https://twitter.com/scriptconf">Twitter</a></p>
+        <p>This website uses cookies because it's a website</p>
+      </footer>
     </main>
   </body>
 </html>

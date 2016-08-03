@@ -58,6 +58,7 @@ footer {
   left: 0;
 }
 
+button,
 input {
   -webkit-appearance: none;
   border: none;
@@ -67,11 +68,12 @@ input {
   border-radius: 3px;
 }
 
-form {
+.mail-subscribe-form {
   margin-bottom: 110px;
   margin-top: 4rem;
 }
 
+.tito-submit,
 .btn {
   background-color: #F3DF56;
   color: #2F2F2C;
@@ -95,4 +97,9 @@ form {
   color: white;
   font-size: 1.25rem;
   max-width: 45rem;
+}
+
+.section {
+  margin: 2rem 0;
+  padding: 1rem;
 }

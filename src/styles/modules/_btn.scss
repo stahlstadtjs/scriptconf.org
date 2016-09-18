@@ -1,0 +1,27 @@
+button,
+input,
+.btn {
+  -webkit-appearance: none;
+  border: none;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+  margin: 2rem 0.5rem;
+}
+
+.mail-subscribe-form {
+  margin-bottom: 110px;
+  margin-top: 4rem;
+}
+
+.tito-submit,
+.btn {
+  background-color: $yellow;
+  color: $grey;
+}

@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: $grey;
+  color: white;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+main {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100vh;
+  color: $yellow;
+}
+
+a {
+  color: $yellow;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+
+.highlight {
+  display: block;
+  color: white;
+}
+
+.sr-only {
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+
+.text {
+  position: relative;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+  color: white;
+  font-size: 1.25rem;
+  max-width: 45rem;
+}
+
+.section {
+  padding: 3rem;
+}

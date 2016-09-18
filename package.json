@@ -1,0 +1,20 @@
+{
+  "name": "scriptconf.org",
+  "version": "1.0.0",
+  "description": "This repo holds the source code of the scriptconf.org website.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stahlstadtjs/scriptconf.org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stahlstadtjs/scriptconf.org/issues"
+  },
+  "homepage": "https://github.com/stahlstadtjs/scriptconf.org#readme"
+}

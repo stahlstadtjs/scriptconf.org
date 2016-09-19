@@ -7,3 +7,8 @@
 .section-inverse a{
   color: desaturate($yellow, 20%);
 }
+
+.about {
+  padding-left: calc(50% - 450px);
+  padding-right: calc(50% - 450px);
+}

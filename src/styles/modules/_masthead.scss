@@ -1,5 +1,5 @@
 .section-masthead {
-  min-height: 80vh;
+  min-height: 70vh;
   background: url(/assets/images/tool.svg) no-repeat -40px 101%;
   background-size: 50%;
   position: relative;
@@ -15,4 +15,8 @@
   top: 50%;
   max-width: 35%;
   transform: translate(0, -50%);
+}
+
+.buffer {
+  padding: 3rem;
 }

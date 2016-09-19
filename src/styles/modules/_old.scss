@@ -11,6 +11,7 @@ body {
   background-color: $grey;
   color: white;
   font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.4em;
 }
 
 main {
@@ -18,7 +19,6 @@ main {
   margin: 0 auto;
   text-align: center;
   min-height: 100vh;
-  color: $yellow;
 }
 
 a {
@@ -27,12 +27,20 @@ a {
 
 h1, h2 {
   font-weight: normal;
+  font-family: 'SF Toontime';
+  text-align: center;
 }
 
+ul {
+  padding-left: 1em;
+}
+
+li {
+  margin: 0.5em 0;
+}
 
 .highlight {
-  display: block;
-  color: white;
+  color: $yellow;
 }
 
 .sr-only {

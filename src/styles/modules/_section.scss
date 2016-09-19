@@ -1,3 +1,9 @@
 .section-inverse {
   background-color: #fefefe;
+  color: $grey;
+  text-align: left;
+}
+
+.section-inverse a{
+  color: desaturate($yellow, 20%);
 }

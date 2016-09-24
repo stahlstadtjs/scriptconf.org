@@ -3,6 +3,9 @@ const sass = require('gulp-sass');
 const nano = require('gulp-cssnano');
 const auto = require('gulp-autoprefixer');
 
+const express = require('express');
+const app = express();
+
 const Metalsmith = require('metalsmith');
 const layouts    = require('metalsmith-layouts');
 const permalinks = require('metalsmith-permalinks');
@@ -42,9 +45,15 @@ gulp.task('site', function(done) {
     });
 });
 
+gulp.task('server', function(done) {
+  app.use(express.static('dist'));
+  app.listen(3000);
+  done();
+});
+
 gulp.task('default', ['sass', 'site', 'copy']);
 
-gulp.task('dev', ['default'], function() {
+gulp.task('dev', ['default', 'server'], function() {
   gulp.watch('src/**/*.scss', ['sass']);
   gulp.watch('src/**/*.html', ['site']);
 });

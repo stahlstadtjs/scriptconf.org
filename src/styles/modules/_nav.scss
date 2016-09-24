@@ -5,7 +5,14 @@
   background-color: $grey;
   z-index: 1000;
   top: 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+
+@media(min-width: 900px) {
+
+  .nav {
+    font-size: 1.5rem;
+  }
 }
 
 .nav-list {
@@ -23,11 +30,24 @@
 
 .nav-link {
   text-decoration: none;
-  padding: 1rem 2rem;
+  padding: 0.5rem;
   transition: all 0.3s ease;
+}
+
+@media(min-width: 900px) {
+
+  .nav-link {
+    padding: 1rem 2rem;
+  }
 }
 
 .nav-link:hover {
   color: $grey;
   background-color: $yellow;
+}
+
+.foot {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 1rem;
 }

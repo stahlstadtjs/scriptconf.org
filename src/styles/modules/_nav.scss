@@ -1,6 +1,5 @@
 .nav {
   font-family: 'SF Toontime';
-  position: fixed;
   width: 100%;
   background-color: $grey;
   z-index: 1000;
@@ -11,6 +10,7 @@
 @media(min-width: 900px) {
 
   .nav {
+    position: fixed;
     font-size: 1.5rem;
   }
 }

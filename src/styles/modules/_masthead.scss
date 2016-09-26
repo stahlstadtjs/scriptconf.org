@@ -1,0 +1,42 @@
+.section-masthead {
+  margin-top: 90px;
+  padding-bottom: 100px;
+  background: url(/assets/images/tool.svg) no-repeat -40px 101%;
+  background-size: 400px;
+  position: relative;
+}
+
+.box {
+  font-family: 'SF Toontime';
+  color: white;
+  padding: 1rem;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.buffer {
+  padding: 3rem;
+}
+
+@media(min-width: 900px) {
+
+  .section-masthead {
+    min-height: 70vh;
+    background-size: 50%;
+    width: 100%;
+    margin-top: 96px;
+  }
+
+  .box {
+    position: absolute;
+    right: 4rem;
+    top: 50%;
+    max-width: 35%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    transform: translate(0, -50%);
+  }
+}

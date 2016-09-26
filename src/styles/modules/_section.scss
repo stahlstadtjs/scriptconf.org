@@ -1,0 +1,24 @@
+.section-inverse {
+  background-color: #fefefe;
+  color: $grey;
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.section-inverse a{
+  color: desaturate($yellow, 20%);
+}
+
+@media(min-width: 900px) {
+
+  .about {
+    padding-left: calc(50% - 450px);
+    padding-right: calc(50% - 450px);
+  }
+}
+
+
+.top {
+  padding-top: 120px;
+}

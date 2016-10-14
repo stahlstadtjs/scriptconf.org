@@ -2,23 +2,23 @@
   background-color: #fefefe;
   color: $grey;
   text-align: left;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1rem;
+  margin: 1.5rem auto;
+  max-width: 800px;
 }
 
-.section-inverse a{
+.section-inverse a {
   color: desaturate($yellow, 20%);
 }
 
-@media(min-width: 900px) {
-
-  .about {
-    padding-left: calc(50% - 450px);
-    padding-right: calc(50% - 450px);
-  }
+.partners {
+  background-color: darken($grey, 10);
 }
 
-
-.top {
-  padding-top: 120px;
+.about-box {
+  max-width: 800px;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  position: relative;
+  margin: 0 auto;
 }

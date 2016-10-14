@@ -1,0 +1,65 @@
+.about {
+  padding: 0;
+}
+
+$dark: darken($grey, 10);
+
+.divider {
+  background-color: $dark;
+  text-align: left;
+  display: flex;
+  padding: 4rem 1rem 1rem;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.divider:first-of-type {
+  padding-top: 1rem;
+  margin-top: 3rem;
+}
+
+.divider:before {
+  content: ' ';
+  display: block;
+  background-image: linear-gradient(-2deg, $dark 50%, $grey 50%, $grey);
+  width: 100%;
+  height: 3rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.divider:first-of-type:before {
+  background-image: linear-gradient(-2deg, $dark 50%, transparent 50%, transparent);
+  top: -3rem;
+}
+
+.divider:nth-of-type(2n) {
+  background-color: $grey;
+  text-align: right;
+  flex-direction: row-reverse;
+}
+
+.divider:nth-of-type(2n):before {
+  background-image: linear-gradient(2deg, $grey 50%, $dark 50%, $dark);
+}
+
+.divider-image {
+  padding: 3rem;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+}
+
+.divider-content {
+  max-width: 700px;
+  min-width: 250px;
+}
+
+.divider h3 {
+  text-align: inherit;
+  border-bottom: 1px solid rgba(255,255,255,0.7);
+  font-size: 1.5rem;
+}

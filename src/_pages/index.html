@@ -3,9 +3,98 @@
     <header class="box">
       <img src="/assets/images/logo.svg" alt="Script'17">
       <h1>The <strong>JavaScript</strong> conference this city needs</h1>
-      <h2>January 27th, 2017, 12 o'clock<br>Linz, Austria</h2>
-      <p class="buffer"><a href="#tickets" class="btn btn-big">Grab your ticket now</a></p>
+      <h2>January 27th, 2017, 12 o'clock - &infin;<br>Linz, Austria</h2>
+      <a href="#tickets" class="btn btn-big btn-main">
+        Get your ticket now &bullet; &euro; <span class="light">150 (incl. VAT)</span>
+      </a>
     </header>
+  </article>
+  <article class="section speakers">
+    <span class="marker" id="speakers"></span>
+    <h2>Great, international speakers</h2>
+    <ul class="speaker-list">
+      <li class="speaker">
+        <img src="/assets/images/raquel.jpg" class="speaker-img" alt="Raquel Velez" />
+        <h3>Raquel Velez</h3>
+        <p>
+          Web Wombat at npm, San Francisco
+        </p>
+        <p>
+          <a href="https://twitter.com/rockbot">
+            <svg class="icon">
+					    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use>
+            </svg>
+          </a>
+        </p>
+      </li>
+      <li class="speaker">
+        <img src="/assets/images/hannah.jpg" class="speaker-img" alt="Hannah Wolfe" />
+        <h3>Hannah Wolfe</h3>
+        <p>
+          CTO at Ghost, Northampton
+        </p>
+        <p>
+          <a href="https://twitter.com/erisds">
+            <svg class="icon">
+					    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use>
+            </svg>
+          </a>
+        </p>
+      </li>
+      <li class="speaker">
+        <img src="/assets/images/franzi.jpg" class="speaker-img" alt="Franziska Hinkelmann" />
+        <h3>Franziska Hinkelmann</h3>
+        <p>
+          V8 Engineer at Google, Munich
+        </p>
+        <p>
+          <a href="https://twitter.com/fhinkel">
+            <svg class="icon">
+					    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use>
+            </svg>
+          </a>
+        </p>
+      </li>
+      <li class="speaker">
+        <img src="/assets/images/felix.jpg" class="speaker-img" alt="Felix Rieseberg" />
+        <h3>Felix Rieseberg</h3>
+        <p>
+          Electron Engineer at Slack, San Francisco
+        </p>
+        <p>
+          <a href="https://twitter.com/felixrieseberg">
+            <svg class="icon">
+					    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use>
+            </svg>
+          </a>
+        </p>
+      </li>
+      <li class="speaker">
+        <img src="/assets/icons/android-icon-192x192.png" class="speaker-img" alt="More to be announced soon!" />
+        <h3>More to be announced soon!</h3>
+        <p>
+          <a href="#stay-up-to-date">Stay informed</a>
+        </p>
+        <p>
+          <a href="https://twitter.com/scriptconf">
+            <svg class="icon">
+					    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use>
+            </svg>
+          </a>
+        </p>
+      </li>
+    </ul>
+  </article>
+  <article class="section buy ticket">
+    <span class="marker" id="tickets"></span>
+    <h2>Tickets are available!</h2>
+    <p>
+      If the form below is not visible or not working for you, please use
+      <a href="https://ti.to/scriptconf/scriptconf-2017">this link to get your conference ticket.</a>
+    </p>
+    <tito-widget event="scriptconf/scriptconf-2017"></tito-widget>
+    <p>
+    </p>
   </article>
   <article class="section section-inverse about">
     <span class="marker" id="about"></span>
@@ -40,49 +129,8 @@
     </ul>
   </article>
 
-  <article class="section buy ticket">
-    <span class="marker" id="tickets"></span>
-    <h2>Tickets are available!</h2>
-    <p>
-      If the form below is not visible or not working for you, please use
-      <a href="https://ti.to/scriptconf/scriptconf-2017">this link to get your conference ticket.</a>
-    </p>
-    <tito-widget event="scriptconf/scriptconf-2017"></tito-widget>
-    <p>
-    </p>
-  </article>
-
-  <article class="section section-inverse speakers">
-    <span class="marker" id="speakers"></span>
-    <h2>Great, international speakers</h2>
-    <ul class="speaker-list">
-      <li class="speaker">
-        <img src="/assets/images/raquel.jpg" class="speaker-img" alt="Raquel Velez" />
-        <h3>Raquel Velez</h3>
-        <p>
-          Web Wombat at npm, San Francisco - <a href="https://twitter.com/rockbot">Twitter</a>
-        </p>
-      </li>
-      <li class="speaker">
-        <img src="/assets/images/hannah.jpg" class="speaker-img" alt="Hannah Wolfe" />
-        <h3>Hannah Wolfe</h3>
-        <p>
-          CTO at Ghost, Northampton - <a href="https://twitter.com/erisds">Twitter</a>
-        </p>
-      </li>
-      <li class="speaker">
-        <img src="/assets/images/franzi.jpg" class="speaker-img" alt="Franziska Hinkelmann" />
-        <h3>Franziska Hinkelmann</h3>
-        <p>
-          V8 Engineer at Google, Munich - <a href="https://twitter.com/fhinkel">Twitter</a>
-        </p>
-      </li>
-    </ul>
-    <h3>More to be announced soon!</h3>
-  </article>
-
   <!-- Begin MailChimp Signup Form -->
-  <form class="section mail-subscribe-form" action="//scriptconf.us13.list-manage.com/subscribe/post?u=f5bed0058ba0f92552c55c755&amp;id=cc56f4a027"
+  <form id="stay-up-to-date" class="section mail-subscribe-form" action="//scriptconf.us13.list-manage.com/subscribe/post?u=f5bed0058ba0f92552c55c755&amp;id=cc56f4a027"
     method="post" id="mc-embedded-subscribe-form"
     name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 	  <h2 class="highlight">Stay informed ...</h2>

@@ -2,7 +2,6 @@
   list-style-type: none;
   margin: 0 auto;
   padding: 2rem;
-  max-width: 900px;
 }
 
 @media (min-width: 600px) {
@@ -16,11 +15,26 @@
 }
 
 .speaker {
-  padding: 0;
+  padding: 1rem;
   margin: 0 auto;
-  max-width: 250px;
+  max-width: 300px;
+  position: relative;
 }
 
 .speaker-img {
   width: 100%;
+  max-width: 170px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+  fill: $yellow;
+
+  &:hover {
+    fill: darken($yellow, 10);
+  }
 }

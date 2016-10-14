@@ -56,4 +56,6 @@ gulp.task('default', ['sass', 'site', 'copy']);
 gulp.task('dev', ['default', 'server'], function() {
   gulp.watch('src/**/*.scss', ['sass']);
   gulp.watch('src/**/*.html', ['site']);
+  gulp.watch('src/**/*.hbs', ['site']);
+  gulp.watch('src/assets/**/*', ['copy']);
 });

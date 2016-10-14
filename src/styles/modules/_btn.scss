@@ -13,8 +13,21 @@ input,
 
 .btn-big {
   font-size: 1.5rem;
-  margin: 2rem 0.5rem;
+  padding: 1.5rem 3rem;
+  border-radius: 30px;
   display: inline-block;
+  font-family: 'Noto Sans';
+}
+
+.btn-main {
+  position: absolute;
+  bottom: -3.5rem;
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  z-index: 2;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .mail-subscribe-form {
@@ -26,4 +39,9 @@ input,
 .btn {
   background-color: $yellow;
   color: $grey;
+
+  &:hover {
+    background-color: darken($yellow, 10);
+    color: lighten($grey, 10);
+  }
 }

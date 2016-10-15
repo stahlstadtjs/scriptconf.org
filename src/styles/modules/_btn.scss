@@ -43,6 +43,7 @@ input,
   background-color: $yellow;
   color: $grey;
 
+  &:focus,
   &:hover {
     background-color: darken($yellow, 10);
     color: lighten($grey, 10);

@@ -2,7 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Script'17 - The JavaScript event this city needs</title>
+    <title>{{#if title}}
+      {{title}} | Script'17
+      {{else}}
+        Script'17 - The JavaScript event this city needs
+      {{/if}}
+    </title>
     <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
@@ -47,7 +52,9 @@
       </a>
     </nav>
 
+    {{#block 'contents'}}
     {{{contents}}}
+    {{/block}}
 
     <footer class="foot">
       <a href="https://twitter.com/scriptconf">Script'17 at Twitter</a> |

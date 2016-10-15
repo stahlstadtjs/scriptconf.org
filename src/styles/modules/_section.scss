@@ -2,9 +2,13 @@
   background-color: #fefefe;
   color: $grey;
   text-align: left;
-  padding: 1rem;
+  padding: 1.5rem;
   margin: 1.5rem auto;
   max-width: 800px;
+
+  h1, h2, h3 {
+    text-align: left;
+  }
 }
 
 .section-inverse a {

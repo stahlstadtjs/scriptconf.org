@@ -10,6 +10,7 @@
   width: 100%;
   color: white;
   text-align: left;
+  background-color: darken($grey, 10);
 }
 
 .tito-ticket-list {
@@ -58,7 +59,7 @@
 .tito-ticket-name {
   display: block;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.2;
   margin: 8px 0 5px;
 }
@@ -87,7 +88,7 @@
 }
 
 .tito-ticket-description {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .tito-ticket-price-quantity {

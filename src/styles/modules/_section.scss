@@ -2,23 +2,27 @@
   background-color: #fefefe;
   color: $grey;
   text-align: left;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  max-width: 50rem;
 
-.section-inverse a{
-  color: desaturate($yellow, 20%);
-}
-
-@media(min-width: 900px) {
-
-  .about {
-    padding-left: calc(50% - 450px);
-    padding-right: calc(50% - 450px);
+  h1, h2, h3 {
+    text-align: left;
   }
 }
 
+.section-inverse a {
+  color: desaturate($yellow, 20%);
+}
 
-.top {
-  padding-top: 120px;
+.partners {
+  background-color: darken($grey, 10);
+}
+
+.about-box {
+  max-width: 50rem;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  position: relative;
+  margin: 0 auto;
 }

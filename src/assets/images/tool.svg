@@ -1,38 +1,39 @@
-
-<svg width="2716px" height="1639px" viewBox="-693 -1176 2716 1639" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1006px" height="640px" viewBox="-5 0 1006 620" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="house-in-background" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(425.000000, -233.000000)">
-        <polygon id="Polygon-4" stroke="#D8D8D8" stroke-width="10" fill="#9B9B9B" points="473.74173 56.7012367 473.74173 477.630676 293 477.630676 293 0"></polygon>
-        <polygon id="Polygon-3" stroke="#D8D8D8" stroke-width="10" fill="#D8D8D8" points="285.318281 0 285.318281 475.34024 0.125074656 460.687195 0.125074656 75.072339"></polygon>
-    </g>
-    <g id="Big-house-right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-553.000000, -635.000000)">
-        <polygon id="Polygon-4" stroke="#D8D8D8" stroke-width="10" fill="#9B9B9B" points="638.497636 101.667732 638.497626 1045 286.92827 900.39866 286.92827 0"></polygon>
-        <polygon id="Polygon-3" stroke="#D8D8D8" stroke-width="10" fill="#D8D8D8" points="277.986193 0 277.986209 1088.13806 0.614748638 1088.13806 0.614748638 64.9685974"></polygon>
-    </g>
-    <g id="Big-house" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(162.000000, -659.000000)">
-        <polygon id="Polygon-3" fill="#D8D8D8" points="285.193207 170 285.193207 969.966125 0 789.83693 0 240.015099"></polygon>
-        <polygon id="Polygon-3" stroke="#D8D8D8" stroke-width="10" fill="#D8D8D8" points="276.193207 0 276.193207 593 50.7129369 574.719923 50.7129369 61.4603101"></polygon>
-        <polygon id="Polygon-4" stroke="#D8D8D8" stroke-width="10" fill="#9B9B9B" points="454.306604 50.446106 454.306604 745 285 703.675609 285 0"></polygon>
-        <polygon id="Polygon-4" stroke="#D8D8D8" stroke-width="10" fill="#9B9B9B" points="499.07627 233.785546 499.07627 1112 285 1059.74822 285 170"></polygon>
-    </g>
-    <g id="Small-house-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-199.000000, -184.000000)">
-        <polygon id="Polygon-4" stroke="#D8D8D8" stroke-width="10" fill="#9B9B9B" points="473.74173 56.7012367 473.74173 460.142822 293 396.470795 293 0"></polygon>
-        <polygon id="Polygon-3" stroke="#D8D8D8" stroke-width="10" fill="#D8D8D8" points="285.318281 0 285.318281 475.34024 0.125074656 460.687195 0.125074656 75.072339"></polygon>
-    </g>
-    <g id="Small-house" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(579.000000, -20.000000)">
-        <polygon id="Polygon-4" stroke="#D8D8D8" stroke-width="10" fill="#9B9B9B" points="473.74173 56.7012367 473.74173 477.630676 293 477.630676 293 0"></polygon>
-        <polygon id="Polygon-3" stroke="#D8D8D8" stroke-width="10" fill="#D8D8D8" points="285.318281 0 285.318281 475.34024 0.125074656 460.687195 0.125074656 75.072339"></polygon>
-    </g>
-    <g id="Main-house" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-303.000000, 154.000000)">
-        <polygon id="Polygon" stroke="#D8D8D8" stroke-width="10" fill="#D8D8D8" points="540.792969 0.0625 929 132.647451 929 300.352539 0 300.352539 0 132.647451"></polygon>
-        <polygon id="Polygon-2" stroke="#D8D8D8" stroke-width="10" fill="#9B9B9B" points="541.327503 2.09526852 1237.84575 200.476509 1237.84575 302.796868 541.327503 302.796868"></polygon>
-    </g>
-    <g id="script-sign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(678.000000, -1176.000000)">
-        <polygon id="Triangle" fill="#F4F2F2" points="394 180.758857 827.710001 180.758857 0.368997232 939.142769"></polygon>
-        <polygon id="Triangle" fill="#FEFEFE" points="671.828104 298.992187 1150.80467 298.992187 0.368997232 939.142769"></polygon>
-        <polygon id="Triangle" fill="#F3F1F1" points="883.707315 433.120628 1219.83555 433.120628 0.368997232 939.142769"></polygon>
-        <ellipse id="Oval" fill="#FFFFFF" cx="860" cy="258.5" rx="485" ry="258.5"></ellipse>
+    <g id="tool" opacity="0.353777985" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="house-in-background" transform="translate(379.660323, 366.073297)" stroke-width="10" stroke="#D8D8D8">
+            <polygon id="Polygon-4" fill="#9B9B9B" points="183.90689 22.011462 183.90689 185.416581 113.742816 185.416581 113.742816 0"></polygon>
+            <polygon id="Polygon-3" fill="#D8D8D8" points="110.760767 0 110.760767 184.527432 0.0485540739 178.839109 0.0485540739 29.1431375"></polygon>
+        </g>
+        <g id="Big-house-right" transform="translate(0.000000, 210.016600)" stroke-width="10" stroke="#D8D8D8">
+            <polygon id="Polygon-4" fill="#9B9B9B" points="247.865254 39.4674887 247.86525 405.669772 111.385766 349.535425 111.385766 0"></polygon>
+            <polygon id="Polygon-3" fill="#D8D8D8" points="107.914446 0 107.914452 422.415999 0.238645875 422.415999 0.238645875 25.2208575"></polygon>
+        </g>
+        <g id="Big-house" transform="translate(277.563528, 200.699782)">
+            <polygon id="Polygon-3" fill="#D8D8D8" points="110.712214 65.9941256 110.712214 376.541566 0 306.61528 0 93.1740388"></polygon>
+            <polygon id="Polygon-3" stroke="#D8D8D8" stroke-width="10" fill="#D8D8D8" points="107.218407 0 107.218407 230.203038 19.6867996 223.106699 19.6867996 23.8589378"></polygon>
+            <polygon id="Polygon-4" stroke="#D8D8D8" stroke-width="10" fill="#9B9B9B" points="176.362159 19.5832156 176.362159 289.20955 110.637211 273.167391 110.637211 0"></polygon>
+            <polygon id="Polygon-4" stroke="#D8D8D8" stroke-width="10" fill="#9B9B9B" points="193.741777 90.7557217 193.741777 431.679222 110.637211 411.395042 110.637211 65.9941256"></polygon>
+        </g>
+        <g id="Small-house-2" transform="translate(137.423062, 385.095133)" stroke-width="10" stroke="#D8D8D8">
+            <polygon id="Polygon-4" fill="#9B9B9B" points="183.90689 22.011462 183.90689 178.627783 113.742816 153.910256 113.742816 0"></polygon>
+            <polygon id="Polygon-3" fill="#D8D8D8" points="110.760767 0 110.760767 184.527432 0.0485540739 178.839109 0.0485540739 29.1431375"></polygon>
+        </g>
+        <g id="Small-house" transform="translate(439.443236, 448.760054)" stroke-width="10" stroke="#D8D8D8">
+            <polygon id="Polygon-4" fill="#9B9B9B" points="183.90689 22.011462 183.90689 185.416581 113.742816 185.416581 113.742816 0"></polygon>
+            <polygon id="Polygon-3" fill="#D8D8D8" points="110.760767 0 110.760767 184.527432 0.0485540739 178.839109 0.0485540739 29.1431375"></polygon>
+        </g>
+        <g id="Main-house" transform="translate(97.050185, 516.306983)" stroke-width="10" stroke="#D8D8D8">
+            <polygon id="Polygon" fill="#D8D8D8" points="209.93623 0.0242625462 360.638486 51.4938385 360.638486 116.597078 0 116.597078 0 51.4938385"></polygon>
+            <polygon id="Polygon-2" fill="#9B9B9B" points="210.143737 0.813384788 480.532635 77.8251289 480.532635 117.545968 210.143737 117.545968"></polygon>
+        </g>
+        <g id="script-sign" transform="translate(477.875110, 0.000000)">
+            <polygon id="Triangle" fill="#F4F2F2" points="152.951091 70.1707218 321.317634 70.1707218 0.143244998 364.575917"></polygon>
+            <polygon id="Triangle" fill="#FEFEFE" points="260.804166 116.068988 446.743223 116.068988 0.143244998 364.575917"></polygon>
+            <polygon id="Triangle" fill="#F3F1F1" points="343.055833 168.137748 473.541062 168.137748 0.143244998 364.575917"></polygon>
+            <ellipse id="Oval" fill="#FFFFFF" cx="333.852635" cy="100.349891" rx="188.277358" ry="100.349891"></ellipse>
+        </g>
     </g>
 </svg>

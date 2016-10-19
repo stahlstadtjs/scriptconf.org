@@ -45,13 +45,13 @@ gulp.task('site', function(done) {
     .clean(false)
     .destination('dist')
     .use(markdown())
+    .use(permalinks({
+      pattern: ':title'
+    }))
     .use(layouts({
       engine: 'handlebars',
       directory: './src/_templates/layouts',
       default: 'default.hbs'
-    }))
-    .use(permalinks({
-      pattern: ':title'
     }))
     .build(err => {
       if (err) {

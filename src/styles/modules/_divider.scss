@@ -7,9 +7,10 @@ $dark: darken($grey, 10);
 .divider {
   background-color: $dark;
   text-align: left;
-  display: flex;
   padding: 4rem 1rem 1rem;
   position: relative;
+
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;

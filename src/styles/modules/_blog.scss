@@ -61,6 +61,18 @@
 }
 
 .back-menu {
-  right: auto;
-  left: 0;
+  display: none;
+
+  @media(min-width: 700px) {
+    right: auto;
+    left: 0;
+  }
+}
+
+.main-header {
+  margin-top: 4.5rem;
+
+  @media(min-width: 700px) {
+    margin-top: 0;
+  }
 }

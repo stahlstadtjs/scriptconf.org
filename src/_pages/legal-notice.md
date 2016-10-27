@@ -25,8 +25,11 @@ ATU68369213
 Promotion for Script'17, a one day JavaScript conference, held in Linz (Austria).
 
 ## Disclaimer
+
 With regard to the technical setup of the Internet we can not guarantee the authenticity, accuracy or completeness of any information provided. We assume no responsibility for the availability or the operation of scriptconf.org and its content.
+
 Any liability for direct, indirect or other damages, regardless of its cause, arising from the use or non-availability of data and information provided on scriptconf.org, unless permitted by law.
+
 The content of this website is protected by copyright. The information is intended only for personal use. Any other use, including the database storage, duplication and any form of commercial use, and disclosure to third parties - is prohibited without permission of the organization - even in parts or in edited form.
 
 ## Google Analytics

@@ -10,10 +10,10 @@ layout: article.hbs
 Script'17 is a one day conference for JavaScript developers in Linz (Austria).
 
 ## Contact
-ScriptConf.org
-Sebastian Gierlinger
-Peuerbachstraße 7
-A-4040 Linz
+ScriptConf.org<br>
+Sebastian Gierlinger<br>
+Peuerbachstraße 7<br>
+A-4040 Linz<br>
 office (ät ;-)) scriptconf.org
 
 ## VAT number

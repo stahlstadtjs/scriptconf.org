@@ -49,7 +49,7 @@ $triangle: 'data:image/svg+xml;charset=UTF-8,' + $svg-inverse;
 
 .divider:nth-of-type(2n) {
   background-color: $lite;
-  text-align: right;
+  //text-align: right;
   flex-direction: row-reverse;
 }
 

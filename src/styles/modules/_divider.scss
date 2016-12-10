@@ -25,6 +25,10 @@ $triangle: 'data:image/svg+xml;charset=UTF-8,' + $svg-inverse;
   flex-wrap: wrap;
 }
 
+.on-top {
+  align-items: flex-start;
+}
+
 .divider:first-of-type {
   padding-top: 1rem;
   margin-top: 3rem;

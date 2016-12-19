@@ -17,7 +17,7 @@ for parking garages in the inner city of Linz (~20 EUR per day). You can also pa
 station of Linz](http://www.parken.cc/)</a> (~13 EUR per day). There are also a few [free parking areas](https://portal.linz.gv.at/Serviceguide/viewChapter.html?chapterid=122194). The Urfahraner
 Marktgelände is the closest to the venue, but also the most crowded.
 
-![](/assets/images/parking.jpg)
+![Parking lots in Linz](/assets/images/parking.jpg)
 
 ### Linz by train
 
@@ -40,4 +40,4 @@ Script'17 takes place at the [Central in Linz](http://www.centrallinz.at). The C
 cinemas and has a long history in town. It's directly in the center of Linz, at the Landstraße, and reachable by tram and bus.
 Search for [tram station Mozartstraße or Taubenmarkt](http://linzag.at). It's just a few meters from there (in between the interio and Orsay shops).
 
-![](/assets/images/central.jpg)
+![View of the Central](/assets/images/central.jpg)

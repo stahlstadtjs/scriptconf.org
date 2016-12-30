@@ -12,6 +12,8 @@ const Metalsmith = require('metalsmith');
 const layouts    = require('metalsmith-layouts');
 const permalinks = require('metalsmith-permalinks');
 const markdown   = require('metalsmith-markdown');
+const kramed     = require('kramed');
+const marked     = require('marked');
 
 const hbs        = require('handlebars');
 const hbsLayout  = require('handlebars-layout');
@@ -37,14 +39,42 @@ gulp.task('sass', function() {
 gulp.task('copy', function() {
   return gulp.src('src/assets/**/*.*')
     .pipe(gulp.dest('dist/assets'));
-})
+});
+
+const definitionList = (line) => {
+  if (line.startsWith(': ')) {
+    return `<dd>${line.replace(': ', '')}</dd>`;
+  }
+  return `<dt>${line}</dt>`;
+}
+
+const getRenderer = () => {
+  const renderer = new kramed.Renderer();
+  renderer.text = (text) => text;
+  renderer.paragraph = (text) => {
+    let unparsed = text;
+    if (unparsed.indexOf('\n: ') >= 0) {
+      unparsed = unparsed
+        .split('\n')
+        .map(definitionList)
+        .join('\n');
+      unparsed = `<dl>${unparsed}</dl>`;
+    }
+    return kramed.Renderer.prototype.paragraph(unparsed);
+  }
+  return renderer;
+};
 
 gulp.task('site', function(done) {
   Metalsmith('./')
     .source('./src/_pages')
     .clean(false)
     .destination('dist')
-    .use(markdown())
+    .use(markdown({
+      renderer: getRenderer(),
+      gfm: true,
+      smartypants: true
+    }))
     .use(permalinks({
       pattern: ':title'
     }))

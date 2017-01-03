@@ -34,6 +34,24 @@
 
 .partners {
   background-color: darken($grey, 10);
+  margin-top: 2rem;
+}
+
+.location {
+  margin-top: 0;
+  padding-top: 2rem;
+}
+
+.location-figure {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.location-img {
+  width: 100%;
+  max-width: 1600px;
+  display: block;
 }
 
 .about-box {

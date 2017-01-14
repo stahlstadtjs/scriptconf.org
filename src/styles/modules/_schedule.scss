@@ -3,7 +3,10 @@
   text-align: left;
   border-collapse: collapse;
   border-spacing: 0;
-  margin: 1rem auto;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-top: 3rem;
+  max-width: 100%;
   background-color: rgba($grey, 0.8);
 
   thead {

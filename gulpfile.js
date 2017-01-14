@@ -11,19 +11,34 @@ const requiredir = require('requiredir');
 const Metalsmith = require('metalsmith');
 const layouts    = require('metalsmith-layouts');
 const permalinks = require('metalsmith-permalinks');
+const metadata   = require('metalsmith-metadata');
+const inplace    = require('metalsmith-in-place');
 const markdown   = require('metalsmith-markdown');
 const kramed     = require('kramed');
 const marked     = require('marked');
 
 const hbs        = require('handlebars');
 const hbsLayout  = require('handlebars-layout');
+const glob       = require('glob');
+const path       = require('path');
+const fs         = require('fs');
 
 /** Setting up some HBS **/
 
+const setupPartials = (dir) => {
+  const partials = glob.sync(`${path.resolve(dir)}/**/*.*`);
+  partials
+    .map(partial => ({
+      name: path.basename(partial, path.extname(partial)),
+      content: fs.readFileSync(partial).toString()
+    }))
+    .map(partial => hbs.registerPartial(partial.name, partial.content));
+};
+
 const setupHBS = () => {
-  const partials = requiredir('src/_templates/layouts/');
   hbs.registerHelper(hbsLayout(hbs));
-  Object.keys(partials).forEach(partial => hbs.registerPartial(partial, partials[partial]));
+  //setupPartials('src/_includes/');
+  setupPartials('src/_templates/layouts/');
 };
 
 setupHBS();
@@ -65,11 +80,30 @@ const getRenderer = () => {
   return renderer;
 };
 
+const getMetadata = (dir) => {
+  const files = glob.sync(`${path.resolve(dir)}/**/*`);
+  const config = {};
+  files.forEach(file => {
+    const key = path.basename(file, path.extname(file));
+    config[key] = `_data/${key}${path.extname(file)}`;
+  });
+  console.log(config);
+  return config;
+}
+
+const templateConfig = {
+  engine: 'handlebars',
+  directory: './src/_templates/layouts',
+  default: 'default.hbs',
+  partials: './src/_includes'
+};
+
 gulp.task('site', function(done) {
   Metalsmith('./')
     .source('./src/_pages')
     .clean(false)
     .destination('dist')
+    .use(metadata(getMetadata('./src/_pages/_data')))
     .use(markdown({
       renderer: getRenderer(),
       gfm: true,
@@ -78,11 +112,8 @@ gulp.task('site', function(done) {
     .use(permalinks({
       pattern: ':title'
     }))
-    .use(layouts({
-      engine: 'handlebars',
-      directory: './src/_templates/layouts',
-      default: 'default.hbs'
-    }))
+    .use(inplace(templateConfig))
+    .use(layouts(templateConfig))
     .build(err => {
       if (err) {
         console.log(err);

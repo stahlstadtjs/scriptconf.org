@@ -1,0 +1,13 @@
+<section class="divider" id="{{id}}">
+  <img src="{{img}}" alt="{{name}}" class="divider-image">
+  <div class="divider-content">
+    <h3>{{name}}</h3>
+    {{#each bio}}
+    <p>{{{this}}}</p>
+    {{/each}}
+    <h2>{{talk.title}}</h2>
+    {{#each talk.abstract}}
+    <p>{{{this}}}</p>
+    {{/each}}
+  </div>
+</section>

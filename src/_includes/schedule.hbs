@@ -1,0 +1,25 @@
+<table class="schedule">
+  <thead>
+    <tr>
+      <th>Start</th>
+      <th>Title</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each talks}}
+    <tr>
+      <td>{{time}}</td>
+      <td>
+        <span class="title">{{{title}}}</span>
+        {{#if subtitle}}
+        <span class="subtitle">
+        {{#if link}}<a href="{{link}}">{{/if}}
+          {{{subtitle}}}
+        {{#if link}}</a>{{/if}}
+        </span>
+        {{/if}}
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>

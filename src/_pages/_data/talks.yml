@@ -1,0 +1,50 @@
+-
+  time: "12:00"
+  title: "Doors and registration"
+-
+  time: "13:00"
+  title: "Opening"
+-
+  time: "13:15"
+  title: "Chris Heilmann"
+  subtitle: "JavaScript is a buffet, not the enemy"
+  link: "#chris"
+- 
+  time: "14:10"
+  title: "Raquel Velez"
+  subtitle: "Evolution of a web application"
+  link: "#raquel"
+- 
+  time: "14:50"
+  title: "Coffee Break powered by epunkt"
+- 
+  time: "15:30"
+  title: "Nik Graf"
+  subtitle: "Introduction to Serverless"
+  link: "#nik"
+- 
+  time: "16:25"
+  title: "Hannah Wolfe"
+  subtitle: "tbd"
+  link: "#hannah"
+- 
+  time: "17:20"
+  title: "Felix Rieseberg"
+  subtitle: "Building apps with Electron"
+  link: "#felix"
+- 
+  time: "18:00"
+  title: "Dinner powered by karriere.at"
+- 
+  time: "19:10"
+  title: "Franziska Hinkelmann"
+  subtitle: "Performance profiling for V8"
+  link: "#franziska"
+- 
+  time: "20:05"
+  title: "Mathieu Henri"
+  subtitle: "Art.js"
+  link: "#mathieu"
+- 
+  time: "20:45"
+  title: "Closing + Party 🎉 powered by Usersnap"

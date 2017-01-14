@@ -29,12 +29,10 @@ const setupPartials = (dir) => {
   const partials = glob.sync(`${path.resolve(dir)}/**/*.*`);
   partials
     .map(partial => ({
-      name: partial.split(dir)[1].split('.')[0],
+      name: path.basename(partial, path.extname(partial)),
       content: fs.readFileSync(partial).toString()
     }))
     .map(partial => hbs.registerPartial(partial.name, partial.content));
-  //Object.keys(partials).forEach(partial => console.log(partials[partial].toString()));
-  //Object.keys(partials).forEach(partial => hbs.registerPartial(partial, partials[partial]));
 };
 
 const setupHBS = () => {

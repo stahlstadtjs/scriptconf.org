@@ -86,8 +86,8 @@ const getMetadata = (dir) => {
   const files = glob.sync(`${path.resolve(dir)}/**/*`);
   const config = {};
   files.forEach(file => {
-    const key = file.split(dir)[1].split('.')[0];
-    config[key] = `./${dir}${path.relative(dir, file)}`;
+    const key = path.basename(file, path.extname(file));
+    config[key] = `_data/${key}${path.extname(file)}`;
   });
   console.log(config);
   return config;
@@ -105,9 +105,7 @@ gulp.task('site', function(done) {
     .source('./src/_pages')
     .clean(false)
     .destination('dist')
-    .use(metadata({
-      talks: '_data/talks.yml'
-    }))
+    .use(metadata(getMetadata('./src/_pages/_data')))
     .use(markdown({
       renderer: getRenderer(),
       gfm: true,

@@ -1,0 +1,74 @@
+-
+  id: raquel
+  name: "Raquel Vélez"
+  img: "/assets/images/raquel.jpg"
+  bio:
+    - "Raquel Vélez is the engineering manager and tech lead of the web team at npm, Inc. in Oakland, CA. She has previously worked at institutions such as Caltech, NASA JPL, the MIT Lincoln Laboratory, and various universities in Europe. She is a co-author of the book <a href=\"http://www.amazon.com/Make-JavaScript-Johnny-Five-Raspberry-BeagleBone/dp/1457186950\">Make: JavaScript Robotics</a>. In her off time, you can find her baking, teaching NodeBots not to fall off of tables, and speaking. Also, hanging out with her hilarious husband and two cats dressed in dog suits."
+  talk:
+    title: "Evolution of a web application"
+    abstract:
+      - "This is the story of <a href=\"https://npmjs.com\">npmjs.com</a>: how it started as a special snowflake web application, got rewritten into an almost-modular-but-not-quite monolith, and began its next steps towards becoming a real, honest-to-goodness conglomeration of microservices."
+      - "From zero lines of front-end JavaScript to what looks like a React-based application, I will dive into how we have managed to keep up with our users, anticipated their needs, and tried (and sometimes failed!) to give them a good experience."
+-
+  id: chris
+  name: "Christian Heilmann"
+  img: "/assets/images/chris.jpg"
+  bio:
+    - "Chris Heilmann has dedicated a lot of his time making the web better. Originally coming from a radio journalism background, he built his first web site from scratch around 1997 and spent the following years working on lots of large, international web sites. He then spent a few years in Yahoo building products and explaining and training people including Yahoo Answers, Search, Local and Maps. He then worked at Mozilla moving HTML5 support forward and advocating Firefox OS as an open alternative to closed mobile systems. Chris wrote two and contributed to eight books on web development and wrote many articles and hundreds of blog posts for Ajaxian, Smashing Magazine, Yahoo, Mozilla, ScriptJunkie and many more. He also wrote the Developer Evangelism Handbook in use in many companies to coach evangelists. He is currently working with the Microsoft Edge team as a Program Manager for Developer Outreach"
+  talk:
+    title: "JavaScript is a buffet, not the enemy"
+    abstract:
+      - "When you look at the JavaScript world these days you can get disheartened. On the one side there is an overwhelming offer of things you should know but are \"considered harmful\" by the time you have a chance to look at them. On the other side you have fire and brimstone talks about how relying on JavaScript makes you a terrible person. Let Chris set your mind at ease. Things aren't that grim or complicated."
+-
+  id: franziska
+  name: "Franziska Hinkelmann"
+  img: "/assets/images/franzi.jpg"
+  bio:
+    - "Franziska is a software engineer at Google and a Node.js core collaborator. She works on the Chrome V8 team, focusing on ES6 performance and anything related to Node.js. She was previously organizer of the PHP User Group Munich."
+  talk:
+    title: "Performance profiling for V8"
+    abstract:
+      - "Do you care about performance? Memory leaks, megamorphic cache misses, and deoptimizations can slow your app down. We’ll dive deep into the inner workings of V8, Chrome’s JavaScript engine, to better understand what these terms mean. V8 ships with its own profiling tools that can identify such problems. You’ll learn to identify and fix low-level JavaScript performance issues using several V8 developer tools."
+-
+  id: felix
+  name: "Felix Rieseberg"
+  img: "/assets/images/felix.jpg"
+  bio:
+    - "Senior Desktop Engineer at Slack in San Francisco, working full-time on open source projects like Electron, npm, or Ghost. If he's not contributing, he's out in the world talking about open source."
+  talk:
+    title: "JavaScript on the Desktop: Building Apps with Electron v1"
+    abstract:
+      - "⚡️ You might already use desktop software written in JavaScript: Popular apps like Atom, Slack, or Visual Studio Code use the framework Electron to combine the power of the Desktop with the convenince of coding for Node.js."
+      - "You'll learn how to build native-feeling desktop apps for Mac OS X, Windows, and Linux. In fact, we'll build a little code editor together - fully integrated with operating systems and tweaked use native code where necessary. We'll talk about the basics, advanced scenarios, and leveraging the full power of npm and Node."
+-
+  id: hannah
+  name: "Hannah Wolfe"
+  img: "/assets/images/hannah.jpg"
+  bio:
+    - "Hannah is the lead developer and co-founder at Ghost. She spend vast amounts of time on GitHub and Slack guiding the Ghost open source project – JavaScript’s open source community amazes her every day. When she's not working on Ghost she's usually found experimenting with new JavaScript tools and libraries or hacking away on an arduino, nodecopter or other bit of hardware."
+  talk:
+    title: "tbd"
+-
+  id: nik
+  name: "Nik Graf"
+  img: "/assets/images/nik.jpg"
+  bio:
+    - "Nik is a software developer at Serverless Inc., the company behind Serverless Framework. He is passinate about good user experience and co-created several popular open source projects like DraftJS Plugins & Carte Blanche"
+  talk:
+    title: "Introduction to Serverless"
+    abstract:
+      - "Serverless is a new cloud computing paradigm that abstracts users away dealing with low-level server configuration. It allows for auto-scaling, pay-per-execution applications on an event-driven basis. AWS Lambda its is most prominent vendor, but other cloud providers are catching up."
+      - "This talk starts with an introduction to serverless architectures and explores the benefits and challenges coming along with it. It provides you with an overview of the existing ecosystem and demonstrates how to get started using NodeJS examples. At last the presenter will share of collection of best practices and lessons learned from his experience developing serverless applications."
+-
+  id: p01
+  name: "Mathieu Henri"
+  img: "/assets/images/p01.jpg"
+  bio:
+    - "Mathieu 'p01' Henri is a JavaScript developer at Microsoft in Oslo, Norway, and worked on the Opera browser for many years."
+    - "At night he is a creative coder &amp; demoscene artist specialized in real time audio visual animations in a few hundred bytes for the web platform, PC and Atari ST computers."
+  talk:
+    title: "Coding art"
+    abstract:
+      - "The web platform is a wonderful playground of artistic and technical expression. The artists of the web often release amazing creations. As developers we can use a powerful language to bring our ideas to life."
+      - "This talk will touch on creative coding, the demoscene, a range of optimisation techniques and the creative mindset. Then we will code a little Audio-Visual demo together."
+      - "I hope this will inspire new JavaScript artists and bring a dash of creativity to your every day problem solving."

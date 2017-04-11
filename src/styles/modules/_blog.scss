@@ -76,3 +76,14 @@
     margin-top: 0;
   }
 }
+
+.play-button {
+  -webkit-appearance: none;
+  background: none;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

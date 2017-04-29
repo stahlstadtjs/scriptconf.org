@@ -1,9 +1,10 @@
 ---
-title: Frequently asked questions
-layout: 2018-article.hbs
-image: https://c1.staticflickr.com/3/2805/32585969110_8cb92c979e_b.jpg
+title: FAQ
+layout: article.hbs
 canonical: https://scriptconf.org/faq
 ---
+
+# Frequently asked questions
 
 Do I get an invoice when ordering a ticket?
 : Yes, of course. Ti.to (our ticket service) produces an invoice according to European law, including VAT and every detail you need for your company.

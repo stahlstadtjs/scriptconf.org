@@ -110,7 +110,7 @@ gulp.task('site', function(done) {
       smartypants: true
     }))
     .use(permalinks({
-      pattern: ':title'
+      pattern: ':path'
     }))
     .use(inplace(templateConfig))
     .use(layouts(templateConfig))

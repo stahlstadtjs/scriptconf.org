@@ -1,13 +1,14 @@
 ---
 title: Legal notice
-layout: 2018-article.hbs
-image: https://c2.staticflickr.com/4/3719/32842663861_fc1336a4f1_b.jpg
-position: 50% 30%
+layout: article.hbs
+canonical: https://scriptconf.org/legal-notice
 ---
+
+# Legal notice
 
 ## Disclosure according to § 25 Media Law
 
-ScriptConf is a one day conference for JavaScript developers in Linz (Austria).
+Script'17 is a one day conference for JavaScript developers in Linz (Austria).
 
 ## Contact
 ScriptConf.org<br>
@@ -22,7 +23,7 @@ ATU68369213
 
 ## Field of activity:
 
-Promotion for ScriptConf, a one day JavaScript conference, held in Linz (Austria).
+Promotion for Script'17, a one day JavaScript conference, held in Linz (Austria).
 
 ## Disclaimer
 

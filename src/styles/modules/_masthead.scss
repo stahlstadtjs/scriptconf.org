@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
   color: white;
+  position: relative;
 
   h1, h2 {
     font-weight: 400;
@@ -17,6 +18,24 @@
 .masthead-item {
   padding: 1.5rem;
   text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.masthead-article {
+  min-height: 40vh;
+
+  &:after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    display: block;
+    z-index: 0;
+  }
 }
 
 .button-row {
@@ -26,4 +45,12 @@
 .main-logo {
   width: 100%;
   max-width: 655px;
+}
+
+.top-logo {
+  position: absolute;
+  left: 40px;
+  top: 20px;
+  height: 38px;
+  z-index: 1;
 }

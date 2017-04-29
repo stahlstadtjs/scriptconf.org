@@ -56,11 +56,11 @@
     {{#block 'masthead'}}
     {{/block}}
 
-
-    <div class="content">
-      {{{contents}}}
-      {{> mailchimp}}
-    </div>
+    {{#block 'contents'}}
+    {{{contents}}}
+    {{/block}}
+    
+    {{> mailchimp}}
 
     {{> 2018/footer}}
 

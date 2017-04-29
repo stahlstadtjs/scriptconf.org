@@ -1,5 +1,10 @@
 {{#extend 'default'}}
   {{#content 'masthead'}}
-    {{> 2018/masthead-main}}
+    {{> 2018/masthead-article}}
+  {{/content}}
+  {{#content 'contents'}}
+  <div class="content">
+  {{{contents}}}
+  </div>
   {{/content}}
 {{/extend}}

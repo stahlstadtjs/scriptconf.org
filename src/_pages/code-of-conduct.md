@@ -1,6 +1,7 @@
 ---
 title: Code of Conduct
 layout: 2018-article.hbs
+image: https://c1.staticflickr.com/3/2785/32967354065_2a69de7c14_b.jpg
 canonical: https://scriptconf.org/code-of-conduct
 ---
 

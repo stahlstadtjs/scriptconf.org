@@ -51,20 +51,15 @@ padding-left: 2em;
 }
 
 dl dt {
-float: left;
-width: 180px;
-overflow: hidden;
-clear: left;
-text-align: right;
-text-overflow: ellipsis;
-white-space: nowrap;
-font-weight: 700;
-margin-bottom: 1em;
+  clear: left;
+  text-overflow: ellipsis;
+  font-weight: 700;
+  margin-bottom: 1em;
 }
 
 dl dd {
-margin-left: 200px;
-margin-bottom: 1em
+  margin-left: 0;
+  margin-bottom: 1em;
 }
 
 li {

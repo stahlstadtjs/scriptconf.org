@@ -51,21 +51,18 @@
   </head>
   <body>
 
-    {{> menu}}
+    {{> 2018/menu}}
 
-    {{#block 'contents'}}
-    {{{contents}}}
+    {{#block 'masthead'}}
     {{/block}}
 
-    {{> mailchimp}}
 
-    <footer class="foot">
-      <a href="https://twitter.com/scriptconf">Script'18 at Twitter</a> |
-      <a href="/code-of-conduct">Code of Conduct</a> |
-      <a href="/legal-notice">Legal notice</a> |
-      <a href="/faq">FAQ</a> |
-      <a href="/blog">Blog</a>
-    </footer>
+    <div class="content">
+      {{{contents}}}
+      {{> mailchimp}}
+    </div>
+
+    {{> 2018/footer}}
 
     {{> icons}}
 

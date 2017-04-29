@@ -51,6 +51,23 @@
   position: absolute;
   left: 40px;
   top: 20px;
-  height: 38px;
   z-index: 1;
+
+  img {
+    height: 38px;
+    width: 142px;
+    max-width: 142px;
+    min-width: 142px;
+  }
+}
+
+
+@media (max-width: 500px) {
+
+  .top-logo {
+    left: 10px;
+    top: 10px;
+    width: 38px;
+    overflow: hidden;
+  }
 }

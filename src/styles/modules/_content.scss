@@ -5,11 +5,32 @@
   margin: 4rem auto;
 }
 
+.main {
+  position: relative;
+  margin: 4rem auto 8rem;
+}
+
+.box {
+  margin: 0 auto;
+  max-width: 950px;
+  padding: 0 1rem;
+}
+
 @media (max-width: 500px) {
 
-  .content {
+  .content,
+  .main {
     width: auto;
     margin-left: 1.6rem;
     margin-right: 1.6rem;
   }
+}
+
+.truncated-link:after {
+  content: '\2026';
+}
+
+.cut {
+  font-size: 0;
+  line-height: 0;
 }

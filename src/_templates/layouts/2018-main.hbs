@@ -2,7 +2,9 @@
   {{#content 'masthead'}}
     {{> 2018/masthead-main}}
   {{/content}}
-  {{#block 'contents'}}
+  {{#content 'contents'}}
+  <div class="main">
   {{{contents}}}
-  {{/block}}
+  </div>
+  {{/content}}
 {{/extend}}

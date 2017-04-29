@@ -35,7 +35,6 @@ $footer-color: #BBC7CC;
 
   max-width: 950px;
 
-  display: flex;
   justify-content: space-between;
   font-size: 1.2rem;
   line-height: 1.7em;
@@ -46,6 +45,22 @@ $footer-color: #BBC7CC;
   display: block;
 }
 
-.footer-link {
-  display: block;
+.footer-nav-item {
+  margin-bottom: 2rem;
 }
+
+.footer-link {
+  margin-right: 1rem;
+}
+
+@media (min-width: 500px) {
+
+  .footer-nav {
+    display: flex;
+  }
+
+  .footer-link {
+    display: block;
+  }
+}
+

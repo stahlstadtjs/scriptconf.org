@@ -1,21 +1,25 @@
-body {
-  background-image: url(/assets/images/tool.svg?v=2);
+.masthead {
+  background-image: url(https://c1.staticflickr.com/3/2658/32842217001_1f3923b7cc_b.jpg);
   background-repeat: no-repeat;
-  background-position: bottom left;
-  background-attachment: fixed;
-  background-size: 70%;
-}
-
-.section-masthead {
-  position: relative;
-  padding-bottom: 1.5rem;
-}
-
-.box {
+  background-position: center center;
+  background-size: cover;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
-  padding: 3.5rem 2.5rem;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
+}
+
+.masthead-item {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.button-row {
+  line-height: 1.8rem;
+}
+
+.main-logo {
+  width: 100%;
+  max-width: 655px;
 }

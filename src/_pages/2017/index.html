@@ -1,0 +1,250 @@
+---
+permalink: index.html
+layout: 2017.hbs
+---
+
+<main>
+  <article class="section-masthead" id="top">
+    <header class="box">
+      <img src="/assets/images/logo.svg" alt="Script'17">
+      <h1>The <strong>JavaScript</strong> conference this city needs</h1>
+      <h2>January 27th, 2017, 12 o'clock - &infin;<br>Central &bullet; 4020 Linz, Austria</h2>
+      <a href="#tickets" class="btn btn-big btn-main">
+        Get your ticket now &bullet; &euro; <span class="light">150 (incl. VAT)</span>
+      </a>
+    </header>
+  </article>
+  <article class="section speakers" id="speakers">
+    <h2>Great, international speakers</h2>
+    <ul class="speaker-list">
+      {{#each abstracts}}
+      {{> 2017/mug}}
+      {{/each}}
+    </ul>
+    <p>
+      See the full <a href="#schedule">schedule</a> here.
+    </p>
+  </article>
+  <article class="section buy ticket" id="tickets">
+    <h2>Tickets are available!</h2>
+    <p>
+      If the form below is not visible or not working for you, please use
+      <a href="https://ti.to/scriptconf/scriptconf-2017">this link to get your conference ticket.</a>
+    </p>
+    <tito-widget event="scriptconf/scriptconf-2017"></tito-widget>
+    <p>
+      All prices are inclusive VAT. Buying via Tito also gets you an invoice.<br>
+      Tickets are not refundable, but re-assignable.
+    </p>
+  </article>
+
+  {{> 2017/about}}
+
+  <article class="section about" id="schedule">
+    <h2>Schedule</h2>
+    <p>
+      There's a 15 minute buffer and refreshment break after each talk, except for dedicated breaks (cake and coffee, dinner, party).
+    </p>
+    {{> 2017/schedule}}
+  </article>
+
+  <article class="section about" id="speaker-detail">
+    <h2>Speaker and talk details</h2>
+    <p class="about-box">
+      We gather together the brightest minds of the JavaScript scene. International, well-known speakers who
+      shape the world of JavaScript will provide us with insights into their work.
+    </p>
+    {{#each abstracts}}
+    {{> 2017/abstract}}
+    {{/each}}
+
+    <a href="#tickets" class="btn btn-big btn-inline">
+      Get your ticket now &bullet; &euro; <span class="light">150 (incl. VAT)</span>
+    </a>
+  </article>
+
+  <article>
+
+    <h2 id="workshop">Workshop on January 26th</h2>
+    <p class="about-box">
+      A day before the event we will hold a special React workshop with our friend Nik Graf from React Vienna.
+    </p>
+
+    <section class="divider on-top" id="nik">
+      <img src="/assets/images/nik.jpg" alt="Nik Graf" class="divider-image">
+      <div class="divider-content">
+        <h3>Workshop host: Nik Graf</h3>
+        <p>
+          Nik is a developer with heavy focus on UX. He co-created several popular open source projects
+          like DraftJS Plugins &amp; Carte Blanche and earlier this year Nik participated in Stripe’s Open
+          Source Retreat. He organises the ReactJS Vienna Meet-up and recently joined the US startup Serverless.
+        </p>
+        <h2>Workshop: Advanced React Topics</h2>
+        <p>
+          React revolutionized the way we build user interfaces for the web today. Components are everywhere and
+          most front-end frameworks nowadays have adopted a Virtual DOM under the hood.
+        </p>
+        <p>
+          It didn't stop there. The rise of React triggered a many more innovations in the front-end development
+          space. With so much movement in this space sometimes many of us struggled to keep up. The term JS Fatigue
+          was born.
+        </p>
+        <p>
+          Nik Graf was fortunate to have used many of these new technologies over the last couple years. In this
+          workshop he will guide you through four modules. Each module will start with a brief presentation into
+          the topic and followed by a coding exercise.
+        </p>
+        <h3>Schedule</h3>
+        <ol>
+          <li><strong>Higher Order Components</strong>: While you probably use them on a daily basis like Redux's
+            connect there are many more use-cases. Nik will explain how they work and you will build a simple
+            validation library with your own higher order components.
+          </li>
+          <li><strong>Snapshot testing with Jest</strong>: Testing components is a tedious process and therefor
+            many just don't do it. Jest's snapshot feature makes testing components quick and fun.
+          </li>
+          <li><strong>The Dos and Don'ts with Redux</strong>: While Redux itself is fairly simple it isn't trivial
+            how to organize your code, structure your reducers nor deal with side-effects. In this module we are
+            going explore the tradeoffs of several approaches.
+          </li>
+          <li><strong>First Steps with GraphQL</strong>: During this session you will build your first GraphQL endpoint.
+            Exciting! 🤗
+          </li>
+        </ol>
+        <h3>Prerequisite</h3>
+        <p>
+          Built a small web app with React
+        </p>
+        <h3>What to bring?</h3>
+        <ul>
+          <li>Notebook</li>
+          <li>Node 6+ and npm3+</li>
+          <li>Your favorite TextEditor</li>
+          <li>Motivation 🙌</li>
+        </ul>
+      </div>
+    </section>
+
+    <a href="#tickets" class="btn btn-big btn-inline">
+      Workshop + Conference &bullet; &euro; <span class="light">350 (incl. VAT)</span>
+    </a>
+
+  </article>
+
+  <article class="section partners" id="partner">
+    <h2>Our partners</h2>
+    <p>
+      We are very thankful to everyone who helps us with the event – especially our sponsors supporting us! Wanna join?
+      <a href="mailto:office@scriptconf.org">Contact us for opportunities</a>.
+    </p>
+
+    <h3>Powered by</h3>
+
+    <p>
+      Script'17 is powered by those great companies who help us creating a great social programm for the event
+    </p>
+
+    <span class="partner">
+      <a href="https://usersnap.com">
+        <img src="/assets/images/usersnap.png?v2" alt="Usersnap" height="100" class="partner-img">
+      </a>
+      <span class="partner-role">Party Sponsor 🍻</span>
+    </span>
+
+    <span class="partner">
+      <a href="https://www.epunkt.com">
+        <img src="/assets/images/epunkt.png" alt="ePunkt" height="100" class="partner-img">
+      </a>
+      <span class="partner-role">Coffee Sponsor ☕️</span>
+    </span>
+
+    <span class="partner">
+      <a href="https://www.karriere.at">
+        <img src="/assets/images/kat_logo.png" alt="karriere" height="100" class="partner-img">
+      </a>
+      <span class="partner-role">Dinner Sponsor 🍗🍜</span>
+    </span>
+
+    <span class="partner">
+      <a href="https://developer.microsoft.com/en-us/microsoft-edge/">
+        <img src="/assets/images/ms-edge.png" alt="Microsoft Edge" height="100" class="partner-img">
+      </a>
+      <span class="partner-role">Gold Sponsor</span>
+    </span>
+
+    <span class="partner partner-break">
+      <a href="http://www.fredmansky.at">
+        <img src="/assets/images/logo-fredmansky-invers.png" alt="Fredmansky" height="200" class="partner-img partner-img-huge ">
+      </a>
+      <span class="partner-role">Style Partner <img src="/assets/images/sketch.png" height="16" width="16" alt="So much Style"></span>
+    </span>
+
+    <h3>Friends and media partner</h3>
+
+    <p>
+      Our friends who showed support since the very inception of the conference.
+      Thank you for being a part of this since day one!
+    </p>
+
+    <a href="http://workingdraft.de">
+      <img src="/assets/images/workingdraft.png" alt="Working Draft" width="100" class="partner-img">
+    </a>
+
+    <a href="https://smashingmagazine.com">
+      <img src="/assets/images/smashing.png" alt="Smashing Magazine" class="partner-img">
+    </a>
+
+    <a href="http://technologieplauscherl.at">
+      <img src="/assets/images/plauscherl.jpeg" alt="Technologieplauscherl" width="100" class="partner-img">
+    </a>
+
+    <a href="http://www.meetup.com/de-DE/webclerks/">
+      <img src="/assets/images/webclerks.png" alt="Webclerks" width="100" class="partner-img">
+    </a>
+
+    <a href="http://foundation.travis-ci.org/">
+      <img src="/assets/images/travis-foundation.png" alt="travis foundation" width="100" class="partner-img">
+    </a>
+
+    <a href="http://dtr.fm">
+      <img src="/assets/images/dtr.jpg" alt="donau tech radio" width="100" class="partner-img">
+    </a>
+
+    <a href="https://trace.risingstack.com/">
+      <img src="/assets/images/trace-by-risingstack-logo.svg" alt="trace by RisingStack" width="100" class="partner-img">
+    </a>
+  </article>
+
+
+  <article id="location" class="partners location">
+    <h2>Location</h2>
+    <p class="about-box">
+      Script'17 takes place at <a href="http://www.centrallinz.at">Central Linz</a>, Landstraße 36, 4020 Linz. Originally
+      one of the first cinemas in Linz, it has become one of the top locations for concerts and events in the steel city.
+    </p>
+    <p class="about-box">
+      The Central lives up to its name and is in the center of Linz, directly next to the Mozartstraße tram station. See how
+      to get to the venue and to Linz in general on <a href="/how-to-get-here">this page</a>.
+    </p>
+    <figure class="location-figure">
+      <img class="location-img" src="/assets/images/central.jpg" alt="Foto by centrallinz.at">
+    </figure>
+  </article>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '214530458956016');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=214530458956016&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- DO NOT MODIFY -->
+  <!-- End Facebook Pixel Code -->
+
+</main>

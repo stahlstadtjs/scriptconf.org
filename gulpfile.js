@@ -44,7 +44,7 @@ const setupHBS = () => {
 setupHBS();
 
 gulp.task('sass', function() {
-  return gulp.src('src/styles/main.scss')
+  return gulp.src('src/styles/**/main.scss')
     .pipe(sass())
     .pipe(auto())
     .pipe(nano())

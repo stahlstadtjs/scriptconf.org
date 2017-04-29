@@ -41,7 +41,7 @@
   }
 }
 
-.quote-image {
+.quote-img {
   width: 70px;
   border-radius: 50%;
 }
@@ -57,9 +57,39 @@
   left: 0;
   transform: translate(0, -50%);
   z-index: 0;
+  display: none;
 }
 
 .quote-link {
   display: block;
   align-self: center;
+}
+
+@media (max-width: 900px) {
+
+  .quote {
+    background: transparent;
+    padding: 0;
+  }
+
+  .quote .box {
+    display: block;
+  }
+
+  .quote-footer {
+    justify-content: center;
+  }
+
+  .quote-content {
+    max-width: 100%;
+    padding: 1.5rem;
+    background: #1dcaff;
+  }
+}
+
+@media (min-width: 1155px) {
+
+  .quote-decorator {
+    display: block;
+  }
 }

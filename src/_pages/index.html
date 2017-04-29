@@ -11,22 +11,17 @@ layout: 2018-main.hbs
   </p>
 </article>
 
-<blockquote class="quote tweet">
-  <svg class="quote-decorator"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use></svg>
+{{#with quotes.[0]}}
+{{> 2018/tweet}}
+{{/with}}
 
-  <div class="box">
-    <p class="quote-content">
-      ScriptConf in Linz, Austria – if you want all the good with none of the drama.
-      <a class="truncated-link" href="https://www.christianheilmann.com/2017/02/15/scriptconf-in-linz-austria-if-you-want-all-the-good-with-none-of-the-drama/">https://www.christianheilma<span class="cut">nn.com/2017/02/15/scriptconf-in-linz-austria-if-you-want-all-the-good-with-none-of-the-drama/</span></a>
-    - thank you <a href="https://twitter.com/scriptconf">@scriptconf</a>
-    </p>
-    <a class="quote-link" href="https://twitter.com/codepo8/status/831939723413356544">
-      <footer class="quote-footer">
-        <img class="quote-img" src="https://pbs.twimg.com/profile_images/1666904408/codepo8_bigger.png" alt="Chris Heilmann">
-        <p>
-          Chris "codepo8" Heilmann, Microsoft
-        </p>
-      </footer>
-    </a>
-  </box>
-</blockquote>
+
+{{#with quotes.[1]}}
+{{> 2018/tweet}}
+{{/with}}
+
+
+
+{{#with quotes.[2]}}
+{{> 2018/tweet}}
+{{/with}}

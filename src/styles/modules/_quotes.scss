@@ -54,7 +54,9 @@
   fill: white;
   position: absolute;
   top: 50%;
-  left: 0;
+  width: 100px;
+  height: 100px;
+  left: 100px;
   transform: translate(0, -50%);
   z-index: 0;
   display: none;

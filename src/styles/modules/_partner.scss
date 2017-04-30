@@ -1,0 +1,26 @@
+.partner {
+  background-color: $grey;
+  padding: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+.partner-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  img {
+    max-height: 40px;
+    width: auto;
+    max-width: none;
+    filter: saturate(0) contrast(100);
+    margin: 2rem;
+  }
+}
+
+.partner ~ .newsletter {
+  margin-top: 0;
+}

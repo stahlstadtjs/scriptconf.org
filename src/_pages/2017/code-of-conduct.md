@@ -1,7 +1,7 @@
 ---
 title: Code of Conduct
 layout: article.hbs
-canonical: https://scriptconf.org/code-of-conduct
+canonical: https://scriptconf.org/code-of-conduct/
 ---
 
 Based upon The JSConf™

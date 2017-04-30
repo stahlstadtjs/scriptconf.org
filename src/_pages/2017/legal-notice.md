@@ -1,7 +1,7 @@
 ---
 title: Legal notice
 layout: article.hbs
-canonical: https://scriptconf.org/legal-notice
+canonical: https://scriptconf.org/legal-notice/
 ---
 
 # Legal notice

@@ -1,7 +1,7 @@
 ---
 title: FAQ
 layout: article.hbs
-canonical: https://scriptconf.org/faq
+canonical: https://scriptconf.org/faq/
 ---
 
 # Frequently asked questions

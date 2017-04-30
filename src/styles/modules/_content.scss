@@ -10,6 +10,12 @@
   margin: 4rem auto 8rem;
 }
 
+.content, .main {
+  a {
+    text-decoration: underline;
+  }
+}
+
 .box {
   margin: 0 auto;
   max-width: 950px;

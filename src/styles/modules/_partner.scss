@@ -1,7 +1,5 @@
 .partner {
-  background-color: $grey;
   padding: 1.5rem;
-  color: white;
   text-align: center;
 }
 
@@ -16,7 +14,6 @@
     max-height: 40px;
     width: auto;
     max-width: none;
-    filter: saturate(0) contrast(100);
     margin: 2rem;
   }
 }

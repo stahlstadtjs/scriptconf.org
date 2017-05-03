@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 const nano = require('gulp-cssnano');
 const auto = require('gulp-autoprefixer');
+const rev  = require('gulp-rev');
 
 const express = require('express');
 const app = express();
@@ -37,7 +38,7 @@ const setupPartials = (dir) => {
 
 const setupHBS = () => {
   hbs.registerHelper(hbsLayout(hbs));
-  //setupPartials('src/_includes/');
+  hbs.registerHelper(require('./src/_helpers/asset')(hbs));
   setupPartials('src/_templates/layouts/');
 };
 

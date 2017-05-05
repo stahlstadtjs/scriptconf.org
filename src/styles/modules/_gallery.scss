@@ -13,7 +13,8 @@
 }
 
 .gal2 .gallery-item:nth-of-type(2),
-.gal2 .gallery-item:nth-of-type(7) {
+.gal2 .gallery-item:nth-of-type(7),
+.gallery-item.twice {
   flex: 1 1 66%;
 }
 

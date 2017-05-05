@@ -32,6 +32,10 @@
   .gallery-item img {
     height: 43vw;
   }
+
+  .gallery-item.hide {
+    display: none;
+  }
 }
 
 @media (max-width: 900px) {

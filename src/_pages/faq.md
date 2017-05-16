@@ -7,11 +7,8 @@ canonical: https://scriptconf.org/faq
 
 Do I get an invoice when ordering a ticket?
 : Yes, of course. Ti.to (our ticket service) produces an invoice according to European law, including VAT and every detail you need for your company.
-When does the conference start, when does it end?
-: The main event starts at 12am on January 27th. The first talk will be around 1pm. We will have talks, breaks, coffee, cake and dinner done at 9pm on the same day. This ensures that you'll reach public transport to the main cities around (Munich, Salzburg, Vienna). At 9pm, the after-show party starts at the conference venue.
-: The workshop on January 26th starts at 9am in the morning and ends at 5pm in the evening. There's a one hour break during lunch. Lunch will be served at the conference venue.
-Who's organising Script'17?
-: Script'17 organised by [Sebastian Gierlinger](https://twitter.com/sebgie) and [Stefan Baumgartner](https://twitter.com/ddprrt). Sebastian and Stefan also organize meetups like [Stahlstadt.js](https://www.meetup.com/de-DE/stahlstadt-js/) and [Technologieplauscherl](https://technologieplauscherl.at). Both have been frequent visitors and speakers at conferences all over the world and let their experiences flow into the organisation of Script'17.
+Who's organising ScriptConf?
+: ScriptConf organised by [Sebastian Gierlinger](https://twitter.com/sebgie) and [Stefan Baumgartner](https://twitter.com/ddprrt). Sebastian and Stefan also organize meetups like [Stahlstadt.js](https://www.meetup.com/de-DE/stahlstadt-js/) and [Technologieplauscherl](https://technologieplauscherl.at). Both have been frequent visitors and speakers at conferences all over the world and let their experiences flow into the organisation of ScriptConf.
 What is the language of the talks?
 : Everything at the conference will be held in English: talks, moderation, catering.
 What's included in my ticket?

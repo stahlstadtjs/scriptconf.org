@@ -1,249 +1,92 @@
 ---
-permalink: index.html
+layout: 2018-main.hbs
 ---
 
-<main>
-  <article class="section-masthead" id="top">
-    <header class="box">
-      <img src="/assets/images/logo.svg" alt="Script'17">
-      <h1>The <strong>JavaScript</strong> conference this city needs</h1>
-      <h2>January 27th, 2017, 12 o'clock - &infin;<br>Central &bullet; 4020 Linz, Austria</h2>
-      <a href="#tickets" class="btn btn-big btn-main">
-        Get your ticket now &bullet; &euro; <span class="light">150 (incl. VAT)</span>
-      </a>
-    </header>
-  </article>
-  <article class="section speakers" id="speakers">
-    <h2>Great, international speakers</h2>
-    <ul class="speaker-list">
-      {{#each abstracts}}
-      {{> mug}}
-      {{/each}}
-    </ul>
-    <p>
-      See the full <a href="#schedule">schedule</a> here.
-    </p>
-  </article>
-  <article class="section buy ticket" id="tickets">
-    <h2>Tickets are available!</h2>
-    <p>
-      If the form below is not visible or not working for you, please use
-      <a href="https://ti.to/scriptconf/scriptconf-2017">this link to get your conference ticket.</a>
-    </p>
-    <tito-widget event="scriptconf/scriptconf-2017"></tito-widget>
-    <p>
-      All prices are inclusive VAT. Buying via Tito also gets you an invoice.<br>
-      Tickets are not refundable, but re-assignable.
-    </p>
-  </article>
-
-  {{> about}}
-
-  <article class="section about" id="schedule">
-    <h2>Schedule</h2>
-    <p>
-      There's a 15 minute buffer and refreshment break after each talk, except for dedicated breaks (cake and coffee, dinner, party).
-    </p>
-    {{> schedule}}
-  </article>
-
-  <article class="section about" id="speaker-detail">
-    <h2>Speaker and talk details</h2>
-    <p class="about-box">
-      We gather together the brightest minds of the JavaScript scene. International, well-known speakers who
-      shape the world of JavaScript will provide us with insights into their work.
-    </p>
-    {{#each abstracts}}
-    {{> abstract}}
-    {{/each}}
-
-    <a href="#tickets" class="btn btn-big btn-inline">
-      Get your ticket now &bullet; &euro; <span class="light">150 (incl. VAT)</span>
-    </a>
-  </article>
-
-  <article>
-
-    <h2 id="workshop">Workshop on January 26th</h2>
-    <p class="about-box">
-      A day before the event we will hold a special React workshop with our friend Nik Graf from React Vienna.
-    </p>
-
-    <section class="divider on-top" id="nik">
-      <img src="/assets/images/nik.jpg" alt="Nik Graf" class="divider-image">
-      <div class="divider-content">
-        <h3>Workshop host: Nik Graf</h3>
-        <p>
-          Nik is a developer with heavy focus on UX. He co-created several popular open source projects
-          like DraftJS Plugins &amp; Carte Blanche and earlier this year Nik participated in Stripe’s Open
-          Source Retreat. He organises the ReactJS Vienna Meet-up and recently joined the US startup Serverless.
-        </p>
-        <h2>Workshop: Advanced React Topics</h2>
-        <p>
-          React revolutionized the way we build user interfaces for the web today. Components are everywhere and
-          most front-end frameworks nowadays have adopted a Virtual DOM under the hood.
-        </p>
-        <p>
-          It didn't stop there. The rise of React triggered a many more innovations in the front-end development
-          space. With so much movement in this space sometimes many of us struggled to keep up. The term JS Fatigue
-          was born.
-        </p>
-        <p>
-          Nik Graf was fortunate to have used many of these new technologies over the last couple years. In this
-          workshop he will guide you through four modules. Each module will start with a brief presentation into
-          the topic and followed by a coding exercise.
-        </p>
-        <h3>Schedule</h3>
-        <ol>
-          <li><strong>Higher Order Components</strong>: While you probably use them on a daily basis like Redux's
-            connect there are many more use-cases. Nik will explain how they work and you will build a simple
-            validation library with your own higher order components.
-          </li>
-          <li><strong>Snapshot testing with Jest</strong>: Testing components is a tedious process and therefor
-            many just don't do it. Jest's snapshot feature makes testing components quick and fun.
-          </li>
-          <li><strong>The Dos and Don'ts with Redux</strong>: While Redux itself is fairly simple it isn't trivial
-            how to organize your code, structure your reducers nor deal with side-effects. In this module we are
-            going explore the tradeoffs of several approaches.
-          </li>
-          <li><strong>First Steps with GraphQL</strong>: During this session you will build your first GraphQL endpoint.
-            Exciting! 🤗
-          </li>
-        </ol>
-        <h3>Prerequisite</h3>
-        <p>
-          Built a small web app with React
-        </p>
-        <h3>What to bring?</h3>
-        <ul>
-          <li>Notebook</li>
-          <li>Node 6+ and npm3+</li>
-          <li>Your favorite TextEditor</li>
-          <li>Motivation 🙌</li>
-        </ul>
-      </div>
-    </section>
-
-    <a href="#tickets" class="btn btn-big btn-inline">
-      Workshop + Conference &bullet; &euro; <span class="light">350 (incl. VAT)</span>
-    </a>
-
-  </article>
-
-  <article class="section partners" id="partner">
-    <h2>Our partners</h2>
-    <p>
-      We are very thankful to everyone who helps us with the event – especially our sponsors supporting us! Wanna join?
-      <a href="mailto:office@scriptconf.org">Contact us for opportunities</a>.
-    </p>
-
-    <h3>Powered by</h3>
-
-    <p>
-      Script'17 is powered by those great companies who help us creating a great social programm for the event
-    </p>
-
-    <span class="partner">
-      <a href="https://usersnap.com">
-        <img src="/assets/images/usersnap.png?v2" alt="Usersnap" height="100" class="partner-img">
-      </a>
-      <span class="partner-role">Party Sponsor 🍻</span>
-    </span>
-
-    <span class="partner">
-      <a href="https://www.epunkt.com">
-        <img src="/assets/images/epunkt.png" alt="ePunkt" height="100" class="partner-img">
-      </a>
-      <span class="partner-role">Coffee Sponsor ☕️</span>
-    </span>
-
-    <span class="partner">
-      <a href="https://www.karriere.at">
-        <img src="/assets/images/kat_logo.png" alt="karriere" height="100" class="partner-img">
-      </a>
-      <span class="partner-role">Dinner Sponsor 🍗🍜</span>
-    </span>
-
-    <span class="partner">
-      <a href="https://developer.microsoft.com/en-us/microsoft-edge/">
-        <img src="/assets/images/ms-edge.png" alt="Microsoft Edge" height="100" class="partner-img">
-      </a>
-      <span class="partner-role">Gold Sponsor</span>
-    </span>
-
-    <span class="partner partner-break">
-      <a href="http://www.fredmansky.at">
-        <img src="/assets/images/logo-fredmansky-invers.png" alt="Fredmansky" height="200" class="partner-img partner-img-huge ">
-      </a>
-      <span class="partner-role">Style Partner <img src="/assets/images/sketch.png" height="16" width="16" alt="So much Style"></span>
-    </span>
-
-    <h3>Friends and media partner</h3>
-
-    <p>
-      Our friends who showed support since the very inception of the conference.
-      Thank you for being a part of this since day one!
-    </p>
-
-    <a href="http://workingdraft.de">
-      <img src="/assets/images/workingdraft.png" alt="Working Draft" width="100" class="partner-img">
-    </a>
-
-    <a href="https://smashingmagazine.com">
-      <img src="/assets/images/smashing.png" alt="Smashing Magazine" class="partner-img">
-    </a>
-
-    <a href="http://technologieplauscherl.at">
-      <img src="/assets/images/plauscherl.jpeg" alt="Technologieplauscherl" width="100" class="partner-img">
-    </a>
-
-    <a href="http://www.meetup.com/de-DE/webclerks/">
-      <img src="/assets/images/webclerks.png" alt="Webclerks" width="100" class="partner-img">
-    </a>
-
-    <a href="http://foundation.travis-ci.org/">
-      <img src="/assets/images/travis-foundation.png" alt="travis foundation" width="100" class="partner-img">
-    </a>
-
-    <a href="http://dtr.fm">
-      <img src="/assets/images/dtr.jpg" alt="donau tech radio" width="100" class="partner-img">
-    </a>
-
-    <a href="https://trace.risingstack.com/">
-      <img src="/assets/images/trace-by-risingstack-logo.svg" alt="trace by RisingStack" width="100" class="partner-img">
-    </a>
-  </article>
+<article class="box">
+  <h2>About Script</h2>
+  <p>
+    Script is an independent one-day, curated and handcrafted JavaScript event for the community, happening in Linz, Austria.
+    Since the first edition in January 2017, Script aims to gather speakers who shape the world of JavaScript for a day (and night) of fun, inspiration
+    and education. 
+  </p>
+</article>
 
 
-  <article id="location" class="partners location">
-    <h2>Location</h2>
-    <p class="about-box">
-      Script'17 takes place at <a href="http://www.centrallinz.at">Central Linz</a>, Landstraße 36, 4020 Linz. Originally
-      one of the first cinemas in Linz, it has become one of the top locations for concerts and events in the steel city.
-    </p>
-    <p class="about-box">
-      The Central lives up to its name and is in the center of Linz, directly next to the Mozartstraße tram station. See how
-      to get to the venue and to Linz in general on <a href="/how-to-get-here">this page</a>.
-    </p>
-    <figure class="location-figure">
-      <img class="location-img" src="/assets/images/central.jpg" alt="Foto by centrallinz.at">
-    </figure>
-  </article>
+{{#with quotes.[0]}}
+{{> 2018/tweet}}
+{{/with}}
 
-  <!-- Facebook Pixel Code -->
-  <script>
-  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-  document,'script','https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '214530458956016');
-  fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=214530458956016&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- DO NOT MODIFY -->
-  <!-- End Facebook Pixel Code -->
+<article class="box">
+  <h2>Speakers 2017</h2>
+  <p>
+    Script'17 took place on January 27th. Get more details at the archive page for <a href="/2017/">Script'17</a>
+  </p>
+</article>
 
-</main>
+<article class="gallery gal1">
+  <div class="gallery-item"><img src="https://scontent-vie1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/16230966_1400392266680211_9007714693766184960_n.jpg" alt="Chris"></div>
+  <div class="gallery-item"><img src="https://scontent-vie1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/16124022_1831347640463165_4070844228773609472_n.jpg" alt="Hannah"></div>
+  <div class="gallery-item"><img src="https://scontent-vie1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/16122676_632715310267071_3990854431435390976_n.jpg" alt="Raquel"></div>
+  <div class="gallery-item"><img src="https://scontent-vie1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/16110218_122124721633031_7367041842438733824_n.jpg" alt="Franziska"></div>
+  <div class="gallery-item twice"><img src="/assets/images/general/stage.jpg" alt="Stage"></div>
+  <div class="gallery-item"><img src="https://scontent-vie1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/15802305_407056139638283_5448701588807876608_n.jpg" alt="Felix"></div>
+  <div class="gallery-item"><img src="https://scontent-vie1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/16123955_204746203325023_2556514132585086976_n.jpg" alt="Mathieu"></div>
+  <div class="gallery-item"><img src="https://scontent-vie1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/16124293_961687313963770_4844307833795117056_n.jpg" alt="Nik"></div>
+</article>
+
+<article class="box">
+  <h2>A conference for everyone</h2>
+  <p>
+    We do our best to ensure everyone is welcome &mdash; and our wonderful attendees and speakers add their fair share to make
+    the atmosphere of Script so friendly and unique. We got this family-vibe going on, and you can be part of it!
+  </p>
+</article>
+
+{{#with quotes.[1]}}
+{{> 2018/tweet}}
+{{/with}}
+
+<article class="box">
+  <p>
+    Script lives by the <a href="/code-of-conduct/">JSConf code of conduct</a> to make sure the event is welcoming and safe for everyone.
+    We keep ticket prices as low as possible and affordable. Since we are a bunch of individuals and completely independent,
+    all income from Script runs directly into the conference again &mdash; and you are going to feel that!
+  </p>
+</article>
+
+<article class="gallery gal2">
+  <div class="gallery-item"><img src="/assets/images/2018/crowd.jpg" alt="The wonderful crowd"></div>
+  <div class="gallery-item"><img src="/assets/images/2018/crowd-6.jpg" alt="ensures that you feel welcome"></div>
+  <div class="gallery-item"><img src="/assets/images/2018/crowd-2.jpg" alt="We have fun"></div>
+  <div class="gallery-item"><img src="/assets/images/2018/crowd-3.jpg" alt="We talk and chat"></div>
+  <div class="gallery-item"><img src="/assets/images/2018/crowd-4.jpg" alt="And we have Alpacas!"></div>
+  <div class="gallery-item"><img style="object-position: 50% 0" src="/assets/images/2018/crowd-5.jpg" alt="Alpacas!"></div>
+  <div class="gallery-item"><img src="https://c1.staticflickr.com/1/658/32925807866_d6cf9b115a_c.jpg" alt="you can't beat Alpacas'"></div>
+</article>
+
+<article class="box">
+  <h2>Script will continue in 2018!</h2>
+  <p>
+    After having so much fun in 2017, we will do another round at the start of 2018. Again, we will start at noon and continue way into the
+    night on a Friday in January. Setting the mood for the upcoming year of JavaScript.
+  </p>
+  <p>
+    Sign up for our <a href="#stay-up-to-date">newsletter</a> to stay up to date!
+  </p>
+</article>
+
+{{#with quotes.[2]}}
+{{> 2018/tweet}}
+{{/with}}
+
+<script>
+  const imgs = document.querySelectorAll('.gallery-item img');
+  if (window.getComputedStyle(imgs[0]).objectFit === undefined) {
+    Array.from(imgs).forEach(el => {
+      el.style.opacity = 0;
+      el.parentNode.style.backgroundImage = `url('${el.src}')`;
+      el.parentNode.style.backgroundSize = 'cover';
+      el.parentNode.style.border = '1vw solid white';
+    });
+  }
+</script>

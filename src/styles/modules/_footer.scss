@@ -1,0 +1,66 @@
+$footer-color: #BBC7CC;
+
+.copyright {
+  max-width: 950px;
+  margin: 1rem auto;
+  padding: 0 1rem;
+}
+
+.site-footer {
+  position: relative;
+  margin: 0;
+  padding: 1rem 15px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.75em;
+  color: $footer-color;
+  background-color: $grey;
+
+  a,
+  a:visited {
+    color: $footer-color;
+    font-weight: bold;
+  }
+
+  a:hover,
+  a:active {
+    text-decoration: underline;
+  }
+}
+
+.footer-nav {
+  border-top: 1px solid $footer-color;
+  margin: 1rem auto;
+  padding: 1rem;
+
+  max-width: 950px;
+
+  justify-content: space-between;
+  font-size: 1.2rem;
+  line-height: 1.7em;
+}
+
+.footer-head {
+  font-weight: 400;
+  display: block;
+}
+
+.footer-nav-item {
+  margin-bottom: 2rem;
+}
+
+.footer-link {
+  margin-right: 1rem;
+}
+
+@media (min-width: 500px) {
+
+  .footer-nav {
+    display: flex;
+  }
+
+  .footer-link {
+    display: block;
+  }
+}
+

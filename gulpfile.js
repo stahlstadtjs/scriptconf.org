@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 const nano = require('gulp-cssnano');
 const auto = require('gulp-autoprefixer');
+const rev  = require('gulp-rev');
 
 const express = require('express');
 const app = express();
@@ -37,14 +38,14 @@ const setupPartials = (dir) => {
 
 const setupHBS = () => {
   hbs.registerHelper(hbsLayout(hbs));
-  //setupPartials('src/_includes/');
+  hbs.registerHelper(require('./src/_helpers/asset')(hbs));
   setupPartials('src/_templates/layouts/');
 };
 
 setupHBS();
 
 gulp.task('sass', function() {
-  return gulp.src('src/styles/main.scss')
+  return gulp.src('src/styles/**/main.scss')
     .pipe(sass())
     .pipe(auto())
     .pipe(nano())
@@ -110,7 +111,7 @@ gulp.task('site', function(done) {
       smartypants: true
     }))
     .use(permalinks({
-      pattern: ':title'
+      pattern: ':path'
     }))
     .use(inplace(templateConfig))
     .use(layouts(templateConfig))

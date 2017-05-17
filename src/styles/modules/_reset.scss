@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  color: $grey;;
+  line-height: 1.4em;
+  font-family: 'Merriweather', serif;
+  -webkit-font-feature-settings: 'kern' 1;
+  -moz-font-feature-settings: 'kern' 1;
+  text-rendering: geometricPrecision;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 1.75em;
+}
+
+a {
+  color: $yellow;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: darken($yellow, 10);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 300;
+}
+
+
+.sr-only {
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+
+.hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  visibility: hidden;
+  opacity: 0;
+  left: -10000px;
+}
+

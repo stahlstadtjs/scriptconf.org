@@ -1,0 +1,25 @@
+.partner-img {
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  max-height: 100px;
+}
+
+.partner-img-huge {
+  max-height: 200px;
+}
+
+.partner {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.partner-role {
+  display: block;
+  padding: 1rem;
+}
+
+.partner-break:before {
+  content: '';
+  display: block;
+}

@@ -1,25 +1,23 @@
-.partner-img {
-  padding: 1rem;
-  width: auto;
-  height: auto;
-  max-height: 100px;
-}
-
-.partner-img-huge {
-  max-height: 200px;
-}
-
 .partner {
-  display: inline-block;
-  padding: 1rem;
+  padding: 1.5rem;
+  text-align: center;
 }
 
-.partner-role {
-  display: block;
-  padding: 1rem;
+.partner-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  img {
+    max-height: 40px;
+    width: auto;
+    max-width: none;
+    margin: 2rem;
+  }
 }
 
-.partner-break:before {
-  content: '';
-  display: block;
+.partner ~ .newsletter {
+  margin-top: 0;
 }

@@ -1,0 +1,28 @@
+textarea, select, input {
+  padding: 6px 9px;
+  margin: 0 0 5px 0;
+  outline: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 100;
+  line-height: 1.4em;
+  background: #fff;
+  color: $grey;
+  border: $light 1px solid;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.btn,
+.btn:active,
+.btn:visited {
+  @extend input;
+  cursor: pointer;
+  color: $grey;
+  background-color: $yellow;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: darken($yellow, 10);
+}

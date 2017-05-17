@@ -1,0 +1,21 @@
+.newsletter {
+  background-image: url(/assets/images/general/newsletter.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(/assets/images/general/newsletter.jpg);
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  padding: 1rem;
+  margin-top: 8rem;
+}
+
+.mail-subscribe-form {
+  margin: 0 auto;
+  max-width: 950px;
+  padding: 1rem;
+  text-align: center;
+
+  p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+}

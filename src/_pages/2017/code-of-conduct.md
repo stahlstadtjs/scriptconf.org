@@ -1,8 +1,7 @@
 ---
 title: Code of Conduct
-layout: 2018-article.hbs
-image: https://c1.staticflickr.com/3/2785/32967354065_2a69de7c14_b.jpg
-canonical: https://scriptconf.org/code-of-conduct
+layout: article.hbs
+canonical: https://scriptconf.org/code-of-conduct/
 ---
 
 Based upon The JSConf™
@@ -15,7 +14,7 @@ this code throughout the event.
 
 ## The Quick Version
 
-Script Conf is dedicated to providing a harassment-free conference experience
+Script17 is dedicated to providing a harassment-free conference experience
 for everyone, regardless of gender, gender identity and expression,
 age, sexual orientation, disability, physical appearance, body size, race,
 ethnicity, religion (or lack thereof), or technology choices. We do not

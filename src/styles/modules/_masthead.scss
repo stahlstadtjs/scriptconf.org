@@ -1,21 +1,74 @@
-body {
-  background-image: url(/assets/images/tool.svg?v=2);
+.masthead {
+  background-image: url(https://c1.staticflickr.com/3/2658/32842217001_1f3923b7cc_b.jpg);
   background-repeat: no-repeat;
-  background-position: bottom left;
-  background-attachment: fixed;
-  background-size: 70%;
-}
-
-.section-masthead {
-  position: relative;
-  padding-bottom: 1.5rem;
-}
-
-.box {
+  background-position: center center;
+  background-size: cover;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
-  padding: 3.5rem 2.5rem;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: $grey;
   position: relative;
+
+  h1, h2 {
+    font-weight: 400;
+  }
+}
+
+.masthead-item {
+  padding: 1.5rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.masthead-article {
+  min-height: 40vh;
+
+  &:after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    display: block;
+    z-index: 0;
+  }
+}
+
+.button-row {
+  line-height: 1.8rem;
+}
+
+.main-logo {
+  width: 100%;
+  max-width: 655px;
+}
+
+.top-logo {
+  position: absolute;
+  left: 40px;
+  top: 20px;
+  z-index: 1;
+
+  img {
+    height: 38px;
+    width: 142px;
+    max-width: 142px;
+    min-width: 142px;
+  }
+}
+
+
+@media (max-width: 500px) {
+
+  .top-logo {
+    left: 10px;
+    top: 10px;
+    width: 38px;
+    overflow: hidden;
+  }
 }

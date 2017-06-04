@@ -13,9 +13,7 @@ textarea, select, input {
   box-shadow: none;
 }
 
-.btn,
-.btn:active,
-.btn:visited {
+.btn {
   @extend input;
   cursor: pointer;
   color: $grey;
@@ -23,6 +21,27 @@ textarea, select, input {
   display: inline-block;
 }
 
+.btn:active,
+.btn:visited {
+  color: $grey;
+}
+
 .btn:hover {
   background-color: darken($yellow, 10);
+}
+
+.btn-large {
+  font-weight: bold;
+  border: none;
+  font-size: 2rem;
+  padding: 2rem 4rem;
+  border-radius: 30px;
+  text-transform: uppercase;
+  width: auto;
+  color: black;
+
+  &:active,
+  &:visited {
+    color: black;
+  }
 }

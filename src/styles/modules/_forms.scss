@@ -22,10 +22,12 @@ textarea, select, input {
 }
 
 .btn:active,
-.btn:visited {
+.btn:visited,
+.btn:focus {
   color: $grey;
 }
 
+.btn:focus,
 .btn:hover {
   background-color: darken($yellow, 10);
 }
@@ -43,5 +45,24 @@ textarea, select, input {
   &:active,
   &:visited {
     color: black;
+  }
+}
+
+.btn-default,
+.tito-submit,
+a.tito-submit,
+a.btn-default {
+  @extend .btn;
+  width: auto;
+  font-family: sans-serif;
+  text-transform: none;
+  font-size: 14px;
+  color: $grey !important;
+  text-decoration: none !important;
+
+  &:hover,
+  &:focus,
+  &:visited {
+    color: $grey;
   }
 }

@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  min-height: 75vh;
+  min-height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,4 +72,8 @@
     width: 38px;
     overflow: hidden;
   }
+}
+
+.masthead-main {
+  margin-bottom: 5rem;
 }

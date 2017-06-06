@@ -9,89 +9,32 @@ layout: 2018-main.hbs
   </p>
 </article>
 
+<article class="gallery gallery-1">
+  <div class="gallery-item 3x"><img src="/assets/images/general/stage.jpg" alt="Who's joining us on stage this time?"></div>
+</article>
+
+<div class="ticket-area" id="tickets">
+  <div class="box">
+  <h2>Tickets</h2>
+    <p>
+      If the form below is not visible or not working for you, please use
+      <a href="https://ti.to/scriptconf/scriptconf-2018">this link to get your conference ticket.</a>
+    </p>
+  </div>
+  <tito-widget event="scriptconf/scriptconf-2017"></tito-widget>
+  <div class="box">
+    <p>
+      All prices are inclusive VAT. Buying via Tito also gets you an invoice. Tickets are not refundable, but re-assignable.
+    </p>
+  </div>
+</div>
+
+
 <div class="box">
   <h2>About Script</h2>
   <p>
-    Script is an independent one-day, curated and handcrafted JavaScript event for the community, happening in Linz, Austria.
+    Script is a 100% independent one-day, curated and handcrafted JavaScript event for the community, happening in Linz, Austria.
     Join us on January 26, 2018 for a day (and night) of fun, inspiration and education. 
-  </p>
-
-  <h3>A unique format</h3>
-
-  <p>
-    The format of Script'18 is rather unique. The conference takes place on January 26, a Friday. We start at <strong>12 o'clock</strong>
-    to ensure a smooth arrival for all attendees.
-  </p>
-</div>
-
-<article class="gallery gal1">
-  <div class="gallery-item 3x"><img src="/assets/images/general/stage.jpg" alt="Stage"></div>
-</article>
-
-<div class="box">
-  <p>
-    Starting at noon, we go way into the night. Get inspired by fantastic talks and enjoy yourself at the after party.
-    Take the opportunity to chat, get excited and to have a great start into the weekend!
-  </p>
-
-  <h3>Excellent food and drinks</h3>
-
-  <p>
-    We love good food, and we're sure our community does as well! You get
-    all-inclusive food, drinks, coffee and refreshments the entire day!
-  </p>
-</div>
-
-<article class="gallery gal1">
-  <div class="gallery-item"><img src="https://scontent-vie1-1.cdninstagram.com/t51.2885-15/e35/16123705_1912801235616741_6248527999444975616_n.jpg" alt="Cake"></div>
-  <div class="gallery-item"><img src="/assets/images/2018/crowd-3.jpg" alt="Peope"></div>
-  <div class="gallery-item"><img src="https://scontent-vie1-1.cdninstagram.com/t51.2885-15/e35/16110803_988010697996286_8028163542676930560_n.jpg" alt="Dinner"></div>
-</article>
-
-<div class="box">
-  <p>
-    Our schedule includes two major breaks where we serve delicious cake and dinner. All session breaks are long enough
-    to give you some time to refresh yourself, grab another drink and chat to your buddies.
-  </p>
-
-  <p>
-    All-inclusive also goes for the after-show party. Stay with the people and enjoy the company! Soft drinks and alcoholic
-    beverages are supplied!
-  </p>
-
-  <h3>An excellent line-up</h3>
-  
-  <p>
-    All our speakers come by invitation only. We carefully curate a program that will not only fit the Zeitgeist, but also 
-    give you ideas and inspiration beyond your daily work. You will get household names as well as newcomers who deserve a
-    big stage!
-  </p>
-
-  <h3>A conference for everbody</h3>
-
-  <p>
-    We do our best to ensure everyone is welcome — and our wonderful attendees and speakers add their fair share to
-    make the atmosphere of Script so friendly and unique. We got this family-vibe going on, and you can be part of it!
-  </p>
-</div>
-
-{{#with quotes.[1]}}
-{{> 2018/tweet}}
-{{/with}}
-
-<div class="box">
-  <p>
-    Script lives by the <a href="/code-of-conduct">JSConf code of conduct</a> to make sure the event is welcoming and safe
-    for everyone. We keep ticket prices as low as possible and affordable. Since we are a bunch of individuals and completely
-    independent, all income from Script runs directly into the conference again — and you are going to feel that!
-  </p>
-
-  <h3>100% independent</h3>
-
-  <p>
-    There is no huge company behind ScriptConf. It's organised by a couple inviduals who want to have
-    the best conference experience for the community. We work closly with our partners on the event's surroundings
-    to make sure this won't be another hiring competition, but an event worthwhile for everyone involved!
   </p>
 </div>
 
@@ -99,9 +42,20 @@ layout: 2018-main.hbs
 {{> 2018/tweet}}
 {{/with}}
 
-{{#with quotes.[2]}}
-{{> 2018/tweet}}
-{{/with}}
+<div class="box">
+  <p>
+    If you want to see what awaits you at Script'18, check out our <a href="/about">about page</a>. It contains all the details on our event.
+  </p>
+</div>
+
+
+<article class="gallery">
+  <div class="gallery-item"><img src="/assets/images/2018/crowd.jpg" alt="The wonderful crowd"></div>
+  <div class="gallery-item"><img style="object-position: top;" src="/assets/images/2018/crowd-2.jpg" alt="We have fun"></div>
+  <div class="gallery-item"><img src="/assets/images/2018/crowd-4.jpg" alt="And we have Alpacas!"></div>
+</article>
+
+
 
 <script>
   const imgs = document.querySelectorAll('.gallery-item img');

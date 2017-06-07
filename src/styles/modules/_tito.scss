@@ -61,9 +61,11 @@
 }
 
 @media screen and (min-width: 520px) {
-  .tito-ticket-name-wrapper,
+  .tito-ticket-name-wrapper {
+    width: 70%;
+  }
   .tito-ticket-price-quantity-wrapper {
-    width: 50%;
+    width: 30%;
   }
 }
 

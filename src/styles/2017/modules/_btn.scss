@@ -8,7 +8,9 @@ input,
   padding: 5px 10px;
   border-radius: 3px;
   text-decoration: none;
-  font-family: 'Helvetica', 'Arial', sans-serif;
+  //font-family: 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 .btn-big {
@@ -16,7 +18,9 @@ input,
   padding: 1.5rem 3rem;
   border-radius: 30px;
   display: inline-block;
-  font-family: 'Noto Sans';
+  //font-family: 'Noto Sans';
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 .btn-main {
@@ -38,14 +42,15 @@ input,
   text-align: center;
 }
 
-.tito-submit,
 .btn {
-  background-color: $yellow;
-  color: $grey;
+  background-color: $yellow-300;
+  color: $grey-300;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 
   &:focus,
   &:hover {
-    background-color: darken($yellow, 10);
-    color: lighten($grey, 10);
+    background-color: $yellow-400;
+    color: $grey-400;
   }
 }

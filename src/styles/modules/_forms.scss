@@ -15,6 +15,7 @@ textarea, select, input {
 
 .btn {
   @extend input;
+  font-weight: 700;
   cursor: pointer;
   color: $grey;
   background-color: $yellow;
@@ -29,22 +30,22 @@ textarea, select, input {
 
 .btn:focus,
 .btn:hover {
-  background-color: darken($yellow, 10);
+  background-color: $yellow-400;
 }
 
 .btn-large {
   font-weight: bold;
-  border: none;
+  border: 1px solid #fff;
   font-size: 2rem;
   padding: 2rem 4rem;
   border-radius: 30px;
   text-transform: uppercase;
   width: auto;
-  color: black;
+  color: $grey;
 
   &:active,
   &:visited {
-    color: black;
+    color: $grey;
   }
 }
 

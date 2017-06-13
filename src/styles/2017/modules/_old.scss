@@ -28,7 +28,7 @@ a {
 
 a:hover,
 a:focus {
-  color: darken($yellow, 10);
+  color: $yellow-400;
 }
 
 h1, h2, h3 {

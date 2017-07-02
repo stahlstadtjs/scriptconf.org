@@ -1,5 +1,5 @@
 .ticket-area {
-  background-color: #4756dd;// #5546F7; //#0a268b
+  background-color: $blue-300;//#1c3ba0; //#4756dd;// #5546F7; //#0a268b
   color: white;
   padding: 20px 0;
   margin: 7rem 0;
@@ -35,7 +35,7 @@
 
 .tito-ticket.row {
   display: block;
-  border-bottom: 1px solid #3d40b8;
+  border-bottom: 1px solid $blue-200;//#335ce0;//#3d40b8;
   margin: 0 15px;
   min-height: 54px;
   padding: 15px 0;
@@ -90,9 +90,9 @@
 }
 
 .tito-ticket-name-wrapper .tito-tickets-remaining {
-  background: $yellow;
+  background: $yellow-300;
   color: $grey;
-  border: 1px solid $yellow;
+  border: 1px solid $yellow-300;
   font-size: 10px;
   padding: 2px 5px;
   position: relative;
@@ -102,7 +102,7 @@
 }
 
 .tito-ticket-description {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.6;
 }
 
@@ -265,6 +265,11 @@ input.form-control.tito-discount-code-field.discount-code-field {
   margin: 0 15px;
   padding: 10px 0;
   text-align: right;
+}
+
+.tito-submit {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 .tito-ticket.tito-locked-ticket>div {

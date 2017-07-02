@@ -13,10 +13,8 @@ textarea, select, input {
   box-shadow: none;
 }
 
-button,
 .btn {
   @extend input;
-  font-weight: 700;
   cursor: pointer;
   color: $grey;
   background-color: $yellow;
@@ -31,9 +29,24 @@ button,
 
 .btn:focus,
 .btn:hover {
-  background-color: $yellow-400;
+  background-color: darken($yellow, 10);
 }
 
+.btn-large {
+  font-weight: bold;
+  border: none;
+  font-size: 2rem;
+  padding: 2rem 4rem;
+  border-radius: 30px;
+  text-transform: uppercase;
+  width: auto;
+  color: black;
+
+  &:active,
+  &:visited {
+    color: black;
+  }
+}
 
 .btn-default,
 .tito-submit,

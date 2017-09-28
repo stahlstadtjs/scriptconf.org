@@ -1,5 +1,5 @@
 ---
-title: Workshops
+title: Advanced Vue.js topics
 layout: 2018-workshop.hbs
 image: https://c1.staticflickr.com/3/2805/32585969110_8cb92c979e_b.jpg
 canonical: https://scriptconf.org/workshops

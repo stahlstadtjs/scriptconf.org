@@ -1,9 +1,13 @@
 .speakers {
   list-style-type: none;
   margin: 3rem auto;
-  padding: 0 6rem;
+  padding: 0 1rem;
   overflow: hidden;
   max-width: 1400px;
+
+  @media (min-width: 600px) {
+    padding: 0 6rem;
+  }
 }
 
 .speaker {
@@ -26,9 +30,9 @@
     max-width: 100%;
   }
 
-  @media(min-width: 500px) {  
+  @media(min-width: 600px) {  
     .speakers {
-      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     }
   }
 
@@ -38,8 +42,12 @@
 }
 
 .speaker-img {
-  width: 200px;
+  width: 100px;
   border-radius: 50%;
+
+  @media (min-width: 600px) {
+    width: 200px;
+  }
 }
 
 .icon {
@@ -70,26 +78,26 @@
   font-size: 0.95em;  
 }
 
+.cols {
+  padding: 3rem 3rem 1rem;
+  max-width: 990px;
+}
+
 @supports (display: grid) {
 
   @media (min-width: 700px) {
 
     .cols {
-      display: grid;
-      grid-template-columns: 1fr 300px;
-      align-items: start;
-      grid-gap: 4rem;
-
-      .description {
-        grid-column: 1/2;
-        grid-row: 1;
-      }
-
       .speaker {
-        grid-column: 2/3;
-        grid-row: 1;
         flex-direction: column;
         padding-top: 3rem;
+        float: right;
+        max-width: 310px;
+        padding-left: 4rem;
+      }
+
+      h3 {
+        clear: both;
       }
 
       .speaker-details {
@@ -98,8 +106,22 @@
     }
   }
 
+  .cols .speaker {
+    margin-bottom: 4rem;
+    align-items: flex-start;
+
+    @media (min-width: 600px) {
+      align-items: center;
+    }
+  }
+
 
   .cols .speaker .btn {
     margin-top: 3rem;
+    text-align: center;
   }
+}
+
+.description {
+  margin-top: 3rem;
 }

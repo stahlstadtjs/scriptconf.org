@@ -1,0 +1,26 @@
+-
+  id: evan
+  name: "Evan You"
+  img: "/assets/images/2018/sp/evan.jpg"
+  title: "Creator of Vue.js, New Jersey, NY"
+  twitter: youyuxi
+  additional:
+    title: "Workshop on Jan, 18: <a href=\"/workshops\">Vue.js</a>"
+-
+  id: simona
+  name: "Simona Cotin"
+  img: "/assets/images/2018/sp/simona.jpg"
+  title: "DA for Node/Azure at Microsoft, London, UK"
+  twitter: simona_cotin
+-
+  id: charlie
+  name: "Charlie Gerard"
+  img: "/assets/images/2018/sp/charlie.jpg"
+  title: "Creative Technologist at Thoughtworks, Sydney, Australia"
+  twitter: devdevcharlie
+-
+  id: phil
+  name: "Phil Hawksworth"
+  img: "/assets/images/2018/sp/phil.jpg"
+  title: "Technical Director at RG/A, York, UK"
+  twitter: philhawksworth

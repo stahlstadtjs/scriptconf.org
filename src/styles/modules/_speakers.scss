@@ -14,10 +14,13 @@
   display: flex;
   align-items: center;
   float: left;
-  max-width: 50%;
+
+  @media(min-width: 600px) {
+    width: 50%;
+  }
 }
 
-@supports (display: grid) {
+@supports (grid-auto-flow: column) {
 
   .speakers {
     display: grid;
@@ -27,7 +30,7 @@
   }
 
   .speaker {
-    max-width: 100%;
+    width: 100%;
   }
 
   @media(min-width: 600px) {  
@@ -84,7 +87,7 @@
   max-width: 990px;
 }
 
-@supports (display: grid) {
+@supports (grid-auto-flow: column) {
 
   @media (min-width: 700px) {
 

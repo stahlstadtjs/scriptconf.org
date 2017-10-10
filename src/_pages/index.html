@@ -1,6 +1,32 @@
 ---
 layout: 2018-main.hbs
 ---
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "location": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AT",
+        "addressLocality": "Linz",
+        "addressRegion": "Upper Austria",
+        "postalCode": "4020",
+        "streetAddress": "Landstraße 36"
+      },
+      "name": "Central Linz"
+    },
+    "name": "Script'18 - A conference about JavaScript",
+    "offers": {
+      "@type": "Offer",
+      "price": "159.00",
+      "priceCurrency": "EUR",
+      "url": "https://scriptconf.org/#tickets"
+    },
+    "startDate": "2018-01-19T12:00"
+  }
+  </script>
 
 <h2 class="centered">Speakers 2018</h2>
 <ul class="speakers">
@@ -55,7 +81,19 @@ layout: 2018-main.hbs
   <div class="gallery-item"><img src="/assets/images/2018/crowd-4.jpg" alt="And we have Alpacas!"></div>
 </article>
 
+<div class="box">
+  <h2>Location</h2>
+  <p>
+    Script'17 takes place at <a href="http://www.centrallinz.at/">Central Linz</a>, Landstraße 36, 4020 Linz. Originally one of the first
+    cinemas in Linz, it has become one of the top locations for concerts and events in the steel city.
+  </p>
+  <p>The Central lives up to its name and is in the center of Linz, directly next to the Mozartstraße tram station.</p>
+</div>
 
+
+<article class="gallery">
+  <div class="gallery-item"><img src="/assets/images/2018/central.jpg" alt="The perfect place: The Central Linz"></div>
+</article>
 
 <script>
   const imgs = document.querySelectorAll('.gallery-item img');

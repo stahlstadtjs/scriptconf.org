@@ -1,10 +1,9 @@
 ---
-title: How to get here
-layout: article.hbs
+title: How to get to ScriptConf
+layout: 2018-article.hbs
+image: /assets/images/central.jpg
 canonical: https://scriptconf.org/how-to-get-here
 ---
-
-# How to get to Script'17
 
 ## Traveling to Linz
 

@@ -7,6 +7,12 @@
   additional:
     title: "Workshop on Jan, 18: <a href=\"/workshops\">Vue.js</a>"
 -
+  id: marcy
+  name: "Marcy Sutton"
+  img: "/assets/images/2018/sp/marcy.jpg"
+  title: "Deque Systems, Bellingham, WA"
+  twitter: marcysutton
+-
   id: simona
   name: "Simona Cotin"
   img: "/assets/images/2018/sp/simona.jpg"

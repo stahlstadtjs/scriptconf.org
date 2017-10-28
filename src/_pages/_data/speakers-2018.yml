@@ -5,7 +5,7 @@
   title: "Creator of Vue.js, Jersey City, NJ"
   twitter: youyuxi
   additional:
-    title: "Workshop on Jan, 18: <a href=\"/workshops\">Vue.js</a>"
+    title: "Workshop on Jan, 18: <a href=\"/workshops/evan\">Vue.js</a>"
 -
   id: marcy
   name: "Marcy Sutton"
@@ -19,14 +19,32 @@
   title: "DA for Node/Azure at Microsoft, London, UK"
   twitter: simona_cotin
 -
-  id: charlie
-  name: "Charlie Gerard"
-  img: "/assets/images/2018/sp/charlie.jpg"
-  title: "Creative Technologist at Thoughtworks, Sydney, Australia"
-  twitter: devdevcharlie
+  id: andre
+  name: "Andre Staltz"
+  img: "/assets/images/2018/sp/andre.jpg"
+  title: "RxJS core team, Creator of Cycle.js, Helsinki, FI"
+  twitter: andrestaltz
+  additional:
+    title: "Workshop on Jan, 18: <a href=\"/workshops/andre\">RxJS</a>"
+  bio:
+    - "Andre Staltz specializes in functional and reactive programming for user interfaces. He has created Cycle.js and been a core contributor to RxJS. Website: <a href=\"https://staltz.com\">staltz.com</a>"
 -
   id: phil
   name: "Phil Hawksworth"
   img: "/assets/images/2018/sp/phil.jpg"
   title: "Technical Director at RG/A, St. Albans, UK"
+  talk: 
+    title: "Next wave infrastructure - do far more with much less"
+    abstract:
+      - "Recent years have seen a shift in technical architectures. Building complex services for the web used to be just that – complex. Projects might have demanded a broad range of specialist skills which could stretch even the fullest of full-stack developers. These days we have a growing number of options for how we design, build and maintain the systems which keep our web sites and applications alive."
+      - "This talk will look at ways to make use of emerging tools and services which can deliver surprisingly rich features and capabilities without maintaining expensive and complex infrastructure. We’ll talk about the benefits in keeping your stack simple, in using the expertise of others, and we'll examine the performance and security benefits of JAMstack and microservices."
+  bio:
+    - "Phil is Technology Director at R/GA, the global, connected design agency. Based in London but working with clients around the world such as Nike, Google, Hyundai and Samsung, Phil’s mission is to bring engaging and effective experiences to the widest audience possible."
+    - "With a long history in web development, and a passion for browser technologies, Phil loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. You can usually find him banging on about that, and his attempts at standup comedy on Twitter."
   twitter: philhawksworth
+-
+  id: charlie
+  name: "Charlie Gerard"
+  img: "/assets/images/2018/sp/charlie.jpg"
+  title: "Creative Technologist at Thoughtworks, Sydney, Australia"
+  twitter: devdevcharlie

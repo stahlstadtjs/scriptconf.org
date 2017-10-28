@@ -1,6 +1,6 @@
 <li class="speaker">
-  <img src="{{img}}" class="speaker-img" alt="{{name}}" />
-  <div class="speaker-details">
+  <img src="{{img}}" class="speaker-img mini" alt="{{name}}" />
+  <div class="speaker-details large">
     <h4 class="speaker-name">{{name}}
     <a href="https://twitter.com/{{twitter}}">
       <svg class="icon">
@@ -12,13 +12,10 @@
       {{title}}
     </p>
     <h4 class="talk-info">
-      {{#if talk.title }}Talk: <a href="#{{id}}">{{talk.title}}</a>
-      {{else}}talk tba
-      {{/if}}
       {{#if additional}}
-      <br>
       {{{additional.title}}}
       {{/if}}
     </h4>
   </div>
+  <a href="/workshops/{{id}}" class="btn btn-large">Details</a>
 </li>

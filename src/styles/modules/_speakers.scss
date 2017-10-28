@@ -7,6 +7,10 @@
 
   @media (min-width: 600px) {
     padding: 0 6rem;
+
+    &.workshops {
+      padding: 0;
+    }
   }
 }
 
@@ -36,6 +40,10 @@
   @media(min-width: 600px) {  
     .speakers {
       grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+
+      &.workshops {
+        grid-template-columns: 1fr;
+      }
     }
   }
 
@@ -51,6 +59,11 @@
   @media (min-width: 600px) {
     min-width: 200px;
     width: 200px;
+
+    &.mini {
+      width: 100px;
+      min-width: 100px;
+    }
   }
 }
 
@@ -64,6 +77,10 @@
 
 .speaker-details {
   padding-left: 3rem;
+
+  &.large {
+    width: 100%;
+  }
 }
 
 .speaker-title {

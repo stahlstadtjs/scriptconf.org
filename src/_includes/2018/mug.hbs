@@ -12,11 +12,13 @@
       {{title}}
     </p>
     <h4 class="talk-info">
+      {{#unless @root.workshop-only}}
       {{#if talk.title }}Talk: <a href="#{{id}}">{{talk.title}}</a>
       {{else}}talk tba
       {{/if}}
+      {{/unless}}
       {{#if additional}}
-      <br>
+      {{#unless @root.workshop-only}}<br>{{/unless}}
       {{{additional.title}}}
       {{/if}}
     </h4>

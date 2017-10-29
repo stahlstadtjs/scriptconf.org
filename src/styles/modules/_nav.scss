@@ -15,12 +15,18 @@
   justify-content: flex-end;
   width: 100%;
   z-index: 2;
+  flex-wrap: wrap;
+  padding-left: 50px;
 }
 
 .menu__item {
   color: white;
-  padding: 0.6rem;
+  padding: 0.3rem 0.6rem;
   @include hoverer;
+
+  @media (min-width: 400px) {
+    padding: 0.6rem;   
+  }
 }
 
 .menu__item:hover {

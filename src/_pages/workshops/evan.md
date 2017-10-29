@@ -2,12 +2,13 @@
 title: Advanced Vue.js topics
 layout: 2018-workshop.hbs
 image: https://c1.staticflickr.com/3/2805/32585969110_8cb92c979e_b.jpg
-canonical: https://scriptconf.org/workshops
+canonical: https://scriptconf.org/workshops/evan
 ticket: fzdjtu-w1yo,hb78x-mkhzw
+host: evan
 trainer: 1
 ---
 
-## Vue.js Workshop with Evan You
+## January 18: Vue.js Workshop with Evan You
 
 We often reach for existing libraries when dealing with advanced app features such as routing, state management, form validation and i18n, and a lot of times the implementations behind these libraries can be a black box.
 

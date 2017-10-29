@@ -6,18 +6,32 @@
   twitter: youyuxi
   additional:
     title: "Workshop on Jan, 18: <a href=\"/workshops/evan\">Vue.js</a>"
+    abstract:
+      - "We often reach for existing libraries when dealing with advanced app features such as routing, state management, form validation and i18n, and a lot of times the implementations behind these libraries can be a black box."
+      - "In this workshop we are going to build simple versions of such libraries from the ground up using basic Vue features."
+      - "This will help you better understand the nature of these problems and how to better leverage Vue’s reactivity system to come up with elegant solutions."
+  bio:
+  - "Evan is a developer, designer and creative coder. He is the author of Vue.js, a JavaScript framework for building modern web interfaces with reactive components."
+  - "In the past Evan worked at Meteor Development Group on the most starred full-stack JavaScript framework on GitHub, and before that spent two years at Google Creative Lab hacking on experimental UI prototypes for various Google products."
 -
   id: marcy
   name: "Marcy Sutton"
   img: "/assets/images/2018/sp/marcy.jpg"
   title: "Deque Systems, Bellingham, WA"
   twitter: marcysutton
+  bio:
+   - "Marcy Sutton works on web accessibility tools at Deque Systems, a company focused on digital equality. In 2016, O’Reilly gave Marcy a Web Platform Award for her work in accessibility."
+   - "She loves co-leading the Accessibility Seattle meetup and a coding club for Girl Develop It Bellingham. When away from the keyboard, Marcy can be found hiking with her dog, riding a bicycle, or snowboarding."
+
 -
   id: simona
   name: "Simona Cotin"
   img: "/assets/images/2018/sp/simona.jpg"
   title: "DA for Node/Azure at Microsoft, London, UK"
   twitter: simona_cotin
+  bio:
+   - "Simona is an enthusiastic full stack developer with experience in building rich data visualization for network data and more recently in the cloud."
+   - "Communities power her up and that's why she is co-organising the Javascript London meetup. Passionate about knowledge sharing, she has also mentored at workshops for Women Who Code and NgGirls encouraging women to learn more about programming."
 -
   id: andre
   name: "Andre Staltz"
@@ -26,6 +40,9 @@
   twitter: andrestaltz
   additional:
     title: "Workshop on Jan, 18: <a href=\"/workshops/andre\">RxJS</a>"
+    abstract:
+      - "RxJS Observables are present in frontend frameworks like Angular and Cycle.js, and are useful in diverse contexts, from backend to frontend and also mobile apps. They are meant for organizing asynchronous code, but often look challenging to beginners."
+      - "Come learn the fundamental concepts behind RxJS and gain confidence programming with reactive Observables. RxJS In this workshop, Andre Staltz will guide you through lectures and exercises. Expect to see RxJS concepts demystified, practice with exercises, make questions, and gain confidence with the tools."
   bio:
     - "Andre Staltz specializes in functional and reactive programming for user interfaces. He has created Cycle.js and been a core contributor to RxJS. Website: <a href=\"https://staltz.com\">staltz.com</a>"
 -
@@ -48,3 +65,6 @@
   img: "/assets/images/2018/sp/charlie.jpg"
   title: "Creative Technologist at Thoughtworks, Sydney, Australia"
   twitter: devdevcharlie
+  bio:
+   - "Charlie Gerard is a software developer by day and a maker of things by night. She spends her personal time tinkering with hardware and experimenting with creative technologies."
+   - "When she's not prototyping projects mixing art and technology, she likes to mentor young developers and contribute to open-source."

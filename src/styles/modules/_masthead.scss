@@ -48,6 +48,10 @@
 .main-logo {
   width: 100%;
   max-width: 655px;
+
+  @media(max-width: 500px) {
+    padding-top: 6.5rem;
+  }
 }
 
 .top-logo {

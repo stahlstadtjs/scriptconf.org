@@ -157,3 +157,15 @@
 .description {
   margin-top: 3rem;
 }
+
+
+@media (max-width: 500px) {
+
+  .workshops .speaker {
+    flex-wrap: wrap;
+  }
+
+  .workshops .speaker-details.large {
+    padding: 2rem 0;
+  }
+}

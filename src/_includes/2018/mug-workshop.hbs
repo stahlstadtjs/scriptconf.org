@@ -1,21 +1,12 @@
 <li class="speaker">
   <img src="{{img}}" class="speaker-img mini" alt="{{name}}" />
   <div class="speaker-details large">
-    <h4 class="speaker-name">{{name}}
-    <a href="https://twitter.com/{{twitter}}">
-      <svg class="icon">
-        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use>
-      </svg>
-    </a>
+    <h4 class="speaker-name">{{{additional.title}}}
     </h4>
     <p class="speaker-title">
+      <em>with {{name}}</em><br>
       {{title}}
     </p>
-    <h4 class="talk-info">
-      {{#if additional}}
-      {{{additional.title}}}
-      {{/if}}
-    </h4>
   </div>
   <a href="/workshops/{{id}}" class="btn btn-large">Details</a>
 </li>

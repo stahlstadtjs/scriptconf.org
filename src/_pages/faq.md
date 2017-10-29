@@ -18,3 +18,5 @@ Are student tickets available?
 : Yes, we have a few student tickets available which are 66% of the original price. Send us an e-Mail to office (at) scriptconf.org and we give you all the necessary details.
 Are tickets refundable/reassignable?
 : You can reassign tickets up until the conference itself. Let us know if it's in the range of 7 days before the event, as we can't change the badge anymore. Tickets are not refundable, unless we cancel the event, then you get the full refund.
+Are you interested in our conference app?
+: No

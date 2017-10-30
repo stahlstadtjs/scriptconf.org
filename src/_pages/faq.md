@@ -18,5 +18,8 @@ Are student tickets available?
 : Yes, we have a few student tickets available which are 66% of the original price. Send us an e-Mail to office (at) scriptconf.org and we give you all the necessary details.
 Are tickets refundable/reassignable?
 : You can reassign tickets up until the conference itself. Let us know if it's in the range of 7 days before the event, as we can't change the badge anymore. Tickets are not refundable, unless we cancel the event, then you get the full refund.
+I want to speak at ScriptConf! Do you have a CfP?
+: Other than most conferences, ScriptConf does not have a CfP. We handpick speakers and shape a line-up often months before we announce a conference date. Since we are one day, one track and want to give our speakers time for their talks, we only haven 7 slots to fill. This also means that around 70% of our program is already done by the time we sell tickets.
+: You see, the chances that we have an open slot are very low. However, if you truly feel like there is something missing from our lineup, [mailto:office@scriptconf.org](drop us a line and we will consider your input). But be sure to surprise us! More than getting another "How to" do something in framework X, we love to hear case studies, research results and experience reports from projects that failed or went well (or both).
 Are you interested in our conference app?
 : No

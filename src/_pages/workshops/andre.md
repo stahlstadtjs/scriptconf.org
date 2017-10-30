@@ -16,7 +16,7 @@ and also mobile apps. They are meant for organizing asynchronous code,
 but often look challenging to beginners.
 
 Come learn the fundamental concepts behind RxJS and gain confidence
-programming with reactive Observables. RxJS In this workshop, Andre
+programming with reactive Observables. In this workshop, Andre
 Staltz will guide you through lectures and exercises. Expect to see RxJS
 concepts demystified, practice with exercises, make questions, and gain
 confidence with the tools.

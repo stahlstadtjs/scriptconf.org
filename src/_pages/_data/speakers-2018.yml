@@ -19,6 +19,12 @@
   img: "/assets/images/2018/sp/marcy.jpg"
   title: "Deque Systems, Bellingham, WA"
   twitter: marcysutton
+  talk:
+    title: "Radically Accessible Internet Applications 💯"
+    abstract:
+      - "An accessible internet experience makes all the difference for a person with a disability, whether they're enjoying online entertainment, paying bills or booking a trip to go adaptive skiing. You see, people with disabilities gain privacy and independence when they can handle their own affairs. Wouldn't it be radical if every web application supported users with disabilities?"
+      - "As JavaScript experts, we can enable more of our users by shipping accessible interfaces every time, and I'll show you how. In this talk, we'll audit a client-rendered web application for accessibility, making the necessary changes to support people with disabilities. The best part about it? By integrating accessibility into our development workflow, we'll make our apps more usable by everyone."
+
   bio:
    - "Marcy Sutton works on web accessibility tools at Deque Systems, a company focused on digital equality. In 2016, O’Reilly gave Marcy a Web Platform Award for her work in accessibility."
    - "She loves co-leading the Accessibility Seattle meetup and a coding club for Girl Develop It Bellingham. When away from the keyboard, Marcy can be found hiking with her dog, riding a bicycle, or snowboarding."

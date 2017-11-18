@@ -15,8 +15,22 @@
     max-height: 40px;
     width: auto;
     max-width: none;
-    margin: 2rem;
+    margin: 2rem auto;
+    display: block;
   }
+
+  span {
+    display: block;
+  }
+}
+
+.partner-item {
+  display: block;
+  margin: 2rem;
+}
+
+.premium img {
+  max-height: 50px;
 }
 
 .partner ~ .newsletter {

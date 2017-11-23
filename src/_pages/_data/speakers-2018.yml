@@ -33,7 +33,7 @@
   id: simona
   name: "Simona Cotin"
   img: "/assets/images/2018/sp/simona.jpg"
-  title: "DA for Node/Azure at Microsoft, London, UK"
+  title: "Microsoft, London, UK"
   twitter: simona_cotin
   bio:
    - "Simona is an enthusiastic full stack developer with experience in building rich data visualization for network data and more recently in the cloud."
@@ -55,7 +55,7 @@
   id: phil
   name: "Phil Hawksworth"
   img: "/assets/images/2018/sp/phil.jpg"
-  title: "Technical Director at RG/A, St. Albans, UK"
+  title: "Netlify, St. Albans, UK"
   talk: 
     title: "Next wave infrastructure - do far more with much less"
     abstract:
@@ -69,7 +69,7 @@
   id: charlie
   name: "Charlie Gerard"
   img: "/assets/images/2018/sp/charlie.jpg"
-  title: "Creative Technologist at Thoughtworks, Sydney, Australia"
+  title: "Thoughtworks, Sydney, Australia"
   twitter: devdevcharlie
   talk:
     title: "Look mum, no hands!"

@@ -33,7 +33,7 @@
   id: simona
   name: "Simona Cotin"
   img: "/assets/images/2018/sp/simona.jpg"
-  title: "DA for Node/Azure at Microsoft, London, UK"
+  title: "Microsoft, London, UK"
   twitter: simona_cotin
   bio:
    - "Simona is an enthusiastic full stack developer with experience in building rich data visualization for network data and more recently in the cloud."
@@ -45,7 +45,7 @@
   title: "RxJS core team, Creator of Cycle.js, Helsinki, FI"
   twitter: andrestaltz
   additional:
-    title: "Workshop on Jan, 18: <a href=\"/workshops/andre\">RxJS</a>"
+    title: "Workshop on Jan, 18: <a href=\"/workshops/andre\">RxJS Deep Dive</a>"
     abstract:
       - "RxJS Observables are present in frontend frameworks like Angular and Cycle.js, and are useful in diverse contexts, from backend to frontend and also mobile apps. They are meant for organizing asynchronous code, but often look challenging to beginners."
       - "Come learn the fundamental concepts behind RxJS and gain confidence programming with reactive Observables. RxJS In this workshop, Andre Staltz will guide you through lectures and exercises. Expect to see RxJS concepts demystified, practice with exercises, make questions, and gain confidence with the tools."
@@ -55,7 +55,7 @@
   id: phil
   name: "Phil Hawksworth"
   img: "/assets/images/2018/sp/phil.jpg"
-  title: "Technical Director at RG/A, St. Albans, UK"
+  title: "Netlify, St. Albans, UK"
   talk: 
     title: "Next wave infrastructure - do far more with much less"
     abstract:
@@ -70,8 +70,13 @@
   id: charlie
   name: "Charlie Gerard"
   img: "/assets/images/2018/sp/charlie.jpg"
-  title: "Creative Technologist at Thoughtworks, Sydney, Australia"
+  title: "Thoughtworks, Sydney, Australia"
   twitter: devdevcharlie
+  talk:
+    title: "Look mum, no hands!"
+    abstract:
+      - "A typical interaction with a device or interface involves touching it. Either you're pressing buttons on a controller, swiping on a touchscreen or clicking on your laptop's trackpad. But what if you could control things without the use of your hands? What if you could use... your thoughts?"
+      - "I have been tinkering with a brain sensor and developed an open source JavaScript framework for it to allow me (or anyone else) to control interfaces or robots using facial expressions and mental commands."
   bio:
    - "Charlie Gerard is a software developer by day and a maker of things by night. She spends her personal time tinkering with hardware and experimenting with creative technologies."
    - "When she's not prototyping projects mixing art and technology, she likes to mentor young developers and contribute to open-source."

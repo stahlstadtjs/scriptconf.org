@@ -62,8 +62,9 @@
       - "Recent years have seen a shift in technical architectures. Building complex services for the web used to be just that – complex. Projects might have demanded a broad range of specialist skills which could stretch even the fullest of full-stack developers. These days we have a growing number of options for how we design, build and maintain the systems which keep our web sites and applications alive."
       - "This talk will look at ways to make use of emerging tools and services which can deliver surprisingly rich features and capabilities without maintaining expensive and complex infrastructure. We’ll talk about the benefits in keeping your stack simple, in using the expertise of others, and we'll examine the performance and security benefits of JAMstack and microservices."
   bio:
-    - "Phil is Technology Director at R/GA, the global, connected design agency. Based in London but working with clients around the world such as Nike, Google, Hyundai and Samsung, Phil’s mission is to bring engaging and effective experiences to the widest audience possible."
-    - "With a long history in web development, and a passion for browser technologies, Phil loves seeking out ingenuity and simplicity, especially in places where over-engineering is common. You can usually find him banging on about that, and his attempts at standup comedy on Twitter."
+    - "Phil works in Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites."
+    - "With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common."
+    - "Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Beats By Dre and Samsung to bring engaging and effective experiences to the widest audience possible."
   twitter: philhawksworth
 -
   id: charlie

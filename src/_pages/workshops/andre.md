@@ -34,5 +34,5 @@ confidence with the tools.
 ### Prerequisites
 
 - Familiarity with basic JavaScript, ES6, and callbacks
-- Little or no RxJS experience required
+- Little RxJS experience required
 - Own computer

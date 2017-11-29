@@ -67,6 +67,14 @@
     - "Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Beats By Dre and Samsung to bring engaging and effective experiences to the widest audience possible."
   twitter: philhawksworth
 -
+  id: michaela
+  name: "Michaela Lehr"
+  img: "/assets/images/2018/sp/michaela.jpg"
+  title: "Geildanke.com, Berlin, DE"
+  twitter: fischaelamehr
+  bio:
+   - "Michaela Lehr is a creative front-end developer and designer. She specialises in UX and WebXR, and co-founded the studio GeilDanke. In her free time she travels round the world, practices yoga, and watches way too much Buffy."
+-
   id: charlie
   name: "Charlie Gerard"
   img: "/assets/images/2018/sp/charlie.jpg"

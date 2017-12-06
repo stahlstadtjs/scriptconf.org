@@ -38,6 +38,9 @@
   bio:
    - "Simona is an enthusiastic full stack developer with experience in building rich data visualization for network data and more recently in the cloud."
    - "Communities power her up and that's why she is co-organising the Javascript London meetup. Passionate about knowledge sharing, she has also mentored at workshops for Women Who Code and NgGirls encouraging women to learn more about programming."
+  talk:
+    title: "Hop on the serverless adventure with NodeJS"
+    abstract: "Serverless is the new black - I can deploy my application to the cloud without ever worrying about infrastructure. We all remember the days when we had to spend hours and hours configuring and debugging web servers when all we wanted was to just code and test our app. Those days are long gone and it’s time for us to unlearn how to provision and manage infrastructure while focusing on building and scaling applications."
 -
   id: andre
   name: "Andre Staltz"

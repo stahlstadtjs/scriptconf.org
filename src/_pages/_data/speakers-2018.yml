@@ -47,6 +47,10 @@
   img: "/assets/images/2018/sp/andre.jpg"
   title: "RxJS core team, Creator of Cycle.js, Helsinki, FI"
   twitter: andrestaltz
+  talk:
+    title: "Cycle.js on pen and paper"
+    abstract:
+      - "Let's learn the Cycle.js framework from paper sketches and diagrams that make it look easy and obvious. Then, let's see how you can use it in the real world."
   additional:
     title: "Workshop on Jan, 18: <a href=\"/workshops/andre\">RxJS Deep Dive</a>"
     abstract:

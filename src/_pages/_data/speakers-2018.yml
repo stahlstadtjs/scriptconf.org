@@ -4,6 +4,11 @@
   img: "/assets/images/2018/sp/evan.jpg"
   title: "Creator of Vue.js, Hackensack, NJ"
   twitter: youyuxi
+  talk:
+    title: "The Journey to Full Time Open Source"
+    abstract:
+      - "Working on open source has changed my life. I am self-employed and work on open source full-time. I don't have a boss. I only work on projects that I enjoy working on, and I can work whenever and wherever I want. I also let people use all the code I write for free. This is all made possible thanks to the amazing support from the community made up of the users of my open source projects."
+      - "I think I'm incredibly lucky to be in this position today. Yet there are still many open source maintainers struggling on the verge of burnout while their software is being used by millions. So in this talk I will share with you my journey of open source - in particular how I made it my full-time job - in the hope of shedding some insights on open source sustainability."
   additional:
     title: "Workshop on Jan, 18: <a href=\"/workshops/evan\">Vue.js</a>"
     abstract:

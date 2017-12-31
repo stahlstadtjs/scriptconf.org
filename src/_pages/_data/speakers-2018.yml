@@ -84,6 +84,12 @@
   img: "/assets/images/2018/sp/michaela.jpg"
   title: "Geildanke.com, Berlin, DE"
   twitter: FischaelaMeer
+  talk:
+    title: "Creating Augmented Reality Apps with Web Technology"
+    abstract: 
+    - "If 2017 was the year of Virtual Reality, 2018 may become the year of Augmented Reality. With Apple's ARKit for iOS and Google's ARCore for Android, we should not forget that actually the open web and Augmented Reality are the perfect couple."
+    - "But how do we create AR apps with web technology? In my talk you will learn how to write your own AR app that runs in the browser. You will see how Augmented Reality works, what markers are for, and how to create them. And you'll get an overview about the devices you can use to test your AR projects."
+    - "We are just at the beginning of the rise of Augmented Reality. This is why lots of UX design questions are still unanswered. But there are patterns and best practises, and you will learn how to use them to get a great user experience in your AR application."
   bio:
    - "Michaela Lehr is a creative front-end developer and designer. She specialises in UX and WebXR, and co-founded the studio GeilDanke. In her free time she travels round the world, practices yoga, and watches way too much Buffy."
 -

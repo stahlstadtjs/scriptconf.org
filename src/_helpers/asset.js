@@ -9,6 +9,10 @@ const select = (Handlebars) => (context, options) => {
   return options.fn(speakers.pop());
 }
 
+const year = (Handlebars) => () => {
+  return (new Date()).getFullYear();
+}
+
 /**
  * Handlebars.registerHelper('with', function(context, options) {
   return options.fn(context);
@@ -18,5 +22,6 @@ const select = (Handlebars) => (context, options) => {
 
 module.exports = (hbs) => ({
   asset: asset(hbs),
-  select: select(hbs)
+  select: select(hbs),
+  year: year(hbs),
 });

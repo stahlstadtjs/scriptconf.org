@@ -1,16 +1,16 @@
 
 .copyright {
   max-width: 950px;
-  margin: 1rem auto;
-  padding: 0 1rem;
+  margin: 0.625rem auto;
+  padding: 0 0.625rem;
 }
 
 .site-footer {
   position: relative;
   margin: 0;
-  padding: 2rem 15px 1rem;
+  padding: 1.25rem 15px 0.625rem;
   font-family: 'Raleway', sans-serif;
-  font-size: 1rem;
+  font-size: 0.625rem;
   line-height: 1.75em;
   color: rgba(255, 255, 255, 0.3);
   background-color: $grey-400;
@@ -29,13 +29,13 @@
 
 .footer-nav {
   border-top: 1px solid $grey-300;
-  margin: 1rem auto;
-  padding: 1rem;
+  margin: 0.625rem auto;
+  padding: 0.625rem;
 
   max-width: 950px;
 
   justify-content: space-between;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   line-height: 2em;
 }
 
@@ -45,11 +45,11 @@
 }
 
 .footer-nav-item {
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
 }
 
 .footer-link {
-  margin-right: 1rem;
+  margin-right: 0.625rem;
 }
 
 @media (min-width: 500px) {

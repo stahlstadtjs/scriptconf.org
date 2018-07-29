@@ -3,23 +3,33 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  min-height: 70vh;
+  min-height: 50vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   color: white;
   background-color: $grey;
   position: relative;
+  padding: 2.5rem;
 
   h1, h2 {
     font-weight: 400;
-    line-height: 1.2;
   }
+}
+
+.masthead-item {
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+
+.logo-indent {
+  text-indent: 104px;
 }
 
 .masthead-vignette:before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   top: 0;
   left: 0;
   bottom: 0;
@@ -30,12 +40,6 @@
 }
 
 
-.masthead-item {
-  padding: 1.5rem;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-}
 
 .masthead-article {
   min-height: 40vh;
@@ -47,7 +51,7 @@
 
 .main-logo {
   width: 100%;
-  max-width: 655px;
+  max-width: 455px;
 
   @media(max-width: 500px) {
     padding-top: 6.5rem;

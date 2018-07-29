@@ -1,70 +1,55 @@
-@mixin hoverer {
-
-  &:hover,
-  &:active {
-    color: $yellow;
-    fill: $yellow;
-  }
-}
-
 .menu {
-  font-size: 1.4rem;
-  position: absolute;
-  color: white;
   display: flex;
-  justify-content: flex-end;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-family: $font;
+  font-weight: 600;
+  align-items: center;
+  //background-color: rgba($grey, 0.6);
+  position: absolute;
   width: 100%;
-  z-index: 2;
-  flex-wrap: wrap;
-  padding-left: 50px;
+  z-index: 1000;
 }
+
+$menu-padding: 1rem;
 
 .menu__item {
-  color: white;
-  padding: 0.3rem 0.6rem;
-  @include hoverer;
-
-  @media (min-width: 400px) {
-    padding: 0.6rem;   
-  }
+  padding: 1.25rem;
+  padding-left: 0;
+  padding-right: $menu-padding;
+  text-transform: uppercase;
 }
 
-.menu__item:hover {
-  background-color: rgba(0, 0, 0, 0.4);
+.menu__logo {
+  flex-grow: 1;
+  padding-left: $menu-padding;
 }
 
-.menu__item .link__icon {
-  fill: white;
-  height: 1.4rem;
-  width: 1.4rem;
-  @include hoverer;
+.is-main .menu__logo {
+  opacity: 0;
 }
 
-@media (min-width: 500px) {
-
-  .menu {
-    font-size: 1.6rem;
-    padding-right: 20px;
-  }
-
-  .menu__item .link__icon {
-    height: 1.6rem;
-    width: 1.6rem;
-  }
-}
-
-@media (min-width: 900px) {
-
-  .menu {
-    font-size: 1.8rem;
-  }
+@media (min-width: 800px) {
+  $menu-padding: 2.5rem;
 
   .menu__item {
-    padding: 1.5rem;
+    padding-right: $menu-padding;
   }
 
-  .menu__item .link__icon {
-    height: 1.8rem;
-    width: 1.8rem;
+  .menu__logo {
+    padding-left: $menu-padding;
   }
+}
+
+.link__icon {
+  height: 1rem;
+  width: 1rem;
+  fill: $yellow;
+}
+
+.menu__logo img {
+  height: 38px;
+  width: 142px;
+  max-width: 142px;
+  min-width: 142px;
 }

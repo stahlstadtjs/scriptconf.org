@@ -5,7 +5,7 @@
     <title>{{#if title}}
       {{title}} | Script'18
       {{else}}
-        Script'18 - The JavaScript conference this city needs
+        Script'18 - A conference about JavaScript
       {{/if}}
     </title>
     <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
@@ -49,22 +49,22 @@
     <meta name="twitter:site" content="@scriptconf">
     <meta name="twitter:image" content="https://scriptconf.org/assets/images/opengraph.jpg">
   </head>
-  <body>
+  <body {{#if mainClass}} class="{{mainClass}}"{{/if}}>
 
     {{> 2018/menu}}
+    <div class="content-area">
+      {{#block 'masthead'}}
+      {{/block}}
 
-    {{#block 'masthead'}}
-    {{/block}}
+      {{#block 'contents'}}
+      {{{contents}}}
+      {{/block}}
+      <div class="newsletter">
+      {{> mailchimp}}
+      </div>
 
-    {{#block 'contents'}}
-    {{{contents}}}
-    {{/block}}
-    <div class="newsletter">
-    {{> mailchimp}}
+      {{> 2018/footer}}
     </div>
-
-    {{> 2018/footer}}
-
     {{> icons}}
   </body>
 </html>

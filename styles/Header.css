@@ -1,0 +1,143 @@
+.masthead {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #2f2f2c;
+  overflow: hidden;
+  position: relative;
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom left, rgba(144, 19, 255, 0.3), rgba(189, 16, 224, 0.1)),
+    linear-gradient(to right, #9013FE, hotpink);
+}
+
+@media(max-width: 639px) {
+  .hide-sm.hide-sm {
+    display: none;
+  }
+}
+
+.photo:after {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(12, 12, 12, 0.7);
+  z-index: 1;
+  content: '';
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 2rem;
+  position: relative;
+  height: 100%;
+  color: white;
+}
+
+.masthead-cover {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.meta {
+  position: relative;
+  z-index: 3;
+}
+
+.logo {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+@media(min-width: 640px) {
+  .photo {
+    background-image: url(/static/assets/header-640.jpg);
+    background-position: center 65%;
+  }
+
+  .masthead {
+    height: 350px;
+  }
+
+  .meta {
+    position: absolute;
+    z-index: 3;
+    padding: 0 2rem 2rem 0;
+    max-width: 650px;
+  }
+  
+  .logo {
+    margin-left: -4.6rem;
+    width: 410px;
+  }
+
+  .masthead-cover {
+    right: 2rem;
+    width: 150px;
+    top: 3rem;
+    box-shadow: 0 0 5px 1px #222;
+    z-index: 2;
+  }
+}
+
+@media(min-width: 800px) {
+  .photo {
+    background-image: url(/static/assets/header-800.jpg);
+  }
+
+  .masthead {
+    height: 400px;
+  }
+
+  .masthead-cover {
+    width: 200px;
+    top: 5rem;
+  }
+
+  .meta {
+    padding: 2rem;
+  }
+}
+
+@media(min-width: 1024px) {
+
+  .masthead {
+    height: 433px;
+    max-height: 100vh;
+    min-height: 0;
+  }
+
+  .logo {
+    width: 500px;
+    margin-left: -5.6rem;
+  }
+
+  .photo {
+    background-image: url(/static/assets/header-1024.jpg);
+  }
+
+  .masthead-cover {
+    width: 300px;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+
+  .meta {
+    margin-left: auto;
+  }
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+.button-line {
+  line-height: 1.3em;
+}

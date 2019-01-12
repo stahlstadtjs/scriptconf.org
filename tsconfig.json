@@ -23,5 +23,9 @@
       "es2015",
       "es2016"
     ]
-  }
+  },
+  "exclude": [
+    "next.config.js",
+    "out/**/*"
+  ]
 }

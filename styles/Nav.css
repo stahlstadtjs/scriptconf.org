@@ -1,4 +1,4 @@
-nav {
+.nav {
   position: absolute;
   width: 100%;
   z-index: 3;
@@ -16,13 +16,13 @@ nav {
   align-items: center;
 }
 
-a {
+.nav a {
   color: white;
   transition: color 100 ease;
   padding: 1rem;
 }
 
-a:hover {
+.nav a:hover {
   color: #f7df1e;
 }
 

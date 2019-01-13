@@ -13,6 +13,20 @@
     linear-gradient(to right, #9013FE, hotpink);
 }
 
+.button-line {
+  line-height: 1.3em;
+  margin-left: 31%;
+}
+
+.button-line * {
+  display: block;
+  max-width: 200px;
+}
+
+.button-line * + * {
+  margin-top: 0.5rem;
+}
+
 @media(max-width: 639px) {
   .hide-sm.hide-sm {
     display: none;
@@ -64,7 +78,7 @@
   }
 
   .masthead {
-    height: 350px;
+    height: 370px;
   }
 
   .meta {
@@ -75,8 +89,21 @@
   }
   
   .logo {
-    margin-left: -4.6rem;
-    width: 410px;
+    width: 500px;
+    margin-left: -5.6rem;
+  }
+
+  .button-line {
+    margin-left: 4.2rem;
+  }
+
+  .button-line * {
+    display: inline-block;
+    max-width: 100%;
+  }
+
+  .button-line * + * {
+    margin-top: 0;
   }
 
   .masthead-cover {
@@ -94,7 +121,7 @@
   }
 
   .masthead {
-    height: 400px;
+    height: 420px;
   }
 
   .masthead-cover {
@@ -110,14 +137,9 @@
 @media(min-width: 1024px) {
 
   .masthead {
-    height: 433px;
+    height: 443px;
     max-height: 100vh;
     min-height: 0;
-  }
-
-  .logo {
-    width: 500px;
-    margin-left: -5.6rem;
   }
 
   .photo {
@@ -137,8 +159,4 @@
 
 h1 {
   font-size: 1.5em;
-}
-
-.button-line {
-  line-height: 1.3em;
 }

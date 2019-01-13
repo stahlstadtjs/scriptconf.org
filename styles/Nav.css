@@ -1,0 +1,49 @@
+nav {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+.block {
+  display: block;
+  margin-right: auto;
+}
+
+.nav-wrapper {
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: white;
+  transition: color 100 ease;
+  padding: 1rem;
+}
+
+a:hover {
+  color: #f7df1e;
+}
+
+.stop1 {
+  stop-color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.stop2 {
+  stop-color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.what:hover .stop1 {
+  stop-color: #3023AE;
+}
+
+.what:hover .stop2 {
+  stop-color: #C86DD7;
+}
+
+.what {
+  margin-right: auto;
+}

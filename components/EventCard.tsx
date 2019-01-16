@@ -1,7 +1,9 @@
 import React, { FC } from "react"
 
 import '../styles/EventCard.css'
-import Link from "next/link";
+import Link from "next/link"
+
+import { formatDate } from '../tools/date'
 
 React.createElement('tito-button')
 
@@ -19,7 +21,7 @@ export const EventCard:FC<EventCardProps> =
   ({ title, date, town, location, detailsUrl, event="ultimateconf/2013", releases="3elajg6qcxu" }) => (
   <div id={town.toLowerCase()} className="card">
     <h2>{title}</h2>
-    <p>{date.toDateString()} in {town}, {location}</p>
+    <p>{formatDate(date)} in {town}, {location}</p>
     <p>
       <tito-button event={event} releases={releases}>
         Tickets <span className="hide-sm">@ EUR 399 incl.</span>

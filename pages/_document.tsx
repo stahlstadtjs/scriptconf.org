@@ -24,10 +24,15 @@ export default class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="96x96" href="/static/icons/favicon-96x96.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.png" />
           <script src='https://js.tito.io/v1' async></script>
+          <div dangerouslySetInnerHTML={{__html: `<script>
+          window.titoWidgetCallback = function(){
+             TitoWidget.build_widgets = false
+          }</script>`}}></div>
           <meta name="msapplication-TileColor" content="#2F2F2C" />
           <meta name="msapplication-TileImage" content="/static/icons/ms-icon-144x144.png" />
           <meta name="theme-color" content="#2F2F2C" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
         </Head>
         <body>
           <Main />

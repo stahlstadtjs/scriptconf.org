@@ -1,0 +1,23 @@
+.card {
+  --color-stop-1: rgba(144, 19, 255, 0.3);
+  --color-stop-2: rgba(189, 16, 224, 0.1);
+  --color-stop-3: #9013FE;
+  --color-stop-4: hotpink;
+  background-image:
+    linear-gradient(to bottom left, 
+      var(--color-stop-1, rgba(144, 19, 255, 0.3)), 
+      var(--color-stop-2, rgba(189, 16, 224, 0.1))),
+    linear-gradient(to right, 
+      var(--color-stop-3, #9013FE), 
+      var(--color-stop-4, hotpink));
+  padding: 1.5rem 2rem;
+  margin: 1rem 0;
+  color: white;
+}
+
+.card#linz {
+  --color-stop-1: rgba(144, 19, 255, 0.3);
+  --color-stop-2: rgba(189, 16, 224, 0.1);
+  --color-stop-3: #33a3fb;
+  --color-stop-4: #004dfb;
+}

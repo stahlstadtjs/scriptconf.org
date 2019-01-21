@@ -25,7 +25,8 @@
   color: #222;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
   display: grid;
-  grid-template-columns: 1fr
+  grid-template-columns: 1fr;
+  min-height: 250px;
 }
 
 @media(min-width: 600px) {
@@ -42,7 +43,7 @@
 
 @media(min-width: 850px) {
   .card {
-    grid-template-columns: 1fr 400px
+    grid-template-columns: 1fr 450px
   }
 }
 
@@ -53,5 +54,5 @@
 .card-image {
   background-size: cover;
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
 }

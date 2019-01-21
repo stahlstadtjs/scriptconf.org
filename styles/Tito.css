@@ -22,7 +22,7 @@
 }
 
 .tito-submit {
-  margin-right: 0;
+  margin-right: 0 !important;
 }
 
 .tito-ticket-list {

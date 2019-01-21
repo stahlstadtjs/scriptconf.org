@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "next",
     "prod": "NODE_ENV=production next export",
+    "copy": "cp -R old-website/* out",
     "build": "NODE_ENV=production next build",
     "start": "next start"
   },

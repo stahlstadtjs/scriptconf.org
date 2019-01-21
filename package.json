@@ -6,7 +6,8 @@
     "prod": "NODE_ENV=production next export",
     "copy": "cp -R old-website/* out",
     "build": "NODE_ENV=production next build",
-    "start": "next start"
+    "start": "next start",
+    "all": "npm run build && npm run prod && npm run copy"
   },
   "dependencies": {
     "@mdx-js/mdx": "^0.15.4",

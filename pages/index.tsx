@@ -24,6 +24,9 @@ class Index extends Component {
         <div className="events">
           <Wrapper>
             <h2 style={{ clear: 'both' }}>Events</h2>
+
+            <img src="/static/assets/austria.svg" className="map" alt="Map of Austria"/>
+
             <EventCard
               title="New Adventures in Responsive Web Design"
               location="Location tba"

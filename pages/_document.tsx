@@ -32,7 +32,6 @@ export default class MyDocument extends Document {
           <meta name="msapplication-TileImage" content="/static/icons/ms-icon-144x144.png" />
           <meta name="theme-color" content="#2F2F2C" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
         </Head>
         <body>
           <Main />

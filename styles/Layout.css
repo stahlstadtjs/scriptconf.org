@@ -13,9 +13,6 @@ body {
 }
 
 main {
-  margin: 1rem auto;
-  max-width: 1000px;
-  padding: 2rem;
   min-height: calc(100vh - 400px);
 }
 

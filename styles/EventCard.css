@@ -1,5 +1,5 @@
-.card {
-  --color-stop-1: rgba(144, 19, 255, 0.3);
+/* 
+--color-stop-1: rgba(144, 19, 255, 0.3);
   --color-stop-2: rgba(189, 16, 224, 0.1);
   --color-stop-3: #9013FE;
   --color-stop-4: hotpink;
@@ -10,14 +10,48 @@
     linear-gradient(to right, 
       var(--color-stop-3, #9013FE), 
       var(--color-stop-4, hotpink));
-  padding: 1.5rem 2rem;
-  margin: 1rem 0;
-  color: white;
-}
+*/
 
-.card#linz {
+/* 
   --color-stop-1: rgba(144, 19, 255, 0.3);
   --color-stop-2: rgba(189, 16, 224, 0.1);
   --color-stop-3: #33a3fb;
   --color-stop-4: #004dfb;
+  */
+
+.card {  
+  margin: 2rem 0;
+  background-color: white;
+  color: #222;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+  display: grid;
+  grid-template-columns: 1fr
+}
+
+@media(min-width: 600px) {
+  .card {
+    grid-template-columns: 1fr 200px
+  }
+}
+
+@media(min-width: 750px) {
+  .card {
+    grid-template-columns: 1fr 300px
+  }
+}
+
+@media(min-width: 850px) {
+  .card {
+    grid-template-columns: 1fr 400px
+  }
+}
+
+.card-container {
+  padding: 1.5rem 2rem;
+}
+
+.card-image {
+  background-size: cover;
+  width: 100%;
+  max-width: 400px;
 }

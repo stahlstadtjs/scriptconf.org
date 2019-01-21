@@ -10,7 +10,7 @@ export const Header = () => {
         <Logo/>
         <div className="button-line">
           <Button url='#innsbruck'>29.3. Innsbruck</Button>
-          <Button url='#wien'>1.4. Vienna</Button>
+          <Button url='#vienna'>1.4. Vienna</Button>
           <Button url='#linz'>2.4. Linz</Button>
         </div>
       </div>

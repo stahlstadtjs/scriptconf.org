@@ -1,15 +1,12 @@
-import { Layout } from '../components/Layout'
-import { Header } from '../components/Header'
-import { Nav } from "../components/Nav"
-import { Footer } from "../components/Footer"
-import { EventCard } from '../components/EventCard'
-import { Wrapper } from '../components/Wrapper'
-import { createElement, Component } from 'react'
-
-import '../styles/Main.css'
-import '../styles/Tito.css'
-
-createElement('tito-widget')
+import { Component } from 'react';
+import { EventCard } from '../components/EventCard';
+import { Header } from '../components/Header';
+import { Layout } from '../components/Layout';
+import { Nav } from "../components/Nav";
+import { Wrapper } from '../components/Wrapper';
+import '../styles/Main.css';
+import { Tito } from '../components/Tito';
+import { Footer } from '../components/Footer';
 
 class Index extends Component {
   render() {
@@ -43,14 +40,9 @@ class Index extends Component {
               detailsUrl="/linz" />
           </Wrapper>
         </div>
-        <div className="tito-area">
-          <Wrapper>
-            <h2>Tickets</h2>
-            <tito-widget event="devone/devone-linz-2019"></tito-widget>
-          </Wrapper>
-        </div>
+        <Tito />
+        <Footer />
       </Layout>
-      <Footer />
     </>
   }
 

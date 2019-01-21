@@ -1,6 +1,18 @@
-* {
-  box-sizing: border-box
+.tito-area {
+  --color-stop-1: rgba(144, 19, 255, 0.3);
+  --color-stop-2: rgba(189, 16, 224, 0.1);
+  --color-stop-3: #33a3fb;
+  --color-stop-4: #004dfb;
+  background-image:
+    linear-gradient(to bottom left, 
+      var(--color-stop-1, rgba(144, 19, 255, 0.3)), 
+      var(--color-stop-2, rgba(189, 16, 224, 0.1))),
+    linear-gradient(to right, 
+      var(--color-stop-3, #9013FE), 
+      var(--color-stop-4, hotpink));
+  color: white;
 }
+
 
 .tito-wrapper {
   background: transparent;

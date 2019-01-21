@@ -1,4 +1,7 @@
 import Document, { Head, Main, NextScript } from 'next/document';
+import { createElement } from 'react'
+
+createElement('tito-widget')
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {

@@ -1,8 +1,8 @@
 import { Textpage } from '../components/Textpage';
-import Content from '../content/legal.mdx';
+import Content from '../content/about.mdx';
 
 export default () => {
-  return <Textpage title="Legal Notice">
+  return <Textpage title="About">
     <Content />
   </Textpage>
 }

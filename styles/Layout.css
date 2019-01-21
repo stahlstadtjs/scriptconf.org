@@ -22,7 +22,7 @@ h1, h2 {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #3f5cb8;
   transition: all 0.3s ease;
 }

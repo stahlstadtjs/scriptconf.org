@@ -13,6 +13,7 @@
   margin-right: 1rem;
   line-height: 1.1em;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .realestate {
@@ -21,6 +22,8 @@
   line-height: 1.5rem;
 }
 
+.tito-tickets-button:hover,
+.tito-submit:hover,
 .btn:hover {
   background-color: #f7c41e;
   border-color: #f7c41e;
@@ -28,11 +31,12 @@
 }
 
 .btn.secondary {
+  border-color: #004dfb;
   background-color: rgba(0, 0, 0, 0);
-  color: #f7df1e;
+  color: #004dfb;
 }
 
 .btn.secondary:hover {
-  background-color: rgba(0, 0, 0, 0.3);
-  color: #f7c41e;
+  background-color: #004dfb;
+  color: white;
 }

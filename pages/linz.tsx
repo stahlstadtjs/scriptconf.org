@@ -1,9 +1,9 @@
 import { Component } from 'react';
+import { Footer } from '../components/Footer';
 import { Layout } from '../components/Layout';
 import { Tito } from '../components/Tito';
 import { Wrapper } from '../components/Wrapper';
 import DesignPatterns from '../content/design-patterns.mdx';
-import { Footer } from '../components/Footer';
 
 export default class extends Component {
 

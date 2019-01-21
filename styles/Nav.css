@@ -20,6 +20,7 @@
   color: white;
   transition: color 100 ease;
   padding: 1rem;
+  text-decoration: none;
 }
 
 .nav a:hover {

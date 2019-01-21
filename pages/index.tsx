@@ -1,12 +1,14 @@
 import { Component } from 'react';
 import { EventCard } from '../components/EventCard';
+import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
+import { Hexagon } from '../components/Hexagon';
 import { Layout } from '../components/Layout';
 import { Nav } from "../components/Nav";
-import { Wrapper } from '../components/Wrapper';
-import '../styles/Main.css';
 import { Tito } from '../components/Tito';
-import { Footer } from '../components/Footer';
+import { Wrapper } from '../components/Wrapper';
+import VitalyBio from '../content/vitaly.mdx';
+import '../styles/Main.css';
 
 class Index extends Component {
   render() {
@@ -15,11 +17,13 @@ class Index extends Component {
       <Header />
       <Layout>
         <Wrapper>
+        <Hexagon url="/static/assets/vitaly.jpg" style={{ float: 'right', marginLeft: '2rem', marginBottom: '3rem' }}/>
           <h1>Meet Vitaly Friedman, the creator of Smashing Magazine</h1>
+          <VitalyBio />
         </Wrapper>
         <div className="events">
           <Wrapper>
-            <h2>Events</h2>
+            <h2 style={{ clear: 'both' }}>Events</h2>
             <EventCard
               title="New Adventures in Responsive Web Design"
               location="Location tba"

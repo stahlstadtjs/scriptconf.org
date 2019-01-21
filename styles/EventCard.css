@@ -20,6 +20,7 @@
   */
 
 .card {  
+  clear: both;
   margin: 2rem 0;
   background-color: white;
   color: #222;

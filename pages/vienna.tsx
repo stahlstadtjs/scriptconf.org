@@ -6,6 +6,7 @@ import { Nav } from '../components/Nav';
 import { Tito } from '../components/Tito';
 import { Wrapper } from '../components/Wrapper';
 import Ecommerce from '../content/ecommerce.mdx';
+import WorkshopsInclude from '../content/workshopsinclude.mdx';
 
 export default class extends Component {
 
@@ -27,6 +28,7 @@ export default class extends Component {
       <Layout>
         <Wrapper>
           <Ecommerce />
+          <WorkshopsInclude />
         </Wrapper>
         <Tito />
         <Footer />

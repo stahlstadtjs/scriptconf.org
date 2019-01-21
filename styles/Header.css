@@ -13,16 +13,19 @@
     linear-gradient(to right, #9013FE, hotpink);
 }
 
+.margin,
 .button-line {
   line-height: 1.3em;
   margin-left: 31%;
 }
 
+.margin,
 .button-line * {
   display: block;
   max-width: 200px;
 }
 
+.margin,
 .button-line * + * {
   margin-top: 0.5rem;
 }
@@ -96,6 +99,7 @@
     margin-left: -5.6rem;
   }
 
+  .margin,
   .button-line {
     margin-left: 4.2rem;
   }
@@ -105,6 +109,11 @@
     max-width: 100%;
   }
 
+  .margin {
+    max-width: 100%;
+  }
+
+  .margin,
   .button-line * + * {
     margin-top: 0;
   }

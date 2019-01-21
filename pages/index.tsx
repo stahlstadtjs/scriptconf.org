@@ -7,6 +7,7 @@ import { Layout } from '../components/Layout';
 import { Nav } from "../components/Nav";
 import { Tito } from '../components/Tito';
 import { Wrapper } from '../components/Wrapper';
+import VitalyComes from '../content/linzaly.mdx';
 import VitalyBio from '../content/vitaly.mdx';
 import '../styles/Main.css';
 
@@ -17,13 +18,16 @@ class Index extends Component {
       <Header />
       <Layout>
         <Wrapper>
-        <Hexagon url="/static/assets/vitaly.jpg" style={{ float: 'right', marginLeft: '2rem', marginBottom: '3rem' }}/>
+          <Hexagon url="/static/assets/vitaly.jpg"
+            style={{ float: 'right', marginLeft: '2rem', marginBottom: '3rem' }}/>
           <h1>Meet Vitaly Friedman, the creator of Smashing Magazine</h1>
           <VitalyBio />
         </Wrapper>
         <div className="events">
           <Wrapper>
             <h2 style={{ clear: 'both' }}>Events</h2>
+
+            <VitalyComes />
 
             <img src="/static/assets/austria.svg" className="map" alt="Map of Austria"/>
 

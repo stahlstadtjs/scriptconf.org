@@ -6,6 +6,8 @@ import { Nav } from '../components/Nav';
 import { Tito } from '../components/Tito';
 import { Wrapper } from '../components/Wrapper';
 import NewAdventures from '../content/adventures.mdx';
+import WorkshopsInclude from '../content/workshopsinclude.mdx';
+
 
 export default class extends Component {
 
@@ -27,6 +29,7 @@ export default class extends Component {
       <Layout>
         <Wrapper>
           <NewAdventures />
+          <WorkshopsInclude />
         </Wrapper>
         <Tito />
         <Footer />

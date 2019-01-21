@@ -31,12 +31,11 @@
 }
 
 .btn.secondary {
-  border-color: #004dfb;
-  background-color: rgba(0, 0, 0, 0);
-  color: #004dfb;
+  border-color: #2f2f2c;
+  background-color: white;
+  color: #2f2f2c;
 }
 
 .btn.secondary:hover {
-  background-color: #004dfb;
-  color: white;
+  background-color: #f7c41e;
 }

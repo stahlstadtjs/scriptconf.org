@@ -1,7 +1,8 @@
+import Head from 'next/head';
 import { Component } from 'react';
 import { EventCard } from '../components/EventCard';
 import { Footer } from '../components/Footer';
-import { Header } from '../components/Header';
+import { HeaderWithLogo } from '../components/Header';
 import { Hexagon } from '../components/Hexagon';
 import { Layout } from '../components/Layout';
 import { Nav } from "../components/Nav";
@@ -14,8 +15,11 @@ import '../styles/Main.css';
 class Index extends Component {
   render() {
     return <>
+      <Head>
+        <title>ScriptConf presents: Workshops with</title>
+      </Head>
       <Nav />
-      <Header />
+      <HeaderWithLogo />
       <Layout>
         <Wrapper>
           <Hexagon url="/static/assets/vitaly.jpg"

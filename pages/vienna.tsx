@@ -1,6 +1,7 @@
 import { Component } from 'react';
+import { H1 } from '../components/DocHeadline';
 import { Footer } from '../components/Footer';
-import { Header } from '../components/Header';
+import { HeaderWithLogo } from '../components/Header';
 import { Layout } from '../components/Layout';
 import { Nav } from '../components/Nav';
 import { Tito } from '../components/Tito';
@@ -19,12 +20,12 @@ export default class extends Component {
   render() {
     return <>
       <Nav />
-      <Header>
+      <HeaderWithLogo>
         <div className="button-line">
           <p>April 1, 2019 • Vienna • Location tba</p>
-          <h1>Vitaly Friedman in Vienna</h1>
+          <H1>Vitaly Friedman in Vienna</H1>
         </div>
-      </Header>
+      </HeaderWithLogo>
       <Layout>
         <Wrapper>
           <Ecommerce />

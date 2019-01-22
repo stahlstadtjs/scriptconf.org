@@ -56,7 +56,6 @@
   border: none;
   display: block;
   float: left;
-  vertical-align: middle;
   width: 100%
 }
 
@@ -100,7 +99,7 @@
 }
 
 .tito-ticket-description {
-  font-size: 12px
+  font-size: 14px
 }
 
 .tito-degressive-price-desc+.tito-ticket-description {

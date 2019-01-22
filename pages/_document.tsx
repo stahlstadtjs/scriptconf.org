@@ -13,6 +13,10 @@ export default class MyDocument extends Document {
     return (
       <html lang="en">
         <Head>
+          <meta name="msapplication-TileColor" content="#2F2F2C" />
+          <meta name="msapplication-TileImage" content="/static/icons/ms-icon-144x144.png" />
+          <meta name="theme-color" content="#2F2F2C" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="apple-touch-icon" sizes="57x57" href="/static/icons/apple-icon-57x57.png" />
           <link rel="apple-touch-icon" sizes="60x60" href="/static/icons/apple-icon-60x60.png" />
           <link rel="apple-touch-icon" sizes="72x72" href="/static/icons/apple-icon-72x72.png" />
@@ -31,10 +35,6 @@ export default class MyDocument extends Document {
           window.titoWidgetCallback = function(){
              TitoWidget.build_widgets = false
           }</script>`}}></div>
-          <meta name="msapplication-TileColor" content="#2F2F2C" />
-          <meta name="msapplication-TileImage" content="/static/icons/ms-icon-144x144.png" />
-          <meta name="theme-color" content="#2F2F2C" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
         <body>
           <Main />

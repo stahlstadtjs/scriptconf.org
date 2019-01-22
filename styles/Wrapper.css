@@ -1,0 +1,16 @@
+.wrapper-content {
+  margin: 0 auto;
+  max-width: 1032px;
+  padding: 2rem;
+  position: relative;
+}
+
+.map {
+  width: 100%;
+  max-width: 550px;
+  position: relative;
+  margin: 1.5rem auto;
+  margin-bottom: 3rem;
+  display: block;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+}

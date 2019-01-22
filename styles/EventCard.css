@@ -57,3 +57,11 @@
   width: 100%;
   max-width: 450px;
 }
+
+.info-sheet p {
+  margin: 0;
+}
+
+.info-sheet {
+  margin: 1em 0;
+}

@@ -1,5 +1,7 @@
 import React, { FC } from "react"
 
+import { MdToday, MdLocationOn, MdLocationCity } from 'react-icons/md'
+
 import '../styles/EventCard.css'
 import Link from "next/link"
 
@@ -22,7 +24,11 @@ export const EventCard:FC<EventCardProps> =
   <div id={town.toLowerCase()} className="card">
     <div className="card-container">
       <h2>{title}</h2>
-      <p>{formatDate(date)} in {town}, {location}</p>
+      <div className="info-sheet">
+        <p><MdToday /> {formatDate(date)}</p>
+        <p><MdLocationCity/> {town}</p>
+        <p><MdLocationOn /> {location}</p>
+      </div>
       <p>
         <tito-button event={event} releases={releases}>
           Tickets <span className="hide-sm">@ EUR 399 incl.</span>

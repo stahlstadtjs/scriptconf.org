@@ -178,7 +178,7 @@ input[type=text].tito-ticket-donation-field {
 .tito-ticket-status span {
   background: #efefef;
   border-radius: 4px;
-  color: #adadad;
+  color: #555;
   display: inline-block;
   font-size: 14px;
   height: 34px;

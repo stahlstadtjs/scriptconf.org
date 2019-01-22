@@ -31,7 +31,7 @@ export default class extends Component {
           <DesignPatterns />
           <WorkshopsInclude />
         </Wrapper>
-        <Tito />
+        <Tito event="scriptconf/vitaly-linz-2019" />
         <Footer />
       </Layout>
     </>

@@ -31,7 +31,7 @@ export default class extends Component {
           <Ecommerce />
           <WorkshopsInclude />
         </Wrapper>
-        <Tito />
+        <Tito event="scriptconf/vitaly-vienna-2019" />
         <Footer />
       </Layout>
     </>

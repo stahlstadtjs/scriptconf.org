@@ -40,22 +40,32 @@ class Index extends Component {
               location="Location tba"
               date={new Date('2019-03-29')}
               town="Innsbruck"
+              event="scriptconf/vitaly-innsbruck-2019"
+              releases="trzs5bko8vk"
               detailsUrl="/innsbruck" />
             <EventCard
               title="Dirty Little Tricks From The Dark Corners of eCommerce"
               location="Location tba"
               date={new Date('2019-04-01')}
               town="Vienna"
+              event="scriptconf/vitaly-vienna-2019"
+              releases="n2svlwnt-40"
               detailsUrl="/vienna" />
             <EventCard
               title="Smart Responsive Interface Design Patterns"
               location="Domhotel"
               date={new Date('2019-04-02')}
               town="Linz"
+              event="scriptconf/vitaly-linz-2019"
+              releases="cwpepf9v0q0"
               detailsUrl="/linz" />
           </Wrapper>
         </div>
-        <Tito />
+        <Tito events={ [
+          "scriptconf/vitaly-innsbruck-2019",
+          "scriptconf/vitaly-vienna-2019",
+          "scriptconf/vitaly-linz-2019" 
+        ] } />
         <Footer />
       </Layout>
     </>

@@ -5,6 +5,7 @@ import { HeaderWithLogo } from '../components/Header';
 import { Layout } from '../components/Layout';
 import { Nav } from '../components/Nav';
 import { Tito } from '../components/Tito';
+import { Trainer } from '../components/Trainer';
 import { Wrapper } from '../components/Wrapper';
 import NewAdventures from '../content/adventures.mdx';
 import WorkshopsInclude from '../content/workshopsinclude.mdx';
@@ -13,7 +14,7 @@ import WorkshopsInclude from '../content/workshopsinclude.mdx';
 export default class extends Component {
 
   componentDidMount() {
-    if(typeof window !== 'undefined') {
+    if (typeof window !== 'undefined') {
       (window as any).TitoWidget.buildWidgets()
     }
   }
@@ -33,6 +34,7 @@ export default class extends Component {
           <WorkshopsInclude />
         </Wrapper>
         <Tito event="scriptconf/vitaly-vienna-2019" />
+        <Trainer />
         <Footer />
       </Layout>
     </>

@@ -17,7 +17,7 @@ export const Footer:FC<{}> = () => {
       <nav className="footer-nav-item">
         <strong className="footer-head">Connect with us</strong>
         <Link href="/legal-notice/#contact"><a className="footer-link">Contact</a></Link>
-        <Link href="/newsletter"><a className="footer-link">Newsletter</a></Link>
+        <Link href="/2018/newsletter"><a className="footer-link">Newsletter</a></Link>
         <a href="https://twitter.com/scriptconf"
           className="footer-link" target="_blank" rel="noopener noreferrer">Twitter</a>
         <a href="https://www.facebook.com/scriptconf/"

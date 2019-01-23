@@ -33,7 +33,7 @@ export default class extends Component {
           <NewAdventures />
           <WorkshopsInclude />
         </Wrapper>
-        <Tito event="scriptconf/vitaly-vienna-2019" />
+        <Tito event="scriptconf/vitaly-innsbruck-2019" />
         <Trainer />
         <Footer />
       </Layout>

@@ -1,0 +1,29 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+jobs:
+- job: PR
+  pool:
+    vmImage: 'macOS-10.13'
+
+  strategy:
+    maxParallel: 10
+    matrix:
+      node-10:
+        node_version: ^10.6.0
+
+  steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: $(node_version)
+    displayName: 'Install Node.js 🐍'
+
+  - script: |
+      npm install
+    displayName: 'Install dependencies'
+
+  - script: |
+      npm run all
+    displayName: 'Run everything 🥾'

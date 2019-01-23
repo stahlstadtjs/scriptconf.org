@@ -34,9 +34,9 @@ jobs:
       sshEndpoint: ScriptConf
       sourceFolder: ./out
       contents: '**' 
-      targetFolder: /var/www/scriptconf.org/test
+      targetFolder: /var/www/scriptconf.org/dist
+      cleanTargetFolder: true # Optional
     condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-      #cleanTargetFolder: false # Optional
       #overwrite: true # Optional
       #failOnEmptySource: false # Optional
       #flattenFolders: false # Optional

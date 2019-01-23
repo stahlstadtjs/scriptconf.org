@@ -31,6 +31,7 @@ export default class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.png" />
           <link rel="icon" type="image/png" sizes="96x96" href="/static/icons/favicon-96x96.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.png" />
+          <meta property="og:image" content="https://scriptconf.org/static/assets/twittercard.jpg" />
           <script src='https://js.tito.io/v1' async></script>
           <div dangerouslySetInnerHTML={{__html: `<script>
           window.titoWidgetCallback = function(){

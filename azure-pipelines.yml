@@ -27,3 +27,15 @@ jobs:
   - script: |
       npm run all
     displayName: 'Run everything 🥾'
+
+  - task: CopyFilesOverSSH@0
+    displayName: 'Moving online 💁‍♀️'
+    inputs:
+      sshEndpoint: ScriptConf
+      sourceFolder: ./out
+      contents: '**' 
+      targetFolder: /var/www/scriptconf.org/test
+      #cleanTargetFolder: false # Optional
+      #overwrite: true # Optional
+      #failOnEmptySource: false # Optional
+      #flattenFolders: false # Optional

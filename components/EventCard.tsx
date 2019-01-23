@@ -23,7 +23,7 @@ export const EventCard:FC<EventCardProps> =
   ({ title, date, town, location, detailsUrl, event="ultimateconf/2013", releases="3elajg6qcxu" }) => (
   <div id={town.toLowerCase()} className="card">
     <div className="card-container">
-      <h2>{title}</h2>
+      <h2><Link href={detailsUrl}><a>{title}</a></Link></h2>
       <div className="info-sheet">
         <p><MdToday /> {formatDate(date)}</p>
         <p><MdLocationCity/> {town}</p>

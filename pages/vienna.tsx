@@ -13,9 +13,9 @@ import WorkshopsInclude from '../content/workshopsinclude.mdx';
 export default class extends Component {
 
   componentDidMount() {
-    if (typeof window !== 'undefined') {
+    if(typeof window !== 'undefined' && typeof (window as any).TitoWidget !== 'undefined') {
       (window as any).TitoWidget.buildWidgets()
-    }
+    }  
   }
 
   render() {

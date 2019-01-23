@@ -16,7 +16,7 @@ class Index extends Component {
   render() {
     return <>
       <Head>
-        <title>ScriptConf presents: Workshops with</title>
+        <title>ScriptConf presents: Workshops with Vitaly Friedman</title>
       </Head>
       <Nav />
       <HeaderWithLogo />

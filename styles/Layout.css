@@ -13,7 +13,7 @@ body {
 }
 
 main {
-  min-height: calc(100vh - 400px);
+  min-height: calc(100vh - 450px);
 }
 
 h1, h2 {

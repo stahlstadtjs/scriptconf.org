@@ -16,7 +16,7 @@ export const Textpage:FC<{ title: string }> = ({ title, children }) => {
       <Wrapper>
         { children }
       </Wrapper>
-      <Footer />
     </Layout>
+    <Footer />
   </>
 }

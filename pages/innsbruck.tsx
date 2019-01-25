@@ -35,8 +35,8 @@ export default class extends Component {
         </Wrapper>
         <Tito event="scriptconf/vitaly-innsbruck-2019" />
         <Trainer />
-        <Footer />
       </Layout>
+      <Footer />
     </>
   }
 }

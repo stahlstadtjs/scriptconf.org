@@ -66,8 +66,8 @@ class Index extends Component {
           "scriptconf/vitaly-vienna-2019",
           "scriptconf/vitaly-linz-2019" 
         ] } />
-        <Footer />
       </Layout>
+      <Footer />
     </>
   }
 

@@ -36,7 +36,7 @@ class Index extends Component {
             <img src="/static/assets/austria.svg" className="map" alt="Map of Austria"/>
 
             <EventCard
-              title="New Adventures in Responsive Web Design"
+              title="New Adventures in Front-End, 2019 Edition"
               location="Location tba"
               date={new Date('2019-03-29')}
               town="Innsbruck"

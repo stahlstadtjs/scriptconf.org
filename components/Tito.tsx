@@ -30,7 +30,7 @@ export const Tito:FC<TitoProps> =
   }) => {
   let content;
   if(events) {
-    content = events.map(el => <TitoWidget event={el} />)
+    content = events.map((el, i) => <TitoWidget key={i} event={el} />)
   } else {
     content = <TitoWidget event={event} />
   }

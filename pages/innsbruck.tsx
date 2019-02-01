@@ -24,7 +24,7 @@ export default class extends Component {
       <Nav />
       <HeaderWithLogo>
         <div className="button-line">
-          <p>March 29, 2019 • Innsbruck • Location tba</p>
+          <p>March 29, 2019 • Innsbruck • Werkstätte Wattens</p>
           <H1>Vitaly Friedman in Innsbruck</H1>
         </div>
       </HeaderWithLogo>

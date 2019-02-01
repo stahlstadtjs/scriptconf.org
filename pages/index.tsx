@@ -37,7 +37,7 @@ class Index extends Component {
 
             <EventCard
               title="New Adventures in Front-End, 2019 Edition"
-              location="Location tba"
+              location="Werkstätte Wattens"
               date={new Date('2019-03-29')}
               town="Innsbruck"
               event="scriptconf/vitaly-innsbruck-2019"
@@ -45,7 +45,7 @@ class Index extends Component {
               detailsUrl="/innsbruck" />
             <EventCard
               title="Dirty Little Tricks From The Dark Corners of eCommerce"
-              location="Location tba"
+              location="25hours hotel"
               date={new Date('2019-04-01')}
               town="Vienna"
               event="scriptconf/vitaly-vienna-2019"

@@ -23,7 +23,7 @@ export default class extends Component {
       <Nav />
       <HeaderWithLogo>
         <div className="button-line">
-          <p>April 1, 2019 • Vienna • Location tba</p>
+          <p>April 1, 2019 • Vienna • 25hours hotel</p>
           <H1>Vitaly Friedman in Vienna</H1>
         </div>
       </HeaderWithLogo>

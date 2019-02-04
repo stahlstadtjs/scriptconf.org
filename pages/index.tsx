@@ -13,6 +13,8 @@ import VitalyBio from '../content/vitaly.mdx';
 import '../styles/Main.css';
 
 class Index extends Component {
+  built = false
+
   render() {
     return <>
       <Head>
@@ -74,7 +76,7 @@ class Index extends Component {
   componentDidMount() {
     if(typeof window !== 'undefined' && typeof (window as any).TitoWidget !== 'undefined') {
       (window as any).TitoWidget.buildWidgets()
-    }  
+    }
   }
 }
 

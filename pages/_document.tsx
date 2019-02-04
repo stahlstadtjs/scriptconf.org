@@ -34,10 +34,7 @@ export default class MyDocument extends Document {
           <meta name="twitter:image" content="https://scriptconf.org/static/assets/twittercard.jpg" />
           <meta name="twitter:creator" content="@scriptconf" />
           <script src='https://js.tito.io/v1' async></script>
-          <div dangerouslySetInnerHTML={{__html: `<script>
-          window.titoWidgetCallback = function(){
-             TitoWidget.build_widgets = false
-          }</script>`}}></div>
+          
         </Head>
         <body>
           <Main />

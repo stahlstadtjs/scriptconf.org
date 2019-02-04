@@ -74,7 +74,7 @@ class Index extends Component {
   componentDidMount() {
     if(typeof window !== 'undefined' && typeof (window as any).TitoWidget !== 'undefined') {
       (window as any).TitoWidget.buildWidgets()
-    }  
+    }
   }
 }
 

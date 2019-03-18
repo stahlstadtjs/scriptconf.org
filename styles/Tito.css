@@ -19,6 +19,8 @@
   border: none;
   color: white;
   max-width: 100%;
+  position: relative;
+  margin-bottom: 60px;
 }
 
 .tito-submit {
@@ -206,7 +208,7 @@ input[type=text].tito-ticket-donation-field {
   line-height: 1.42857143 !important;
   padding: 6px 12px !important;
   white-space: nowrap !important;
-  width: 200px
+  margin: 0
 }
 
 .btn.btn-default.btn-waitlist:hover {
@@ -278,7 +280,9 @@ input.form-control.tito-discount-code-field.discount-code-field {
 
 .tito-submit-wrapper {
   padding: 10px 0;
-  text-align: right
+  text-align: right;
+  position: absolute;
+  width: 100%;
 }
 
 .tito-ticket.tito-locked-ticket>div {

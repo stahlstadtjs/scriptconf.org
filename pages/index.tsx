@@ -53,7 +53,7 @@ class Index extends Component {
               detailsUrl="/vienna" />
             <EventCard
               title="Smart Responsive Interface Design Patterns"
-              location="Domhotel"
+              location="Hotel am Domplatz"
               date={new Date('2019-04-02')}
               town="Linz"
               event="scriptconf/vitaly-linz-2019"

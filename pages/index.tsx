@@ -1,81 +1,90 @@
-import Head from 'next/head';
-import { Component } from 'react';
-import { EventCard } from '../components/EventCard';
-import { Footer } from '../components/Footer';
-import { HeaderWithLogo } from '../components/Header';
-import { Hexagon } from '../components/Hexagon';
-import { Layout } from '../components/Layout';
-import { Nav } from "../components/Nav";
-import { Tito } from '../components/Tito';
-import { Wrapper } from '../components/Wrapper';
-import VitalyComes from '../content/linzaly.mdx';
-import VitalyBio from '../content/vitaly.mdx';
-import '../styles/Main.css';
+import "../styles/Index.css";
+import "../styles/TicketButton.css";
 
-class Index extends Component {
-  render() {
-    return <>
-      <Head>
-        <title>ScriptConf presents: Workshops with Vitaly Friedman</title>
-      </Head>
-      <Nav />
-      <HeaderWithLogo />
-      <Layout>
-        <Wrapper>
-          <Hexagon url="/static/assets/vitaly.jpg"
-            style={{ float: 'right', marginLeft: '2rem', marginBottom: '3rem' }}/>
-          <h1>Meet Vitaly Friedman, the creator of Smashing Magazine</h1>
-          <VitalyBio />
-        </Wrapper>
-        <div className="events">
-          <Wrapper>
-            <h2 style={{ clear: 'both' }}>Events</h2>
+import { useState } from "react";
 
-            <VitalyComes />
-
-            <img src="/static/assets/austria.svg" className="map" alt="Map of Austria"/>
-
-            <EventCard
-              title="New Adventures in Front-End, 2019 Edition"
-              location="Werkstätte Wattens"
-              date={new Date('2019-03-29')}
-              town="Innsbruck"
-              event="scriptconf/vitaly-innsbruck-2019"
-              releases="trzs5bko8vk"
-              detailsUrl="/innsbruck" />
-            <EventCard
-              title="Dirty Little Tricks From The Dark Corners of eCommerce"
-              location="25hours hotel"
-              date={new Date('2019-04-01')}
-              town="Vienna"
-              event="scriptconf/vitaly-vienna-2019"
-              releases="n2svlwnt-40"
-              detailsUrl="/vienna" />
-            <EventCard
-              title="Smart Responsive Interface Design Patterns"
-              location="Hotel am Domplatz"
-              date={new Date('2019-04-02')}
-              town="Linz"
-              event="scriptconf/vitaly-linz-2019"
-              releases="cwpepf9v0q0"
-              detailsUrl="/linz" />
-          </Wrapper>
-        </div>
-        <Tito events={ [
-          "scriptconf/vitaly-innsbruck-2019",
-          "scriptconf/vitaly-vienna-2019",
-          "scriptconf/vitaly-linz-2019" 
-        ] } />
-      </Layout>
-      <Footer />
-    </>
+export function SelectedImage({ selected }) {
+  if (selected !== "") {
+    return (
+      <>
+        <div
+          className="speaker-img ${selected}"
+          style={{
+            backgroundImage: `url("/static/assets/images/${selected}.jpg")`
+          }}
+        />
+        <div className={`speaker-color ${selected}`} />
+      </>
+    )
   }
-
-  componentDidMount() {
-    if(typeof window !== 'undefined' && typeof (window as any).TitoWidget !== 'undefined') {
-      (window as any).TitoWidget.buildWidgets()
-    }
-  }
+  return <></>
 }
 
-export default Index;
+export function TicketButton() {
+  return <a className="ticket-button" href="/"><span>Tickets start EUR 129</span></a>
+}
+
+export default function() {
+  const [selected, setSelected] = useState("");
+  return (
+    <>
+      <SelectedImage selected={selected} />
+      <TicketButton />
+      <main>
+        <div className="group">
+          <h1 className="block">
+            <span className="no-nope drop">script'19:</span>
+          </h1>
+          <p
+            onMouseOut={() => setSelected("")}
+            onMouseOver={() => setSelected("emma")}
+            className="block speaker"
+          >
+            <span className="drop">emma </span>
+            <span className="nope">wedekind</span>
+          </p>
+          <p
+            onMouseOut={() => setSelected("")}
+            onMouseOver={() => setSelected("harry")}
+            className="block speaker"
+          >
+            <span className="drop">harry </span>
+            <span className="nope">roberts</span>
+          </p>
+          <p
+            onMouseOut={() => setSelected("")}
+            onMouseOver={() => setSelected("sara")}
+            className="block speaker"
+          >
+            <span className="drop">sara </span>
+            <span className="nope">vieira</span>
+          </p>
+          <p
+            onMouseOut={() => setSelected("")}
+            onMouseOver={() => setSelected("vitaly")}
+            className="block speaker"
+          >
+            <span className="drop">vitaly </span>
+            <span className="nope">friedman</span>
+          </p>
+          <p className="block">
+            <span className="no-nope drop">... and more!</span>
+          </p>
+          <p className="block">
+            <span className="no-nope drop">october 25th - linz</span>
+          </p>
+        </div>
+      </main>
+      <section className="text">
+        <p className="about">
+          script'19 is the <span class="text-highlight">feelgood JavaScript conference</span>. talks may or may not 
+          contain JavaScript. but will definitely contain a lot of feelgood.
+        </p>
+        <p className="about">
+          we are <span className="text-highlight">independent</span>, <span className="text-highlight">community-driven</span>, 
+          <span className="text-highlight"> affordable</span> and <span className="text-highlight">inclusive.</span>
+        </p>
+      </section>
+    </>
+  )
+}

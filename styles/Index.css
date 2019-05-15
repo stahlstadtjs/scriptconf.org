@@ -1,0 +1,121 @@
+.block {
+  margin: 0;
+  font-size: 5rem;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+}
+
+.group {
+  margin-left: 14rem;
+}
+
+body {
+  color: #454545;
+}
+
+.nope {
+  opacity: 0;
+  padding-right: 0.5ch;
+}
+
+.no-nope {
+  padding-right: 0.5ch;
+}
+
+.drop {
+  background: white;
+  padding-left: 0.5ch;
+}
+
+.speaker:hover > .nope {
+  opacity: 1;
+  background: white;
+}
+
+.speaker:hover:nth-child(2) {
+  color: crimson;
+}
+
+.speaker:hover:nth-child(3) {
+  color: green;
+}
+
+.speaker:hover:nth-child(4) {
+  color: dodgerblue;
+}
+
+.speaker:hover:nth-child(5) {
+  color: hotpink;
+}
+
+.speaker {
+  cursor: pointer;
+}
+
+.speaker-color,
+.speaker-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  background-size: 420px 420px;
+  background-position: center;
+  height: 100vh;
+  z-index: 1;
+}
+
+.speaker-img {
+  filter: saturate(0%)
+}
+
+.speaker-color {
+  z-index: 2;
+  mix-blend-mode: overlay;
+}
+
+.speaker-color.emma {
+  background-color: crimson;
+}
+
+.speaker-color.harry {
+  background-color: green;
+}
+
+.speaker-color.sara {
+  background-color: dodgerblue;
+}
+
+.speaker-color.vitaly {
+  background-color: hotpink;
+}
+
+.text-highlight {
+  font-style: normal;
+  border-radius: 1em 0 1em 0;
+  text-shadow: 1px 1px 1px #fff;
+  background-image: 
+    linear-gradient(-100deg, 
+      rgba(255,250,150,0.25),
+      rgba(255,250,150,0.8) 100%, 
+      rgba(255,250,150,0.45)
+    );
+}
+
+.text {
+  margin: 0 auto;
+  max-width: 50rem;
+  font-family: Helvetica, sans-serif;
+}
+
+.about {
+  font-size: 2rem;
+  line-height: 1.6em;
+}

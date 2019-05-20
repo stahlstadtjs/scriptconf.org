@@ -1,10 +1,10 @@
 import { FC } from 'react';
-import { H1 } from '../components/DocHeadline';
-import { Footer } from '../components/Footer';
-import { Header } from '../components/Header';
-import { Layout } from '../components/Layout';
-import { Nav } from '../components/Nav';
-import { Wrapper } from '../components/Wrapper';
+import { H1 } from './DocHeadline';
+import { Footer } from './Footer';
+import { Header } from './Header';
+import { Layout } from './Layout';
+import { Nav } from './Nav';
+import { Wrapper } from './Wrapper';
 
 export const Textpage:FC<{ title: string }> = ({ title, children }) => {
   return <>

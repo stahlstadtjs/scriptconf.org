@@ -2,10 +2,10 @@ import React, { FC } from "react"
 
 import { MdToday, MdLocationOn, MdLocationCity } from 'react-icons/md'
 
-import '../styles/EventCard.css'
+import '../../styles/EventCard.css'
 import Link from "next/link"
 
-import { formatDate } from '../tools/date'
+import { formatDate } from '../../tools/date'
 
 React.createElement('tito-button')
 

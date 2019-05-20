@@ -3,11 +3,23 @@
   transform: rotate(45deg);
   transform-origin: 0 0; 
   display: block;
-  right: 0;
+  right: -44.5rem;
   padding: 5rem;
   padding-bottom: 0.5rem;
+  padding-top: 50rem;
+  top: -37rem;
   text-align: center;
-  background-color: red;
+  background-color: #f7df1e;
+  border-bottom: 2px solid #454545;
+  color: #454545;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
   font-size: 1.5rem;
   z-index: 3;
+  transition: background-color 0.5s ease;
+}
+
+.ticket-button:hover {
+  background-color: hotpink;
 }

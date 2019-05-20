@@ -1,10 +1,10 @@
 import { FC } from 'react';
 import Link from 'next/link';
 
-import '../styles/Footer.css';
+import '../../styles/Footer.css';
 
-export const Footer:FC<{}> = () => {
-  return <div className="footer-area">
+export const Footer:FC<{ additional?: string}> = ({ additional }) => {
+  return <div className={`footer-area ${additional ? additional : ''}`}>
     <section className="copyright">ScriptConf © { new Date().getFullYear() }</section>
     <section className="footer-nav">
       <nav className="footer-nav-item">

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import '../styles/Hexagon.css';
+import '../../styles/Hexagon.css';
 
 
 export const Hexagon:FC<{ url: string, style?: {} }> = ({ url, style = {} }) => {

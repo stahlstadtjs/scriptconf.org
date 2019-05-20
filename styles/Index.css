@@ -1,8 +1,10 @@
-.block {
+.speaker-block {
   margin: 0;
   font-size: 5rem;
   font-family: "Helvetica", sans-serif;
   font-weight: bold;
+  margin-left: -0.5ch;
+  line-height: 1.15em;
 }
 
 main {
@@ -13,12 +15,11 @@ main {
   position: relative;
 }
 
-.group {
-  margin-left: 14rem;
-}
-
 body {
   color: #454545;
+  overflow-x: hidden;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
 }
 
 .nope {
@@ -109,13 +110,19 @@ body {
     );
 }
 
+.group,
 .text {
   margin: 0 auto;
   max-width: 50rem;
+  width: 100%;
   font-family: Helvetica, sans-serif;
 }
 
 .about {
   font-size: 2rem;
   line-height: 1.6em;
+}
+
+.text {
+  margin-bottom: 5rem;
 }

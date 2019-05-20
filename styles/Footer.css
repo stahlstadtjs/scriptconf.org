@@ -15,11 +15,24 @@
   background-color: #2f2f2c;
 }
 
+.white.footer-area {
+  background-color: white;
+  color: #454545;
+  max-width: 50rem;
+  margin: 0 auto;
+  width: 1005;
+}
+
 .footer-area a,
 .footer-area a:visited {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
+}
+
+.white.footer-area a,
+.white.footer-area a:visited {
+  color: #222222;
 }
 
 .footer-area a:hover,
@@ -39,10 +52,19 @@
   line-height: 2em;
 }
 
+.white.footer-area .footer-nav {
+  border-top: 1px solid #ccc;
+}
+
 .footer-head {
   font-weight: 400;
   display: block;
   color: #ccc;
+}
+
+.white.footer-area .copyright,
+.white.footer-area .footer-head {
+  color: #666;
 }
 
 .footer-nav-item {

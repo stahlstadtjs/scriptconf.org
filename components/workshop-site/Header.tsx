@@ -1,7 +1,7 @@
 import { FC } from 'react';
-import { Button } from '../components/Button';
-import { Logo } from '../components/Logo';
-import '../styles/Header.css';
+import { Button } from './Button';
+import { Logo } from './Logo';
+import '../../styles/Header.css';
 
 export const Header:FC<{}> = ({ children }) => {
   return <div className="masthead gradient photo">

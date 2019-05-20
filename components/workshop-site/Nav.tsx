@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { FC } from 'react';
-import { ScriptConfLogo } from '../components/HeaderLogo'
+import { ScriptConfLogo } from './HeaderLogo'
 
-import '../styles/Nav.css'
+import '../../styles/Nav.css'
 
 export const Nav:FC<{}> = () => <nav className="nav">
   <div className="nav-wrapper">

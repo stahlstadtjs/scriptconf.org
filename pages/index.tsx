@@ -32,7 +32,7 @@ export default function() {
       <section className="text">
         <p className="about">
           script'19 is the{" "}
-          <span class="text-highlight">feelgood JavaScript conference</span>.
+          <span className="text-highlight">feelgood JavaScript conference</span>.
           talks may or may not contain JavaScript. but will definitely contain a
           lot of feelgood.
         </p>

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import VitalyBio from '../content/vitaly.mdx';
+import VitalyBio from '../../content/vitaly.mdx';
 import { Hexagon } from "./Hexagon";
 import { Wrapper } from "./Wrapper";
 

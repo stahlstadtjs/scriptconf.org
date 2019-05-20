@@ -4,6 +4,8 @@
   height: 99vh;
   grid-template-columns: 1fr 1fr 1fr;
   position: relative;
+  margin: 0 auto;
+  max-width: 100rem;
 }
 
 .grid img, 

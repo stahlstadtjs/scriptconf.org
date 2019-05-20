@@ -1,17 +1,3 @@
-.speaker-block {
-  margin: 0;
-  font-size: 5rem;
-  font-family: "Helvetica", sans-serif;
-  font-weight: bold;
-  margin-left: -0.5ch;
-  line-height: 1.15em;
-}
-
-.speaker-block a,
-.speaker-block a:visited {
-  color: #454545;
-}
-
 main {
   min-height: 100vh;
   display: flex;
@@ -123,6 +109,20 @@ body {
   background-color: hotpink;
 }
 
+.speaker-block {
+  margin: 0;
+  font-size: 5rem;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  margin-left: -0.5ch;
+  line-height: 1.15em;
+}
+
+.speaker-block a,
+.speaker-block a:visited {
+  color: #454545;
+}
+
 .about em,
 .text-highlight {
   font-style: normal;
@@ -140,6 +140,8 @@ body {
 .text {
   margin: 0 auto;
   max-width: 50rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   width: 100%;
   font-family: Helvetica, sans-serif;
 }
@@ -162,4 +164,65 @@ a {
 
 a:visited {
   color: dodgerblue;
+}
+
+@media (max-width: 832px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 660px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 550px) {
+  .group > * {
+    display: inline-block;
+    font-size: 3rem;
+  }
+
+  main {
+    min-height: 0;
+  }
+
+  .nope {
+    opacity: 1;
+  }
+
+  .group {
+    margin-top: 3rem;
+    padding-right: 12rem;
+  }
+
+  .speaker-img {
+    display: none;
+  }
+
+  .speaker:nth-child(2) a {
+    color: crimson;
+  }
+
+  .speaker:nth-child(3) a {
+    color: green;
+  }
+
+  .speaker:nth-child(4) a {
+    color: dodgerblue;
+  }
+
+  .speaker:nth-child(5) a{
+    color: hotpink;
+  }
+
+  .speaker-color {
+    display: none;
+  }
+
+  .group,
+  .text {
+    width: auto;
+  }
 }

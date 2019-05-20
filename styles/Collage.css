@@ -106,3 +106,19 @@
 .grid > :nth-child(5) > img {
   object-position: 50% 10%;
 }
+
+@media (max-width: 550px) {
+
+  .grid {
+    height: 45rem;
+  }
+
+  .grid > div > img {
+    height: 15rem;
+  }
+
+  .grid > :nth-child(3) > video,
+  .grid > :nth-child(2) > img {
+    height: 30rem;
+  }
+}

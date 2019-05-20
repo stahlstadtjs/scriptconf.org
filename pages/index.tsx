@@ -14,7 +14,10 @@ export default function() {
   const [selected, setSelected] = useState("");
   return (
     <>
-      <Head><title>Script'19 - The feelgood JavaScript conference</title></Head>
+      <Head>
+        <title>Script'19 - The feelgood JavaScript conference</title>
+        <link rel="preload" href="/static/assets/tobi2.mp4" as="video"/>
+      </Head>
       <SelectedImage selected={selected} />
       <TicketButton />
       <main>

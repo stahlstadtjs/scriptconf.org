@@ -23,3 +23,9 @@
 .ticket-button:hover {
   background-color: hotpink;
 }
+
+@media (max-width: 550px) {
+  .ticket-button {
+    padding-top: 48rem;
+  }
+}

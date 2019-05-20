@@ -194,7 +194,7 @@ a:visited {
 
   .group {
     margin-top: 3rem;
-    padding-right: 12rem;
+    padding-right: 2rem;
   }
 
   .speaker-img {
@@ -224,5 +224,13 @@ a:visited {
   .group,
   .text {
     width: auto;
+  }
+
+  .drop {
+    padding-left: 0;
+  }
+  
+  .speaker-block {
+    margin-left: 0;
   }
 }

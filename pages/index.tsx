@@ -7,12 +7,14 @@ import { Speaker } from "../components/2019-bold/Speaker";
 import { Collage } from "../components/2019-bold/Collage";
 import About from '../content/2019-about.mdx';
 import Join from '../content/2019-join.mdx';
+import Head from "next/head";
 
 
 export default function() {
   const [selected, setSelected] = useState("");
   return (
     <>
+      <Head><title>Script'19 - The feelgood JavaScript conference</title></Head>
       <SelectedImage selected={selected} />
       <TicketButton />
       <main>

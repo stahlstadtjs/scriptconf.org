@@ -234,3 +234,7 @@ a:visited {
     margin-left: 0;
   }
 }
+
+#_next {
+  overflow-x: hidden;
+}

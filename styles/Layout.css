@@ -2,21 +2,21 @@
  box-sizing: border-box;
 }
 
-main {
+.vitaly-ws main {
   min-height: calc(100vh - 450px);
 }
 
-h1, h2 {
+.vitaly-ws h1, .vitaly-ws h2 {
   line-height: 1.2em;
   margin-top: 0;
 }
 
-a {
+.vitaly-ws a {
   color: #3f5cb8;
   transition: all 0.3s ease;
 }
 
-a:hover {
+.vitaly-ws a:hover {
   color: #513fb8;
 }
 
@@ -38,17 +38,17 @@ a:hover {
   }
 }
 
-figure {
+.vitaly-ws figure {
   width: calc(100% + 1rem);
   margin: 0 -1rem;
   padding: 1rem 0;
   text-align: center;
 }
 
-figure img {
+.vitaly-ws figure img {
   max-width: 100%;
 }
 
-figcaption {
+.vitaly-ws figcaption {
   font-style: italic;
 }

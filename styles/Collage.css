@@ -5,7 +5,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   position: relative;
   margin: 0 auto;
-  max-width: 100rem;
+  max-width: 60rem;
+  grid-gap: 1rem;
 }
 
 .grid img, 

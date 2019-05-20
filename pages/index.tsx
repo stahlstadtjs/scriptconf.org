@@ -5,6 +5,9 @@ import { Footer } from "../components/workshop-site/Footer";
 import "../styles/Index.css";
 import { Speaker } from "../components/2019-bold/Speaker";
 import { Collage } from "../components/2019-bold/Collage";
+import About from '../content/2019-about.mdx';
+import Join from '../content/2019-join.mdx';
+
 
 export default function() {
   const [selected, setSelected] = useState("");
@@ -29,21 +32,13 @@ export default function() {
           </p>
         </div>
       </main>
-      <section className="text">
-        <p className="about">
-          script'19 is the{" "}
-          <span className="text-highlight">feelgood JavaScript conference</span>.
-          talks may or may not contain JavaScript. but will definitely contain a
-          lot of feelgood.
-        </p>
-        <p className="about">
-          we are <span className="text-highlight">independent</span>,{" "}
-          <span className="text-highlight">community-driven</span>,
-          <span className="text-highlight"> affordable</span> and{" "}
-          <span className="text-highlight">inclusive.</span>
-        </p>
+      <section className="text about">
+        <About />
       </section>
       <Collage />
+      <section className="text about">
+        <Join />
+      </section>
       <Footer additional="white"></Footer>
     </>
   );

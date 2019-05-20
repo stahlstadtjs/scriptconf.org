@@ -7,6 +7,11 @@
   line-height: 1.15em;
 }
 
+.speaker-block a,
+.speaker-block a:visited {
+  color: #454545;
+}
+
 main {
   height: 100vh;
   display: flex;
@@ -36,29 +41,44 @@ body {
   padding-left: 0.5ch;
 }
 
-.speaker:hover > .nope {
+.speaker:hover a > .nope {
   opacity: 1;
   background: white;
 }
 
-.speaker:hover:nth-child(2) {
+.emma h1,
+.speaker:hover:nth-child(2) a {
   color: crimson;
 }
 
-.speaker:hover:nth-child(3) {
+.speaker-detail h1 {
+  font-size: 5rem;
+}
+
+.speaker:hover:nth-child(3) a {
   color: green;
 }
 
-.speaker:hover:nth-child(4) {
+.speaker:hover:nth-child(4) a {
   color: dodgerblue;
 }
 
-.speaker:hover:nth-child(5) {
+.speaker:hover:nth-child(5) a{
   color: hotpink;
 }
 
 .speaker {
   cursor: pointer;
+}
+
+.speaker-detail p {
+  background-color: white;
+}
+
+.speaker-detail-image {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
 }
 
 .speaker-color,
@@ -98,6 +118,7 @@ body {
   background-color: hotpink;
 }
 
+.about em,
 .text-highlight {
   font-style: normal;
   border-radius: 1em 0 1em 0;
@@ -123,6 +144,17 @@ body {
   line-height: 1.6em;
 }
 
-.text {
+.text:not(:first-of-type) {
   margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: dodgerblue;
+}
+
+a:visited {
+  color: dodgerblue;
 }

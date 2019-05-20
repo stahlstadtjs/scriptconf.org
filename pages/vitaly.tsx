@@ -1,8 +1,8 @@
-import Emma from '../content/2019/emma.mdx'
+import Vitaly from '../content/2019/vitaly.mdx'
 import { SpeakerDetail } from '../components/2019-bold/SpeakerDetail';
 
 export default function() {
-  return <SpeakerDetail first="emma" last="wedekind">
-    <Emma />
+  return <SpeakerDetail first="vitaly" last="friedman">
+    <Vitaly />
   </SpeakerDetail>
 }

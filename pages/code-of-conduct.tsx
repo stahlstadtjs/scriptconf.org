@@ -1,4 +1,4 @@
-import { Textpage } from '../components/workshop-site/Textpage';
+import { Textpage } from '../components/2019-bold/Textpage';
 import Content from '../content/code-of-conduct.mdx';
 
 export default () => {

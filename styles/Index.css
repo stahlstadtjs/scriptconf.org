@@ -13,7 +13,7 @@
 }
 
 main {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   z-index: 2;
@@ -55,14 +55,17 @@ body {
   font-size: 5rem;
 }
 
+.harry h1,
 .speaker:hover:nth-child(3) a {
   color: green;
 }
 
+.sara h1,
 .speaker:hover:nth-child(4) a {
   color: dodgerblue;
 }
 
+.vitaly h1,
 .speaker:hover:nth-child(5) a{
   color: hotpink;
 }
@@ -76,9 +79,11 @@ body {
 }
 
 .speaker-detail-image {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
+  float: right;
+  width: 300px;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 .speaker-color,

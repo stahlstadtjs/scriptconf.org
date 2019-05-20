@@ -17,7 +17,7 @@ export function Collage() {
       </div>
       <div>
         <video
-          src="/static/assets/tobi2.mp4"
+          src="/static/assets/tobi.mp4"
           autoPlay={true}
           muted={true}
           loop={true}

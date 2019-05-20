@@ -16,7 +16,7 @@ export default function() {
     <>
       <Head>
         <title>Script'19 - The feelgood JavaScript conference</title>
-        <link rel="preload" href="/static/assets/tobi2.mp4" as="video"/>
+        <link rel="preload" href="/static/assets/tobi.mp4" as="video"/>
       </Head>
       <SelectedImage selected={selected} />
       <TicketButton />

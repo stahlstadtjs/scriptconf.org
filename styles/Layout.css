@@ -28,10 +28,6 @@
   margin: -1px; padding: 0; border: 0; 
 }
 
-.content a {
-  text-decoration: underline;
-}
-
 @media(min-width: 800px) {
   .article {
     margin-left: 2rem;

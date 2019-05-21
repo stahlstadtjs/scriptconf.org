@@ -23,7 +23,7 @@ export default function() {
       <div className="more">👇</div>
       <main>
         <div className="group">
-          <h1 className="speaker-block">
+          <h1 className="speaker-block reduced">
             <span className="no-nope drop">script'19:</span>
           </h1>
           <Speaker first="emma" last="wedekind" selectedFn={setSelected} />
@@ -33,7 +33,7 @@ export default function() {
           <p className="speaker-block">
             <span className="no-nope drop">... and more!</span>
           </p>
-          <p className="speaker-block">
+          <p className="speaker-block reduced">
             <span className="no-nope drop">october 25th - linz</span>
           </p>
         </div>

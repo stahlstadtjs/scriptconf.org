@@ -255,8 +255,8 @@ a:visited {
   }
 }
 
-#__next {
-  overflow-x: hidden;
+.reduced {
+  color: #666;
 }
 
 .more {

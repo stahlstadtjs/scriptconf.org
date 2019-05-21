@@ -82,15 +82,19 @@ body {
   background-position: center;
   height: 100vh;
   z-index: 1;
+  display: none;
 }
 
 .speaker-img {
   filter: saturate(0%)
 }
 
-.speaker-color {
-  z-index: 2;
-  mix-blend-mode: overlay;
+@supports(mix-blend-mode: overlay) {
+  .speaker-color {
+    display: block;
+    z-index: 2;
+    mix-blend-mode: overlay;
+  }  
 }
 
 .speaker-color.emma {
@@ -232,6 +236,15 @@ a:visited {
   
   .speaker-block {
     margin-left: 0;
+  }
+
+  .speaker-detail-image {
+    width: 170px;
+  }
+
+  .speaker-detail h1 {
+    max-width: 75%;
+    line-height: 1em;
   }
 }
 

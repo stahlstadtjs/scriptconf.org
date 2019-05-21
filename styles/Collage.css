@@ -28,17 +28,20 @@
   position: relative;
 }
 
-.grid div:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: crimson;
-  mix-blend-mode: color;
-  transition: all 0.3s ease;
+@supports(mix-blend-mode: color) {
+  .grid div:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: crimson;
+    mix-blend-mode: color;
+    transition: all 0.3s ease;
+  }
 }
+
 
 .grid div:nth-child(2):after {
   background-color: hotpink;

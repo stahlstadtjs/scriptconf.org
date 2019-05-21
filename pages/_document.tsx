@@ -37,7 +37,6 @@ export default class MyDocument extends Document {
           <meta name="twitter:title" content="Script'19 - The feelgood JavaScript conference" />
           <meta name="twitter:image" content="https://scriptconf.org/static/assets/twittercard.jpg" />
           <meta name="twitter:creator" content="@scriptconf" />
-          <script src='https://js.tito.io/v1' async></script>
           
         </Head>
         <body>

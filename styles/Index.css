@@ -27,12 +27,14 @@ body {
   padding-left: 0.5ch;
 }
 
+.speaker a:focus > .nope, 
 .speaker:hover a > .nope {
   opacity: 1;
   background: white;
 }
 
 .emma h1,
+.speaker:nth-child(2) a:focus,
 .speaker:hover:nth-child(2) a {
   color: crimson;
 }
@@ -42,16 +44,19 @@ body {
 }
 
 .harry h1,
+.speaker:nth-child(3) a:focus,
 .speaker:hover:nth-child(3) a {
   color: green;
 }
 
 .sara h1,
+.speaker:nth-child(4) a:focus,
 .speaker:hover:nth-child(4) a {
   color: dodgerblue;
 }
 
 .vitaly h1,
+.speaker:nth-child(5) a:focus,
 .speaker:hover:nth-child(5) a{
   color: hotpink;
 }
@@ -264,4 +269,18 @@ a:visited {
   top: 90vh;
   font-size: 4rem;
   left: 50%;
+  animation: bounce 2s 4;
+}
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }

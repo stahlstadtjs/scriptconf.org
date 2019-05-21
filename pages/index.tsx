@@ -20,6 +20,7 @@ export default function() {
       </Head>
       <SelectedImage selected={selected} />
       <TicketButton />
+      <div className="more">👇</div>
       <main>
         <div className="group">
           <h1 className="speaker-block">

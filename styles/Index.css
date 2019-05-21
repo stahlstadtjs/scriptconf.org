@@ -82,6 +82,9 @@ body {
   background-position: center;
   height: 100vh;
   z-index: 1;
+}
+
+.speaker-color {
   display: none;
 }
 
@@ -246,8 +249,19 @@ a:visited {
     max-width: 75%;
     line-height: 1em;
   }
+
+  .more {
+    display: none;
+  }
 }
 
 #__next {
   overflow-x: hidden;
+}
+
+.more {
+  position: absolute;
+  top: 90vh;
+  font-size: 4rem;
+  left: 50%;
 }

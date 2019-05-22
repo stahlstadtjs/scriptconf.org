@@ -17,7 +17,7 @@ export const Footer:FC<{ additional?: string}> = ({ additional }) => {
       </nav>
       <nav className="footer-nav-item">
         <strong className="footer-head">Connect with us</strong>
-        <Link href="/legal-notice/#contact"><a className="footer-link">Contact</a></Link>
+        <Link href="/legal-notice"><a className="footer-link">Contact</a></Link>
         <a href="https://scriptconf.org/2018/newsletter/" className="footer-link">Newsletter</a>
         <a href="https://twitter.com/scriptconf"
           className="footer-link" target="_blank" rel="noopener noreferrer">Twitter</a>

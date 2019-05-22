@@ -28,14 +28,14 @@ body {
 }
 
 .speaker a:focus > .nope, 
-.speaker:hover a > .nope {
+.speaker a:hover > .nope {
   opacity: 1;
   background: white;
 }
 
 .emma h1,
 .speaker:nth-child(2) a:focus,
-.speaker:hover:nth-child(2) a {
+.speaker:nth-child(2) a:hover {
   color: crimson;
 }
 
@@ -45,19 +45,19 @@ body {
 
 .harry h1,
 .speaker:nth-child(3) a:focus,
-.speaker:hover:nth-child(3) a {
+.speaker:nth-child(3) a:hover {
   color: green;
 }
 
 .sara h1,
 .speaker:nth-child(4) a:focus,
-.speaker:hover:nth-child(4) a {
+.speaker:nth-child(4) a:hover {
   color: dodgerblue;
 }
 
 .vitaly h1,
 .speaker:nth-child(5) a:focus,
-.speaker:hover:nth-child(5) a{
+.speaker:nth-child(5) a:hover {
   color: hotpink;
 }
 

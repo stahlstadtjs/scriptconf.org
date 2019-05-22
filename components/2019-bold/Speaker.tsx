@@ -7,14 +7,14 @@ type SpeakerProps = {
 };
 export function Speaker({ first, last, selectedFn }: SpeakerProps) {
   return (
-    <h2
-      onMouseOut={() => selectedFn("")}
-      onMouseOver={() => selectedFn(first)}
-      className="speaker-block speaker"
-    >
+    <h2 className="speaker-block speaker">
       <Link href={`/${first}`}>
-        <a onFocus={() => selectedFn(first)}
-           onBlur={() => selectedFn("")}>
+        <a
+          onMouseOut={() => selectedFn("")}
+          onMouseOver={() => selectedFn(first)}
+          onFocus={() => selectedFn(first)}
+          onBlur={() => selectedFn("")}
+        >
           <span className="drop">{first} </span>
           <span className="nope">{last}</span>
         </a>

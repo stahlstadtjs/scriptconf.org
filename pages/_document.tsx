@@ -32,10 +32,10 @@ export default class MyDocument extends Document {
           <link rel="preload" href="/static/assets/images/harry.jpg" as="image"/>
           <link rel="preload" href="/static/assets/images/vitaly.jpg" as="image"/>
           <link rel="preload" href="/static/assets/images/sara.jpg" as="image"/>
-          <meta property="og:image" content="https://scriptconf.org/static/assets/twittercard-neu.jpg" />
+          <meta property="og:image" content="https://scriptconf.org/static/assets/twittercard-script-19-pink.jpg" />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="Script'19 - The feelgood JavaScript conference" />
-          <meta name="twitter:image" content="https://scriptconf.org/static/assets/twittercard-neu.jpg" />
+          <meta name="twitter:image" content="https://scriptconf.org/static/assets/twittercard-script-19-pink.jpg" />
           <meta name="twitter:creator" content="@scriptconf" />
           
         </Head>

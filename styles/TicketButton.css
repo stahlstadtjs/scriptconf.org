@@ -1,0 +1,78 @@
+.ticket-button {
+  width: 12.1em;
+  height: 12.1em;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  pointer-events: none;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-indent: -999999px;
+}
+
+
+.ticket-button:hover, .ticket-button:active {
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+.ticket-button:before, .ticket-button:after {
+  /* The right and left classes determine the side we attach our banner to */
+  position: absolute;
+  display: block;
+  width: 15.38em;
+  height: 1.54em;
+  
+  top: 3.23em;
+  right: -3.23em;
+  
+  box-sizing: content-box;
+
+  transform: rotate(45deg);
+}
+
+.ticket-button:before {
+  content: "";
+
+  /* Add a bit of padding to give some substance outside the "stitching" */
+  padding: .38em 0;
+
+  /* Set the base colour */
+  background-color: #f7df1e;
+
+  
+  /* Add a drop shadow */
+  box-shadow: 0 0 .23em 0 #454545;
+
+  pointer-events: auto;
+  transition: background-color 0.5s ease;
+}
+
+.ticket-button:hover:before {
+  background-color: hotpink;
+}
+
+
+.ticket-button:after {
+  /* Set the text from the data-ribbon attribute */
+  content: attr(data-ribbon);
+
+  /* Set the text properties */
+  color: dogerblue;
+  font: 700 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.54em;
+  text-decoration: none;
+  text-align: center;
+  text-indent: 0;
+
+  /* Set the layout properties */
+  padding: .15em 0;
+  margin: .15em 0;
+
+  /* Add "stitching" effect */
+  border-width: .08em 0;
+  border-style: dotted;
+  border-color: #fff;
+  border-color: rgba(255, 255, 255, 0.7);
+}

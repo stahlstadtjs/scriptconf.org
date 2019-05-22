@@ -1,6 +1,6 @@
 
 import { FC } from 'react';
-import '../styles/Tito.css';
+import '../../styles/Tito.css';
 import { Wrapper } from './Wrapper';
 
 type TitoProps = { 

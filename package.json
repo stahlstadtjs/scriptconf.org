@@ -17,7 +17,6 @@
     "compression": "^1.7.3",
     "express": "^4.16.3",
     "isomorphic-unfetch": "^2.1.1",
-    "linkifyjs": "^2.1.7",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",

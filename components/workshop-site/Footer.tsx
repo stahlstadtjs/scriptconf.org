@@ -1,14 +1,15 @@
 import { FC } from 'react';
 import Link from 'next/link';
 
-import '../styles/Footer.css';
+import '../../styles/Footer.css';
 
-export const Footer:FC<{}> = () => {
-  return <div className="footer-area">
+export const Footer:FC<{ additional?: string}> = ({ additional }) => {
+  return <div className={`footer-area ${additional ? additional : ''}`}>
     <section className="copyright">ScriptConf © { new Date().getFullYear() }</section>
     <section className="footer-nav">
       <nav className="footer-nav-item">
         <strong className="footer-head">About ScriptConf</strong>
+        <Link href="/"><a className="footer-link">Home</a></Link>
         <Link href="/about"><a className="footer-link">About</a></Link>
         <Link href="/legal-notice"><a className="footer-link">Legal notice</a></Link>
         <Link href="/faq"><a className="footer-link">FAQ</a></Link>
@@ -16,8 +17,8 @@ export const Footer:FC<{}> = () => {
       </nav>
       <nav className="footer-nav-item">
         <strong className="footer-head">Connect with us</strong>
-        <Link href="/legal-notice/#contact"><a className="footer-link">Contact</a></Link>
-        <Link href="/2018/newsletter"><a className="footer-link">Newsletter</a></Link>
+        <Link href="/legal-notice"><a className="footer-link">Contact</a></Link>
+        <a href="https://scriptconf.org/2018/newsletter/" className="footer-link">Newsletter</a>
         <a href="https://twitter.com/scriptconf"
           className="footer-link" target="_blank" rel="noopener noreferrer">Twitter</a>
         <a href="https://www.facebook.com/scriptconf/"

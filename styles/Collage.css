@@ -1,0 +1,127 @@
+.grid {
+  display: grid;
+  width: 100%;
+  height: 99vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  margin: 0 auto;
+  max-width: 60rem;
+  grid-gap: 1rem;
+}
+
+.grid img, 
+.grid video {
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+  height: 33vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.grid div:hover img, 
+.grid div:hover video {
+  filter: grayscale(0%);
+}
+
+.grid div {
+  overflow: hidden;
+  position: relative;
+}
+
+@supports(mix-blend-mode: color) {
+  .grid div:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: crimson;
+    mix-blend-mode: color;
+    transition: all 0.3s ease;
+  }
+}
+
+
+.grid div:nth-child(2):after {
+  background-color: hotpink;
+}
+
+.grid div:nth-child(3):after {
+  background-color: green;
+}
+
+.grid div:nth-child(4):after {
+  background-color: dodgerblue;
+}
+
+.grid div:nth-child(5):after {
+  background-color: #f7df1e;
+}
+
+.grid div:nth-child(6):after {
+  background-color: orange;
+}
+
+
+
+.grid div:hover:after {
+  opacity: 0;
+}
+
+.grid > :nth-child(1) {
+  grid-column: 1 / 3;
+}
+
+
+.grid > :nth-child(1) > img {
+  max-height: 33vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 30%;
+}
+
+.grid > :nth-child(2) {
+  grid-column: 3;
+  grid-row: 1 / 3;
+}
+
+.grid > :nth-child(2) > img {
+  width: 100%;
+  height: 66vh;
+  object-fit: cover;
+}
+
+.grid > :nth-child(3) {
+  grid-column: 1;
+  grid-row: 2 / 4;
+}
+
+.grid > :nth-child(3) > video {
+  height: 66vh;
+  object-position: 70% 100%;
+}
+
+.grid > :nth-child(4) > img {
+  object-position: 50% 40%;
+}
+
+.grid > :nth-child(5) > img {
+  object-position: 50% 10%;
+}
+
+@media (max-width: 550px) {
+
+  .grid {
+    height: 45rem;
+  }
+
+  .grid > div > img {
+    height: 15rem;
+  }
+
+  .grid > :nth-child(3) > video,
+  .grid > :nth-child(2) > img {
+    height: 30rem;
+  }
+}

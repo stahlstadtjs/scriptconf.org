@@ -1,8 +1,8 @@
-import { Textpage } from '../components/Textpage';
+import { Textpage } from '../components/2019-bold/Textpage';
 import Content from '../content/faq.mdx';
 
 export default () => {
-  return <Textpage title="Frequently Asked Questions">
+  return <Textpage title="FAQ">
     <Content />
   </Textpage>
 }

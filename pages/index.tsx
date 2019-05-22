@@ -1,81 +1,51 @@
-import Head from 'next/head';
-import { Component } from 'react';
-import { EventCard } from '../components/EventCard';
-import { Footer } from '../components/Footer';
-import { HeaderWithLogo } from '../components/Header';
-import { Hexagon } from '../components/Hexagon';
-import { Layout } from '../components/Layout';
-import { Nav } from "../components/Nav";
-import { Tito } from '../components/Tito';
-import { Wrapper } from '../components/Wrapper';
-import VitalyComes from '../content/linzaly.mdx';
-import VitalyBio from '../content/vitaly.mdx';
-import '../styles/Main.css';
+import { useState } from "react";
+import { SelectedImage } from "../components/2019-bold/SelectedImage";
+import { TicketButton } from "../components/2019-bold/TicketButton";
+import { Footer } from "../components/workshop-site/Footer";
+import "../styles/Index.css";
+import { Speaker } from "../components/2019-bold/Speaker";
+import { Collage } from "../components/2019-bold/Collage";
+import About from '../content/2019-about.mdx';
+import Join from '../content/2019-join.mdx';
+import Head from "next/head";
 
-class Index extends Component {
-  render() {
-    return <>
+
+export default function() {
+  const [selected, setSelected] = useState("");
+  return (
+    <>
       <Head>
-        <title>ScriptConf presents: Workshops with Vitaly Friedman</title>
+        <title>Script'19 - The feelgood JavaScript conference</title>
+        <link rel="preload" href="/static/assets/tobi.mp4" as="video"/>
       </Head>
-      <Nav />
-      <HeaderWithLogo />
-      <Layout>
-        <Wrapper>
-          <Hexagon url="/static/assets/vitaly.jpg"
-            style={{ float: 'right', marginLeft: '2rem', marginBottom: '3rem' }}/>
-          <h1>Meet Vitaly Friedman, the creator of Smashing Magazine</h1>
-          <VitalyBio />
-        </Wrapper>
-        <div className="events">
-          <Wrapper>
-            <h2 style={{ clear: 'both' }}>Events</h2>
-
-            <VitalyComes />
-
-            <img src="/static/assets/austria.svg" className="map" alt="Map of Austria"/>
-
-            <EventCard
-              title="New Adventures in Front-End, 2019 Edition"
-              location="Werkstätte Wattens"
-              date={new Date('2019-03-29')}
-              town="Innsbruck"
-              event="scriptconf/vitaly-innsbruck-2019"
-              releases="trzs5bko8vk"
-              detailsUrl="/innsbruck" />
-            <EventCard
-              title="Dirty Little Tricks From The Dark Corners of eCommerce"
-              location="25hours hotel"
-              date={new Date('2019-04-01')}
-              town="Vienna"
-              event="scriptconf/vitaly-vienna-2019"
-              releases="n2svlwnt-40"
-              detailsUrl="/vienna" />
-            <EventCard
-              title="Smart Responsive Interface Design Patterns"
-              location="Hotel am Domplatz"
-              date={new Date('2019-04-02')}
-              town="Linz"
-              event="scriptconf/vitaly-linz-2019"
-              releases="cwpepf9v0q0"
-              detailsUrl="/linz" />
-          </Wrapper>
+      <SelectedImage selected={selected} />
+      <TicketButton />
+      <div className="more">👇</div>
+      <main>
+        <div className="group">
+          <h1 className="speaker-block reduced">
+            <span className="no-nope drop">script'19:</span>
+          </h1>
+          <Speaker first="emma" last="wedekind" selectedFn={setSelected} />
+          <Speaker first="harry" last="roberts" selectedFn={setSelected} />
+          <Speaker first="sara" last="vieira" selectedFn={setSelected} />
+          <Speaker first="vitaly" last="friedman" selectedFn={setSelected} />
+          <p className="speaker-block">
+            <span className="no-nope drop">... and more!</span>
+          </p>
+          <p className="speaker-block reduced">
+            <span className="no-nope drop">october 25th - linz</span>
+          </p>
         </div>
-        <Tito events={ [
-          "scriptconf/vitaly-innsbruck-2019",
-          "scriptconf/vitaly-vienna-2019",
-          "scriptconf/vitaly-linz-2019" 
-        ] } />
-      </Layout>
-      <Footer />
+      </main>
+      <section className="text about">
+        <About />
+      </section>
+      <Collage />
+      <section className="text about">
+        <Join />
+      </section>
+      <Footer additional="white"></Footer>
     </>
-  }
-
-  componentDidMount() {
-    if(typeof window !== 'undefined' && typeof (window as any).TitoWidget !== 'undefined') {
-      (window as any).TitoWidget.buildWidgets()
-    }
-  }
+  );
 }
-
-export default Index;

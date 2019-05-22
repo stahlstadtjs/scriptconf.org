@@ -1,14 +1,14 @@
 import { Component } from 'react';
-import { H1 } from '../components/DocHeadline';
-import { Footer } from '../components/Footer';
-import { HeaderWithLogo } from '../components/Header';
-import { Layout } from '../components/Layout';
-import { Nav } from '../components/Nav';
-import { Tito } from '../components/Tito';
-import { Trainer } from '../components/Trainer';
-import { Wrapper } from '../components/Wrapper';
-import NewAdventures from '../content/adventures.mdx';
-import WorkshopsInclude from '../content/workshopsinclude.mdx';
+import { H1 } from '../../components/workshop-site/DocHeadline';
+import { Footer } from '../../components/workshop-site/Footer';
+import { HeaderWithLogo } from '../../components/workshop-site/Header';
+import { Layout } from '../../components/workshop-site/Layout';
+import { Nav } from '../../components/workshop-site/Nav';
+import { Tito } from '../../components/workshop-site/Tito';
+import { Trainer } from '../../components/workshop-site/Trainer';
+import { Wrapper } from '../../components/workshop-site/Wrapper';
+import NewAdventures from '../../content/adventures.mdx';
+import WorkshopsInclude from '../../content/workshopsinclude.mdx';
 
 
 export default class extends Component {

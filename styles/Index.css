@@ -236,6 +236,7 @@ a:visited {
   .group,
   .text {
     width: auto;
+    max-width: 37rem;
   }
 
   .drop {

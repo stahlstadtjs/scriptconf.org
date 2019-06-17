@@ -151,7 +151,7 @@ body {
 .group,
 .text {
   margin: 0 auto;
-  max-width: 50rem;
+  max-width: 51rem;
   padding-left: 1rem;
   padding-right: 1rem;
   width: 100%;
@@ -236,6 +236,7 @@ a:visited {
   .group,
   .text {
     width: auto;
+    max-width: 37rem;
   }
 
   .drop {

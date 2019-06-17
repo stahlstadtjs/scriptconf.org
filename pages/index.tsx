@@ -34,7 +34,7 @@ export default function() {
             <span className="no-nope drop">... and more!</span>
           </p>
           <p className="speaker-block reduced">
-            <span className="no-nope drop">october 25th - linz</span>
+            <span className="no-nope drop">october 25th - linz, austria</span>
           </p>
         </div>
       </main>

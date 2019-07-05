@@ -9,6 +9,7 @@ import About from '../content/2019-about.mdx';
 import Join from '../content/2019-join.mdx';
 import Partner from '../content/2019-partner.mdx';
 import Location from '../content/2019-location.mdx';
+import Workshops from '../content/2019-workshops.mdx';
 import Head from "next/head";
 
 
@@ -46,6 +47,9 @@ export default function() {
       <Collage />
       <section className="text about">
         <Join />
+      </section>
+      <section className="text about">
+        <Workshops/>
       </section>
       <Location />
       <section className="text about partners">

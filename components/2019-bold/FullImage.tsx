@@ -11,6 +11,8 @@ export function FullImage({ src, alt } : { src: string, alt: string }) {
       .full-wrapper {
         display: block;
         position: relative;
+        max-width: 60rem;
+        margin: 0 auto;
       }
 
       .full-wrapper:after {

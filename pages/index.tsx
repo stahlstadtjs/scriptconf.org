@@ -8,6 +8,7 @@ import { Collage } from "../components/2019-bold/Collage";
 import About from '../content/2019-about.mdx';
 import Join from '../content/2019-join.mdx';
 import Partner from '../content/2019-partner.mdx';
+import Location from '../content/2019-location.mdx';
 import Head from "next/head";
 
 
@@ -46,6 +47,7 @@ export default function() {
       <section className="text about">
         <Join />
       </section>
+      <Location />
       <section className="text about partners">
         <Partner />
       </section>

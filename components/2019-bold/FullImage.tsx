@@ -5,6 +5,7 @@ export function FullImage({ src, alt } : { src: string, alt: string }) {
     <style jsx>{`
       .full {
         width: 100%;
+        display: block;
       }
 
       .full-wrapper {

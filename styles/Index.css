@@ -289,3 +289,12 @@ a:visited {
 img {
   max-width: 100%;
 }
+
+.workshop-wrapper {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  max-width: 60rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}

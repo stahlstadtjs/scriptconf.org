@@ -22,10 +22,21 @@
       "dom",
       "es2015",
       "es2016"
-    ]
+    ],
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
   },
   "exclude": [
     "next.config.js",
     "out/**/*"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
   ]
 }

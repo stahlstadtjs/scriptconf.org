@@ -1,14 +1,17 @@
+import Head from "next/head";
 import { useState } from "react";
-import { SelectedImage } from "../components/2019-bold/SelectedImage";
-import { TicketButton } from "../components/2019-bold/TicketButton";
-import { Footer } from "../components/workshop-site/Footer";
-import "../styles/Index.css";
-import { Speaker } from "../components/2019-bold/Speaker";
 import { Collage } from "../components/2019-bold/Collage";
+import { SelectedImage } from "../components/2019-bold/SelectedImage";
+import { Speaker } from "../components/2019-bold/Speaker";
+import { TicketButton } from "../components/2019-bold/TicketButton";
+import { Workshop } from "../components/2019-bold/Workshop";
+import { Footer } from "../components/workshop-site/Footer";
 import About from '../content/2019-about.mdx';
 import Join from '../content/2019-join.mdx';
+import Location from '../content/2019-location.mdx';
 import Partner from '../content/2019-partner.mdx';
-import Head from "next/head";
+import Workshops from '../content/2019-workshops.mdx';
+import "../styles/Index.css";
 
 
 export default function() {
@@ -46,6 +49,14 @@ export default function() {
       <section className="text about">
         <Join />
       </section>
+      <section className="text about">
+        <Workshops/>
+      </section>
+      <div className="workshop-wrapper">
+        <Workshop first="harry" last="roberts" title="Front-End Performance: Building Faster Websites" url="/harry/workshop-performance" />
+        <Workshop first="vitaly" last="friedman" title="New Adventures in Front-End, 2019 Edition" url="/vitaly/workshop-front-end" />
+      </div>
+      <Location />
       <section className="text about partners">
         <Partner />
       </section>

@@ -3,7 +3,7 @@ export const Center = ({ children }) => {
     <style jsx>{`
       .centered {
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         justify-content: center;
         flex-wrap: wrap;
       }

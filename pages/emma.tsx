@@ -7,6 +7,7 @@ export default function() {
     <Head>
       <meta property="og:image" content="https://scriptconf.org/static/assets/twittercard-emma.jpg" />
       <meta name="twitter:image" content="https://scriptconf.org/static/assets/twittercard-emma.jpg" />    
+      <title>Emma Wedekind | Script'19 - JavaScript in Linz</title>  
     </Head>
     <Emma />
   </SpeakerDetail>

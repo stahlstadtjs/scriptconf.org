@@ -5,8 +5,8 @@ import Head from "next/head";
 export default function() {
   return <SpeakerDetail first="vitaly" last="friedman">
     <Head>
-      <meta property="og:image" content="https://scriptconf.org/static/assets/twittercard-harry.jpg" />
-      <meta name="twitter:image" content="https://scriptconf.org/static/assets/twittercard-harry.jpg" />    
+      <meta property="og:image" content="https://scriptconf.org/static/assets/twittercard-vitaly.jpg" />
+      <meta name="twitter:image" content="https://scriptconf.org/static/assets/twittercard-vitaly.jpg" />    
     </Head>
     <Vitaly />
   </SpeakerDetail>

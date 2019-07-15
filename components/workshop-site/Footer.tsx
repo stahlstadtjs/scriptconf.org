@@ -9,7 +9,7 @@ export const Footer:FC<{ additional?: string}> = ({ additional }) => {
     <section className="footer-nav">
       <nav className="footer-nav-item">
         <strong className="footer-head">About ScriptConf</strong>
-        <Link href="/"><a className="footer-link">Home</a></Link>
+        <a href="/" className="footer-link">Home</a>
         <Link href="/about"><a className="footer-link">About</a></Link>
         <Link href="/legal-notice"><a className="footer-link">Legal notice</a></Link>
         <Link href="/faq"><a className="footer-link">FAQ</a></Link>

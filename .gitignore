@@ -5,3 +5,4 @@ npm-debug.log
 .next
 package-lock.json
 out
+.vscode

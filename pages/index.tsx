@@ -34,6 +34,7 @@ export default function() {
           <Speaker first="harry" last="roberts" selectedFn={setSelected} />
           <Speaker first="sara" last="vieira" selectedFn={setSelected} />
           <Speaker first="vitaly" last="friedman" selectedFn={setSelected} />
+          <Speaker first="jen" last="looper" selectedFn={setSelected} />
           <p className="speaker-block">
             <span className="no-nope drop">... and more!</span>
           </p>

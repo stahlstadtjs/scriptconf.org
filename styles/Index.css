@@ -61,6 +61,13 @@ body {
   color: hotpink;
 }
 
+.jen h1,
+.speaker:nth-child(6) a:focus,
+.speaker:nth-child(6) a:hover {
+  color: #9013FE;
+}
+
+
 .speaker {
   cursor: pointer;
 }
@@ -119,6 +126,10 @@ body {
 
 .speaker-color.vitaly {
   background-color: hotpink;
+}
+
+.speaker-color.jen {
+  background-color: #9013FE;
 }
 
 .speaker-block {
@@ -227,6 +238,10 @@ a:visited {
 
   .speaker:nth-child(5) a{
     color: hotpink;
+  }
+
+  .speaker:nth-child(6) a{
+    color: #9013FE;
   }
 
   .speaker-color {

@@ -68,6 +68,14 @@ body {
 }
 
 
+.anna h1,
+.speaker:nth-child(7) a:focus,
+.speaker:nth-child(7) a:hover {
+  color: orange;
+}
+
+
+
 .speaker {
   cursor: pointer;
 }
@@ -132,6 +140,11 @@ body {
   background-color: #9013FE;
 }
 
+.speaker-color.anna {
+  background-color: orange;
+}
+
+
 .speaker-block {
   margin: 0;
   font-size: 5rem;
@@ -167,6 +180,10 @@ body {
   padding-right: 1rem;
   width: 100%;
   font-family: Helvetica, sans-serif;
+}
+
+.group {
+  padding: 2rem 1rem;
 }
 
 .about {
@@ -236,12 +253,16 @@ a:visited {
     color: dodgerblue;
   }
 
-  .speaker:nth-child(5) a{
+  .speaker:nth-child(5) a {
     color: hotpink;
   }
 
-  .speaker:nth-child(6) a{
+  .speaker:nth-child(6) a {
     color: #9013FE;
+  }
+
+  .speaker:nth-child(7) a {
+    color: orange;
   }
 
   .speaker-color {

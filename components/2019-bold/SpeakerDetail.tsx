@@ -1,13 +1,13 @@
+import Head from "next/head";
+import { FC } from "react";
 import "../../styles/Index.css";
 import { Footer } from "../workshop-site/Footer";
-import { TicketButton } from "./TicketButton";
-import { FC } from "react";
-import Head from "next/head";
+import { Navigation } from "./Navigation";
 
 export const SpeakerDetail:FC<{ first: string, last: string}> = ({ first, last, children}) => {
   return <>
     <Head><title>{first} {last} speaking at Script'19</title></Head>
-    <TicketButton />
+    <Navigation />
     <main className={`about text ${first} speaker-detail`}>
       <div className="content">
         <h1>{first} {last}</h1>

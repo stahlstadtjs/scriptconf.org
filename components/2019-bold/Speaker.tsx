@@ -1,24 +1,64 @@
 import Link from "next/link";
 
-type SpeakerProps = {
-  first: string;
-  last: string;
-  selectedFn: (name: string) => void;
-};
-export function Speaker({ first, last, selectedFn }: SpeakerProps) {
-  return (
-    <h2 className="speaker-block speaker">
-      <Link href={`/${first}`}>
-        <a
-          onMouseOut={() => selectedFn("")}
-          onMouseOver={() => selectedFn(first)}
-          onFocus={() => selectedFn(first)}
-          onBlur={() => selectedFn("")}
-        >
-          <span className="drop">{first} </span>
-          <span className="nope">{last}</span>
-        </a>
-      </Link>
-    </h2>
-  );
+export function Speaker({ first, last, color, myskills }) {
+  return <>
+    <style jsx>{`
+
+      .speaker-card {
+        position: relative;
+      }
+
+      .speaker-img-card {
+        position: relative;
+        width: 300px;
+        height: 300px;
+      }
+
+      .speaker-img {
+        width: 100%;
+        filter: saturate(0%);
+      }
+
+      .speaker-img-card:after {
+        position: absolute;
+        top: 0; bottom: 0; right: 0; left: 0;
+        content: '';
+        background-color: ${color};
+        mix-blend-mode: color;
+        z-index: 2;
+      }
+      
+      .speaker-name {
+        background-color: white;
+        margin-top: -40px;
+        margin-left: 130px;
+        padding: 0.5rem 1rem;
+        font-size: 2rem;
+        position: relative;
+        z-index: 3;
+      }
+
+      .speaker-name h3 {
+        margin: 0;
+      }
+
+      .speaker-bio {
+        color: #454545;
+        font-size: 1rem;
+      }
+    `}</style>
+    <Link href={`/${first}`}>
+      <a>
+        <div className="speaker-card">
+          <div className="speaker-img-card">
+            <img className="speaker-img" src={`/static/assets/images/${first}.jpg`} alt=""/>
+          </div>
+          <div className="speaker-name">
+            <h3>{first} {last}</h3>
+            <span className="speaker-bio">{myskills}</span>
+          </div>
+        </div>
+      </a>
+    </Link>
+  </>;
 }

@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Collage } from "../components/2019-bold/Collage";
 import { Masthead } from "../components/2019-bold/Masthead";
 import { Navigation } from "../components/2019-bold/Navigation";
-import { speakerData, jamSessionData } from "../components/2019-bold/speaker-data";
+import { speakerData } from "../components/2019-bold/speaker-data";
 import { SpeakerGrid } from "../components/2019-bold/SpeakerGrid";
 import { Workshop } from "../components/2019-bold/Workshop";
 import { Footer } from "../components/workshop-site/Footer";
@@ -35,13 +35,13 @@ export default function() {
         <p>Get some impressions from the previous years</p>
       </section>
       <Collage />
-      <section className="text about">
+      {/* <section className="text about">
         <h2 id="jam">Oct 24: JAMstack JAM session</h2>
         <p>
           On the night before the conference, we have a special evening program, all centered around JAMstack! <em>Limited seats available!</em>
         </p>
       </section>
-      <SpeakerGrid data={jamSessionData}/>
+      <SpeakerGrid data={jamSessionData}/> */}
       <section className="text about">
         <h2>About</h2>
         <Join />
@@ -52,6 +52,7 @@ export default function() {
       <div className="workshop-wrapper">
         <Workshop first="harry" last="roberts" title="Front-End Performance: Building Faster Websites" url="/harry/workshop-performance" />
         <Workshop first="vitaly" last="friedman" title="New Adventures in Front-End, 2019 Edition" url="/vitaly/workshop-front-end" />
+        <Workshop first="vue" last="vixens" title="Free Vue Vixens Workshop with Jen Looper" url="/vue-vixens-workshop" />
       </div>
       <Location />
       <section className="text about partners">

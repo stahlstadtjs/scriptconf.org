@@ -7,12 +7,18 @@ export function Masthead() {
       .masthead {
         background-image: url(/static/assets/central-backdrop.jpg);
         background-size: cover;
-        min-height: 73vh;
         margin: 2rem auto;
         max-width: 60rem;
         display: flex;
         align-items: center;
         position: relative;
+      }
+
+      @media(min-width: 500px) {
+
+        .masthead {
+          min-height: 73vh;
+        }
       }
 
       .masthead:after {

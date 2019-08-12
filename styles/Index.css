@@ -228,37 +228,6 @@ a:visited {
     padding-right: 2rem;
   }
 
-  .speaker-img {
-    display: none;
-  }
-
-  .speaker:nth-child(2) a {
-    color: crimson;
-  }
-
-  .speaker:nth-child(3) a {
-    color: green;
-  }
-
-  .speaker:nth-child(4) a {
-    color: dodgerblue;
-  }
-
-  .speaker:nth-child(5) a {
-    color: hotpink;
-  }
-
-  .speaker:nth-child(6) a {
-    color: #9013FE;
-  }
-
-  .speaker:nth-child(7) a {
-    color: orange;
-  }
-
-  .speaker-color {
-    display: none;
-  }
 
   .group,
   .text {

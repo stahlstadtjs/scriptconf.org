@@ -1,8 +1,16 @@
 export function SpeakerBlock() {
   return <>
     <style jsx>{`
+
       .speaker-block {
-        font-size: 4rem;
+        font-size: 2.5rem;
+      }
+
+      @media(min-width: 500px) {
+
+        .speaker-block {
+          font-size: 4rem;
+        }
       }
 
       .group {

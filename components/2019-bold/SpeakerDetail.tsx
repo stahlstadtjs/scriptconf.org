@@ -11,7 +11,7 @@ export const SpeakerDetail:FC<{ first: string, last: string}> = ({ first, last, 
     <main className={`about text ${first} speaker-detail`}>
       <div className="content">
         <h1>{first} {last}</h1>
-        <img src={`/static/assets/images/${first}.jpg`} alt={`${first} ${last}`} className="speaker-detail-image" />
+        <img src={`/static/assets/images/${first}.jpg?v=2`} alt={`${first} ${last}`} className="speaker-detail-image" />
         {children}
       </div>
     </main>

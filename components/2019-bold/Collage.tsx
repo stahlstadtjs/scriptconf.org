@@ -7,12 +7,14 @@ export function Collage() {
         <img
           src="https://scriptconf.org/2018/assets/images/general/stage.jpg"
           alt="Stage "
+          loading="lazy"
         />
       </div>
       <div>
         <img
           src="https://scriptconf.org/2018/assets/inst/16123705_1912801235616741_6248527999444975616_n.jpg"
           alt="Food"
+          loading="lazy"
         />
       </div>
       <div>
@@ -27,18 +29,21 @@ export function Collage() {
         <img
           src="https://scriptconf.org/2018/assets/images/2018/crowd.jpg"
           alt="Crowd"
+          loading="lazy"
         />
       </div>
       <div>
         <img
           src="https://scriptconf.org/2018/assets/inst/16230966_1400392266680211_9007714693766184960_n.jpg"
           alt="Chris"
+          loading="lazy"
         />
       </div>
       <div>
         <img
           src="/static/assets/images/andre.jpg"
           alt="Andre"
+          loading="lazy"
         />
       </div>
     </div>

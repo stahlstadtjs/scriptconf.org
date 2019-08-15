@@ -5,4 +5,8 @@ declare module 'react' {
     jsx?: boolean;
     global?: boolean;
   }
+
+  interface ImgHTMLAttributes<T> extends HTMLAttributes<T> {
+    loading?: 'lazy' | 'eager' | 'auto';
+  }
 }

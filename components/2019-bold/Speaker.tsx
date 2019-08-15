@@ -51,7 +51,7 @@ export function Speaker({ first, last, color, myskills }) {
       <a>
         <div className="speaker-card">
           <div className="speaker-img-card">
-            <img className="speaker-img" src={`/static/assets/images/${first}.jpg`} alt=""/>
+            <img className="speaker-img" src={`/static/assets/images/${first}.jpg?v=2`} alt="" loading="lazy"/>
           </div>
           <div className="speaker-name">
             <h3>{first} {last}</h3>

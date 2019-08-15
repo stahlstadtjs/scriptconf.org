@@ -5,7 +5,7 @@ export function Masthead() {
   return <>
     <style jsx>{`
       .masthead {
-        background-image: url(/static/assets/central-backdrop.jpg);
+        background-image: url(/static/assets/central-backdrop.jpg?v=2);
         background-size: cover;
         margin: 2rem auto;
         max-width: 60rem;

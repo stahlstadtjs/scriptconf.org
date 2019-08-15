@@ -37,7 +37,7 @@ export function FullImage({ src, alt } : { src: string, alt: string }) {
     `}</style>
 
     <div className="full-wrapper">
-      <img className="full" src={src} alt={alt} />
+      <img className="full" src={`${src}?v=2`} alt={alt} loading="lazy" />
     </div>
   </>
 }

@@ -28,10 +28,6 @@ export default class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.png" />
           <link rel="icon" type="image/png" sizes="96x96" href="/static/icons/favicon-96x96.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.png" />
-          <link rel="preload" href="/static/assets/images/emma.jpg" as="image"/>
-          <link rel="preload" href="/static/assets/images/harry.jpg" as="image"/>
-          <link rel="preload" href="/static/assets/images/vitaly.jpg" as="image"/>
-          <link rel="preload" href="/static/assets/images/sara.jpg" as="image"/>
           <meta property="og:image" content="https://scriptconf.org/static/assets/twittercard-script-19-pink.jpg" />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="Script'19 - The feelgood JavaScript conference" />

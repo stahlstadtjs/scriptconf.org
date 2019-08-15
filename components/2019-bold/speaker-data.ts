@@ -6,6 +6,7 @@ export const speakerData = {
     { first:"jen", last:"looper", color:"#9013FE", myskills:"Microsoft Cloud Advocate" },  
     { first:"anna", last:"henningsen", color:"orange", myskills:"Node.js Core Contributor" },  
     { first:"sara", last:"vieira", color:"dodgerblue", myskills:"Codesandbox" },  
+    { first:"marvin", last:"hagemeister", color:"#fdee00", myskills:"Preact.js Core Team" },  
   ]
 }
 

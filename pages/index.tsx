@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Collage } from "../components/2019-bold/Collage";
 import { Masthead } from "../components/2019-bold/Masthead";
 import { Navigation } from "../components/2019-bold/Navigation";
-import { speakerData } from "../components/2019-bold/speaker-data";
+import { speakerData, jamSessionData } from "../components/2019-bold/speaker-data";
 import { SpeakerGrid } from "../components/2019-bold/SpeakerGrid";
 import { Workshop } from "../components/2019-bold/Workshop";
 import { Footer } from "../components/workshop-site/Footer";
@@ -35,13 +35,14 @@ export default function() {
         <p>Get some impressions from the previous years</p>
       </section>
       <Collage />
-      {/* <section className="text about">
+      <section className="text about">
         <h2 id="jam">Oct 24: JAMstack JAM session</h2>
         <p>
-          On the night before the conference, we have a special evening program, all centered around JAMstack! <em>Limited seats available!</em>
+          On the night before the conference, we have a special evening program. Together with our friends from <a href="https://storyblok.com">Storyblok</a>,
+          we invite international speakers who focus around the <strong>JAMstack</strong>! <em>Free for Script'19 attendees - <a href="https://ti.to/scriptconf/scriptconf-2019/with/5fcyqc1rzsg">Limited seats available!</a></em>
         </p>
       </section>
-      <SpeakerGrid data={jamSessionData}/> */}
+      <SpeakerGrid data={jamSessionData}/>
       <section className="text about">
         <h2>About</h2>
         <Join />

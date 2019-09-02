@@ -31,6 +31,7 @@ export default function() {
         <p>We invite people who shape the world of JavaScript. Get inspired and learn by our 2019 line-up:</p>
       </section>
       <SpeakerGrid data={speakerData}/>
+      <Location />
       <section className="text about">
         <p>Get some impressions from the previous years</p>
       </section>
@@ -43,10 +44,6 @@ export default function() {
         </p>
       </section>
       <SpeakerGrid data={jamSessionData}/>
-      <section className="text about">
-        <h2>About</h2>
-        <Join />
-      </section>
       <section className="text about" id="workshops">
         <Workshops/>
       </section>
@@ -55,7 +52,10 @@ export default function() {
         <Workshop first="vitaly" last="friedman" title="New Adventures in Front-End, 2019 Edition" url="/vitaly/workshop-front-end" />
         <Workshop first="vue" last="vixens" title="Free Vue Vixens Workshop with Jen Looper" url="/vue-vixens-workshop" />
       </div>
-      <Location />
+      <section className="text about">
+        <h2>About</h2>
+        <Join />
+      </section>
       <section className="text about partners">
         <Partner />
       </section>

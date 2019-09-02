@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Collage } from "../components/2019-bold/Collage";
 import { Masthead } from "../components/2019-bold/Masthead";
 import { Navigation } from "../components/2019-bold/Navigation";
-import { speakerData } from "../components/2019-bold/speaker-data";
+import { speakerData, jamSessionData } from "../components/2019-bold/speaker-data";
 import { SpeakerGrid } from "../components/2019-bold/SpeakerGrid";
 import { Workshop } from "../components/2019-bold/Workshop";
 import { Footer } from "../components/workshop-site/Footer";
@@ -31,21 +31,19 @@ export default function() {
         <p>We invite people who shape the world of JavaScript. Get inspired and learn by our 2019 line-up:</p>
       </section>
       <SpeakerGrid data={speakerData}/>
+      <Location />
       <section className="text about">
         <p>Get some impressions from the previous years</p>
       </section>
       <Collage />
-      {/* <section className="text about">
+      <section className="text about">
         <h2 id="jam">Oct 24: JAMstack JAM session</h2>
         <p>
-          On the night before the conference, we have a special evening program, all centered around JAMstack! <em>Limited seats available!</em>
+          On the night before the conference, we have a special evening program. Together with our friends from <a href="https://storyblok.com">Storyblok</a>,
+          we invite international speakers who focus around the <strong>JAMstack</strong>! <em>Free for Script'19 attendees - <a href="https://ti.to/scriptconf/scriptconf-2019/with/5fcyqc1rzsg">Limited seats available!</a></em>
         </p>
       </section>
-      <SpeakerGrid data={jamSessionData}/> */}
-      <section className="text about">
-        <h2>About</h2>
-        <Join />
-      </section>
+      <SpeakerGrid data={jamSessionData}/>
       <section className="text about" id="workshops">
         <Workshops/>
       </section>
@@ -54,7 +52,10 @@ export default function() {
         <Workshop first="vitaly" last="friedman" title="New Adventures in Front-End, 2019 Edition" url="/vitaly/workshop-front-end" />
         <Workshop first="vue" last="vixens" title="Free Vue Vixens Workshop with Jen Looper" url="/vue-vixens-workshop" />
       </div>
-      <Location />
+      <section className="text about">
+        <h2>About</h2>
+        <Join />
+      </section>
       <section className="text about partners">
         <Partner />
       </section>

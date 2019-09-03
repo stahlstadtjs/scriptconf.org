@@ -16,6 +16,6 @@ export const jamSessionData = {
     { first: "vanessa", last: "böhner", color: "#9013fe", myskills: "Sinnerschrader"},
     { first: "alexandre", last: "chopin", color: "crimson", myskills: "Creator of Nuxt.js"},
     { first: "samuel", last: "snopko", color: "orange", myskills: "Storyblok Ambassador"},
-    { first: "matthew", last: "sweeney", color: "dodgerblue", myskills: "Zeit.co"},
+    { first: "matthew", last: "sweeney", color: "dodgerblue", myskills: "ZEIT"},
   ]
 }

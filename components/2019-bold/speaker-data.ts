@@ -5,7 +5,7 @@ export const speakerData = {
     { first:"vitaly", last:"friedman", color:"hotpink", myskills:"Smashing Magazine" },  
     { first:"jen", last:"looper", color:"#9013FE", myskills:"Microsoft Cloud Advocate" },  
     { first:"anna", last:"henningsen", color:"orange", myskills:"Node.js Core Contributor" },  
-    { first:"sara", last:"vieira", color:"dodgerblue", myskills:"Codesandbox" },  
+    { first:"jo", last:"franchetti", color:"dodgerblue", myskills:"Codebar.io" },  
     { first:"marvin", last:"hagemeister", color:"#fdee00", myskills:"Preact.js Core Team" },  
     { first:"dylan", last:"schiemann", color:"turquoise", myskills:"Creator of Dojo, Sitepen" },  
   ]

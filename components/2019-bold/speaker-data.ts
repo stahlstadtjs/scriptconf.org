@@ -13,7 +13,6 @@ export const speakerData = {
 
 export const jamSessionData = {
   entries: [
-    { first: "william", last: "imoh", color: "hotpink", myskills: "Scotch.io, Forloop Africa, JAMStack Lagos, Nigeria"},
     { first: "vanessa", last: "böhner", color: "#9013fe", myskills: "Sinnerschrader"},
     { first: "alexandre", last: "chopin", color: "crimson", myskills: "Creator of Nuxt.js"},
     { first: "samuel", last: "snopko", color: "orange", myskills: "Storyblok Ambassador"},

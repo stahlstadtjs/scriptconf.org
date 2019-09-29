@@ -77,7 +77,7 @@ export function Schedule({ talks }) {
       <li className="schedule-item">
         <time className="scheduled-time">{talk.time}</time>
         { talk.speaker && <Speaker speaker={talk.speaker} />}
-        { talk.title && <p className="schedule-title">{talk.title}</p> }
+        { talk.title && <p className="schedule-title" dangerouslySetInnerHTML={{__html: talk.title}}></p> }
       </li>
     )}
   </ul>

@@ -41,7 +41,7 @@ const mainConference = [
   },
   {
     time: "14:50",
-    title: "Coffee break powered by Dynatrace"
+    title: "Coffee break powered by <a href='https://dynatrace.com' rel='noopener'>Dynatrace</a>"
   },
   {
     time: "16:30",
@@ -72,7 +72,7 @@ const mainConference = [
   },
   {
     time: "18:30",
-    title: "Dinner break powered by Mozilla"
+    title: "Dinner break powered by <a href='https://mozilla.com' rel='noopener'>Mozilla</a>"
   },
   {
     time: "19:30",
@@ -94,8 +94,63 @@ const mainConference = [
   },
   {
     time: "20:40",
-    title: "Party powered by Netural"
+    title: "Party powered by <a href='https://netural.com' rel='noopener'>Netural</a>"
   }
+]
+
+const warmupevent = [
+  {
+    time: "18:00",
+    title: "Doors & Registration"
+  },
+  {
+    time: "18:30",
+    title: "Opening"
+  },
+  {
+    time: "18:45",
+    speaker: {
+      name: "Vanessa Böhner",
+      url: "/vanessa",
+      image: "/static/assets/images/vanessa.jpg",
+      title: "Accidentally JAMStack"
+    }
+  },
+  {
+    time: "19:15",
+    speaker: {
+      name: "Samuel Snoko",
+      url: "/samuel",
+      image: "/static/assets/images/samuel.jpg",
+      title: "tbd"
+    }
+  },
+  {
+    time: "19:45",
+    title: "Dinner and drinks"
+  },
+  {
+    time: "20:15",
+    speaker: {
+      name: "Matthew Sweeney",
+      url: "/matthew",
+      image: "/static/assets/images/matthew.jpg",
+      title: "JAMstack on ZEIT"
+    }
+  },
+  {
+    time: "20:45",
+    speaker: {
+      name: "Alexandre Chopin",
+      url: "/alexandre",
+      image: "/static/assets/images/alexandre.jpg",
+      title: "Full static generation with NuxtJS"
+    }
+  },
+  {
+    time: "21:15",
+    title: "Drinks and social hour"
+  },
 ]
 
 export default function() {
@@ -104,7 +159,15 @@ export default function() {
     <Navigation />
     <main className="about text">
       <div className="content">
-        <h2>October 25th: Main confrence</h2>
+        <h2>October 24th: Warm-up event</h2>
+        <p>
+          The free warm-up event <strong>JAMstack JAM session</strong> is powered by <a href="https://storyblok.com" rel="noopener">Storyblok.</a> Get <a href="https://ti.to/scriptconf/scriptconf-2019">tickets</a>
+        </p>
+        <Schedule talks={warmupevent} />
+        <h2>October 25th: Main conference</h2>
+        <p>
+          This is the schedule for our main event:
+        </p>
         <Schedule talks={mainConference} />
       </div>
     </main>

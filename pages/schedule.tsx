@@ -119,7 +119,7 @@ const warmupevent = [
   {
     time: "19:15",
     speaker: {
-      name: "Samuel Snoko",
+      name: "Samuel Snopko",
       url: "/samuel",
       image: "/static/assets/images/samuel.jpg",
       title: "tbd"

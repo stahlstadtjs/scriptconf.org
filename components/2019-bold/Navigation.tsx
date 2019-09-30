@@ -55,11 +55,11 @@ export function Navigation() {
   `}
   </style>
   <nav>
-    <Link href="/"><a><img className="nav-logo" src="/static/assets/caret.svg?v=2" alt="ScriptConf Home"/></a></Link>
+    <a href="/"><img className="nav-logo" src="/static/assets/caret.svg?v=2" alt="ScriptConf Home"/></a>
     <a className="nav-link hide-sm" href="/#speakers">Speakers</a>
     <a className="nav-link hide-sm" href="/#workshops">Workshops</a>
     <a className="nav-link hide-sm" href="/#jam">JAM Session</a>
-    <a className="nav-link hide-sm" href="/#venue">Venue</a>
+    <a className="nav-link hide-sm" href="/schedule">Schedule</a>
     <a className="nav-button" href="https://ti.to/scriptconf/scriptconf-2019">Tickets @ 159 EUR</a>
   </nav>
   </>

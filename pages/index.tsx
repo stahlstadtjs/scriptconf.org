@@ -1,18 +1,19 @@
-import Head from "next/head";
-import { Collage } from "../components/2019-bold/Collage";
-import { Masthead } from "../components/2019-bold/Masthead";
-import { Navigation } from "../components/2019-bold/Navigation";
-import { speakerData, jamSessionData } from "../components/2019-bold/speaker-data";
-import { SpeakerGrid } from "../components/2019-bold/SpeakerGrid";
-import { Workshop } from "../components/2019-bold/Workshop";
-import { Footer } from "../components/workshop-site/Footer";
-import About from '../content/2019-about.mdx';
-import Join from '../content/2019-join.mdx';
-import Location from '../content/2019-location.mdx';
-import Partner from '../content/2019-partner.mdx';
-import Workshops from '../content/2019-workshops.mdx';
 import "../styles/Index.css";
 
+import { jamSessionData, speakerData } from "../components/2019-bold/speaker-data";
+
+import About from '../content/2019-about.mdx';
+import { Collage } from "../components/2019-bold/Collage";
+import { Footer } from "../components/workshop-site/Footer";
+import Head from "next/head";
+import Join from '../content/2019-join.mdx';
+import Location from '../content/2019-location.mdx';
+import { Masthead } from "../components/2019-bold/Masthead";
+import { Navigation } from "../components/2019-bold/Navigation";
+import Partner from '../content/2019-partner.mdx';
+import { SpeakerGrid } from "../components/2019-bold/SpeakerGrid";
+import { Workshop } from "../components/2019-bold/Workshop";
+import Workshops from '../content/2019-workshops.mdx';
 
 export default function() {
   return (
@@ -31,6 +32,9 @@ export default function() {
         <p>We invite people who shape the world of JavaScript. Get inspired and learn by our 2019 line-up:</p>
       </section>
       <SpeakerGrid data={speakerData}/>
+      <section className="text about">
+        <p>Check out our <a href="/schedule">Schedule</a>.</p>
+      </section>
       <Location />
       <section className="text about">
         <p>Get some impressions from the previous years</p>

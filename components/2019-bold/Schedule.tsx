@@ -44,7 +44,7 @@ function Speaker({speaker}) {
   </>
 }
 
-export function Schedule({ talks }) {
+export function Schedule({ talks, tight = false }) {
   return <>
   <style jsx>{`
     .schedule{
@@ -65,6 +65,9 @@ export function Schedule({ talks }) {
       display:flex;
       padding:2rem 0
     }
+    .schedule-item.tight {
+      padding: 1rem 0;
+    }
     .schedule-item+.schedule-item{
       border-top:1px solid gray
     }
@@ -74,7 +77,7 @@ export function Schedule({ talks }) {
     `}</style>
     <ul className="schedule">
     { talks.map(talk =>
-      <li className="schedule-item">
+      <li className={`schedule-item${tight ? " tight" : ""}`}>
         <time className="scheduled-time">{talk.time}</time>
         { talk.speaker && <Speaker speaker={talk.speaker} />}
         { talk.title && <p className="schedule-title" dangerouslySetInnerHTML={{__html: talk.title}}></p> }

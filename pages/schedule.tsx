@@ -1,6 +1,6 @@
+import { Footer } from "../components/workshop-site/Footer";
 import Head from "next/head";
 import { Navigation } from "../components/2019-bold/Navigation";
-import { Footer } from "../components/workshop-site/Footer";
 import { Schedule } from "../components/2019-bold/Schedule";
 
 const mainConference = [
@@ -153,18 +153,62 @@ const warmupevent = [
   },
 ]
 
+const workshops = [
+  {
+    time: "08:30",
+    title: "Doors and registration 📝"
+  },{
+    time: "09:00",
+    title: "Kick-off"
+  },{
+    time: "10:30",
+    title: "Coffee break ☕️"
+  },{
+    time: "11:00",
+    title: "Workshop part 2"
+  },{
+    time: "12:30",
+    title: "Lunch break 🍜"
+  },{
+    time: "13:30",
+    title: "Workshop part 3"
+  },{
+    time: "15:00",
+    title: "Coffee Break ️☕️"
+  },{
+    time: "15:30",
+    title: "Workshop part 4"
+  },{
+    time: "17:00",
+    title: "End of workshop"
+  },
+]
+
 export default function() {
   return <>
     <Head><title>Script'19: Schedule</title></Head>
     <Navigation />
     <main className="about text">
       <div className="content">
-        <h2>October 24th: Warm-up event</h2>
+        <p>
+          Check out the schedule for our three event parts:
+        </p>
+        <ul>
+          <li><a href="#workshops">Workshops</a></li>
+          <li><a href="#warmup">Warm-up event</a></li>
+          <li><a href="#conference">Conference</a></li>
+        </ul>
+        <h2 id="workshops">October 24th: Workshops</h2>
+        <p>
+          Workshop locations will be disclosed to the audience. All three workshops follow the following timetable:
+        </p>
+        <Schedule tight={true} talks={workshops} />
+        <h2 id="warmup">October 24th: Warm-up event</h2>
         <p>
           The free warm-up event <strong>JAMstack JAM session</strong> is powered by <a href="https://storyblok.com" rel="noopener">Storyblok.</a> Get <a href="https://ti.to/scriptconf/scriptconf-2019">tickets</a>
         </p>
         <Schedule talks={warmupevent} />
-        <h2>October 25th: Main conference</h2>
+        <h2 id="conference">October 25th: Main conference</h2>
         <p>
           This is the schedule for our main event:
         </p>

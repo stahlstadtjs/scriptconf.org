@@ -24,10 +24,10 @@ const mainConference = [
   {
     time: "13:40",
     speaker: {
-      name: "Emma Wedekind",
-      url: "/emma",
-      image: "/static/assets/images/emma.jpg",
-      title: "Foundations of Design systems"
+      name: "Lisi Linhart",
+      url: "/lisi",
+      image: "/static/assets/images/lisi.jpg",
+      title: "Practical Web Animation"
     }
   },
   {

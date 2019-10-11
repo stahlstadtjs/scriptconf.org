@@ -36,7 +36,7 @@ const mainConference = [
       name: "Dylan Schiemann",
       url: "/dylan",
       image: "/static/assets/images/dylan.jpg",
-      title: "tbd"
+      title: "Frameworks in a post-React apocalpyse"
     }
   },
   {

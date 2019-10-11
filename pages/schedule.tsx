@@ -13,7 +13,7 @@ const mainConference = [
     title: "Opening"
   },
   {
-    time: "12:45",
+    time: "13:00",
     speaker: {
       name: "Vitaly Friedman",
       url: "/vitaly",

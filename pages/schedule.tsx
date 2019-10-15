@@ -22,7 +22,7 @@ const mainConference = [
     }
   },
   {
-    time: "13:40",
+    time: "13:45",
     speaker: {
       name: "Lisi Linhart",
       url: "/lisi",
@@ -31,20 +31,20 @@ const mainConference = [
     }
   },
   {
-    time: "14:20",
+    time: "14:30",
     speaker: {
       name: "Dylan Schiemann",
       url: "/dylan",
       image: "/static/assets/images/dylan.jpg",
-      title: "Frameworks in a post-React apocalpyse"
+      title: "Frameworks in a post-React apocalypse"
     }
   },
   {
-    time: "14:50",
+    time: "15:00",
     title: "Coffee break powered by <a href='https://dynatrace.com' rel='noopener'>Dynatrace</a>"
   },
   {
-    time: "16:30",
+    time: "15:45",
     speaker: {
       name: "Anna Henningsen",
       url: "/anna",
@@ -53,7 +53,7 @@ const mainConference = [
     }
   },
   {
-    time: "17:10",
+    time: "16:30",
     speaker: {
       name: "Harry Roberts",
       url: "/harry",
@@ -62,7 +62,7 @@ const mainConference = [
     }
   },
   {
-    time: "17:50",
+    time: "17:15",
     speaker: {
       name: "Marvin Hagemeister",
       url: "/marvin",
@@ -71,11 +71,11 @@ const mainConference = [
     }
   },
   {
-    time: "18:30",
+    time: "17:45",
     title: "Dinner break powered by <a href='https://mozilla.com' rel='noopener'>Mozilla</a>"
   },
   {
-    time: "19:30",
+    time: "19:00",
     speaker: {
       name: "Jen Looper",
       url: "/jen",
@@ -84,7 +84,7 @@ const mainConference = [
     }
   },
   {
-    time: "20:10",
+    time: "19:45",
     speaker: {
       name: "Jo Franchetti",
       url: "/jo",
@@ -93,7 +93,7 @@ const mainConference = [
     }
   },
   {
-    time: "20:40",
+    time: "20:20",
     title: "Party powered by <a href='https://netural.com' rel='noopener'>Netural</a>"
   }
 ]

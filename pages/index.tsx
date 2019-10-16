@@ -46,7 +46,6 @@ export default function() {
       <div className="workshop-wrapper">
         <Workshop first="harry" last="roberts" title="Front-End Performance: Building Faster Websites" url="/harry/workshop-performance" />
         <Workshop first="vitaly" last="friedman" title="New Adventures in Front-End, 2019 Edition" url="/vitaly/workshop-front-end" />
-        <Workshop first="vue" last="vixens" title="Free Vue Vixens Workshop with Jen Looper" url="/vue-vixens-workshop" />
       </div>
       <section className="text about">
         <h2 id="jam">Oct 24: JAMstack JAM session</h2>

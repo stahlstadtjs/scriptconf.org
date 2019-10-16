@@ -47,6 +47,13 @@ export default function() {
         <Workshop first="harry" last="roberts" title="Front-End Performance: Building Faster Websites" url="/harry/workshop-performance" />
         <Workshop first="vitaly" last="friedman" title="New Adventures in Front-End, 2019 Edition" url="/vitaly/workshop-front-end" />
       </div>
+
+      <section className="text about" id="workshops">
+        <h2>Community organised side events</h2>
+      </section>
+      <div className="workshop-wrapper">
+        <Workshop first="vue" last="vixens" title="Free Vue Vixens Workshop with Jen Looper" url="https://www.vuevixens.org/events/scriptcon19" />
+      </div>
       <section className="text about">
         <h2 id="jam">Oct 24: JAMstack JAM session</h2>
         <p>

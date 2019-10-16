@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 type WorkshopProps = {
   first: string,
   last: string,

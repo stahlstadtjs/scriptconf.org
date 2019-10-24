@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wall</title>
+</head>
+<body>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .rslides {
+      position: relative;
+      list-style: none;
+      overflow: hidden;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    .rslides li {
+      -webkit-backface-visibility: hidden;
+      position: absolute;
+      display: none;
+      width: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .rslides li:first-child {
+      position: relative;
+      display: block;
+      float: left;
+    }
+
+    .box img {
+      display: block;
+      height: auto;
+      float: left;
+      width: 100%;
+      border: 0;
+    }
+
+    .transparent-btns_nav {
+      z-index: 3;
+      position: absolute;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      top: 0;
+      left: 0;
+      display: block;
+      background: #fff; /* Fix for IE6-9 */
+      opacity: 0;
+      filter: alpha(opacity=1);
+      width: 48%;
+      text-indent: -9999px;
+      overflow: hidden;
+      height: 91%;
+    }
+
+  .transparent-btns_nav.prev {
+    display: none;
+  }
+
+  .sponsors {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .sponsors img {
+    max-width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
+
+  .sponsors li {
+    height: 100%
+  }
+
+  .sponsors ul {
+    height: 100%;
+  }
+
+  iframe {
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 100vh !important;
+  }
+  </style>
+  <main>
+    <div class="rslides-container">
+      <ul class="rslides box" id="slider1">
+        <li><img src="./assets/slides/00-script-slides.jpg" alt=""></li>
+        <li><img src="./assets/slides/01-script-slides.jpg" alt=""></li>
+        <li><img src="./assets/slides/02-script-slides.jpg" alt=""></li>
+        <li><img src="./assets/slides/03-script-slides.jpg" alt=""></li>
+        <li><img src="./assets/slides/04-script-slides.jpg" alt=""></li>
+        <li><img src="./assets/slides/05-script-slides.jpg" alt=""></li>
+        <li><img src="./assets/slides/06-script-slides.jpg" alt=""></li>
+        <li><img src="./assets/slides/07-script-slides.jpg" alt=""></li>
+        <li><img src="./assets/slides/08-script-slides.jpg" alt=""></li>
+        <li><img src="./assets/slides/09-script-slides.jpg" alt=""></li>
+        <li><img src="./assets/slides/10-script-slides.jpg" alt=""></li>
+        <li><img src="./assets/slides/11-script-slides.jpg" alt=""></li>
+        <li><img src="./assets/slides/12-script-slides.jpg" alt=""></li>
+      </ul>
+    </div>
+    <div class="rslides-container sponsors">
+      <ul class="rslides" id="slider2">
+        <li><img src="./assets/images/partner/karriere.png" alt=""></li>
+        <li><img src="./assets/images/partner/netural.svg" style="width: 250px;" alt=""></li>
+        <li><img src="./assets/images/partner/mozilla.png" alt=""></li>
+        <li><img src="./assets/images/partner/dynatrace.png" alt=""></li>
+        <li><img src="./assets/images/partner/storyblok.png" alt=""></li>
+      </ul>
+    </div>
+    <iframe allowfullscreen id="wallsio-iframe" src="https://walls.io/r6aev?nobackground=1&amp;show_header=0" style="border:0;height:800px;width:100%" title="Script&#x27;19"></iframe>
+  </main>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.55/responsiveslides.js"></script>
+  <script>
+    $(function() {
+      $("#slider1").responsiveSlides({
+        auto: false,
+        nav: true,
+        speed: 500,
+        namespace: "transparent-btns"
+      });
+
+      $("#slider2").responsiveSlides({
+        auto: true,
+        speed: 2000,
+        namespace: "auto-btns"
+      });
+    });
+  </script>
+</body>
+</html>
+

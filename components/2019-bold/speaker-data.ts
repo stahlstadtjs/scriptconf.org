@@ -1,7 +1,7 @@
 export const speakerData = {
   entries: [
     { first:"harry", last:"roberts", color:"green", myskills:"Performance consultant" },  
-    { first:"emma", last:"wedekind", color:"crimson", myskills:"Ladybug Podcast, JSParty.fm" },  
+    { first:"lisi", last:"linhart", color:"crimson", myskills:"Creative Coder" },  
     { first:"vitaly", last:"friedman", color:"hotpink", myskills:"Smashing Magazine" },  
     { first:"jen", last:"looper", color:"#9013FE", myskills:"Microsoft Cloud Advocate" },  
     { first:"anna", last:"henningsen", color:"orange", myskills:"Node.js Core Contributor" },  

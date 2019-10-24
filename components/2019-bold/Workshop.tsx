@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 type WorkshopProps = {
   first: string,
   last: string,
@@ -48,14 +46,12 @@ export function Workshop({first, last, title, url}: WorkshopProps) {
       }
       
     `}</style>
-    <Link href={url}>
-      <a className="workshop-container">
-        <h3 className="tag">
-          <span className="block"><span className="highlight tag-line">{first} {last}</span></span>
-          <span className="block"><span className="tag-line">{title}</span></span>
-        </h3>
-        <img className="workshop-image" src={`/static/assets/${first}-workshop.jpg`} alt={`workshop by ${first} ${last}`}/>
-      </a>
-    </Link>
+    <a className="workshop-container" href={url}>
+      <h3 className="tag">
+        <span className="block"><span className="highlight tag-line">{first} {last}</span></span>
+        <span className="block"><span className="tag-line">{title}</span></span>
+      </h3>
+      <img className="workshop-image" src={`/static/assets/${first}-workshop.jpg`} alt={`workshop by ${first} ${last}`}/>
+    </a>
   </>
 }

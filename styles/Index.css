@@ -25,6 +25,7 @@ body {
   background: white;
 }
 
+.lisi h1,
 .emma h1,
 .speaker:nth-child(2) a:focus,
 .speaker:nth-child(2) a:hover {

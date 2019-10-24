@@ -13,7 +13,7 @@ const mainConference = [
     title: "Opening"
   },
   {
-    time: "12:45",
+    time: "13:00",
     speaker: {
       name: "Vitaly Friedman",
       url: "/vitaly",
@@ -22,29 +22,29 @@ const mainConference = [
     }
   },
   {
-    time: "13:40",
+    time: "13:45",
     speaker: {
-      name: "Emma Wedekind",
-      url: "/emma",
-      image: "/static/assets/images/emma.jpg",
-      title: "Foundations of Design systems"
+      name: "Lisi Linhart",
+      url: "/lisi",
+      image: "/static/assets/images/lisi.jpg",
+      title: "Practical Web Animation"
     }
   },
   {
-    time: "14:20",
+    time: "14:30",
     speaker: {
       name: "Dylan Schiemann",
       url: "/dylan",
       image: "/static/assets/images/dylan.jpg",
-      title: "tbd"
+      title: "Frameworks in a post-React apocalypse"
     }
   },
   {
-    time: "14:50",
+    time: "15:00",
     title: "Coffee break powered by <a href='https://dynatrace.com' rel='noopener'>Dynatrace</a>"
   },
   {
-    time: "16:30",
+    time: "15:45",
     speaker: {
       name: "Anna Henningsen",
       url: "/anna",
@@ -53,7 +53,7 @@ const mainConference = [
     }
   },
   {
-    time: "17:10",
+    time: "16:30",
     speaker: {
       name: "Harry Roberts",
       url: "/harry",
@@ -62,7 +62,7 @@ const mainConference = [
     }
   },
   {
-    time: "17:50",
+    time: "17:15",
     speaker: {
       name: "Marvin Hagemeister",
       url: "/marvin",
@@ -71,11 +71,11 @@ const mainConference = [
     }
   },
   {
-    time: "18:30",
+    time: "17:45",
     title: "Dinner break powered by <a href='https://mozilla.com' rel='noopener'>Mozilla</a>"
   },
   {
-    time: "19:30",
+    time: "19:00",
     speaker: {
       name: "Jen Looper",
       url: "/jen",
@@ -84,7 +84,7 @@ const mainConference = [
     }
   },
   {
-    time: "20:10",
+    time: "19:45",
     speaker: {
       name: "Jo Franchetti",
       url: "/jo",
@@ -93,7 +93,7 @@ const mainConference = [
     }
   },
   {
-    time: "20:40",
+    time: "20:20",
     title: "Party powered by <a href='https://netural.com' rel='noopener'>Netural</a>"
   }
 ]
@@ -119,7 +119,7 @@ const warmupevent = [
   {
     time: "19:15",
     speaker: {
-      name: "Samuel Snoko",
+      name: "Samuel Snopko",
       url: "/samuel",
       image: "/static/assets/images/samuel.jpg",
       title: "tbd"

@@ -9,7 +9,7 @@ export function Wowser() {
             position: relative;
             width: 100%;
             height: 0;
-            padding-bottom: 51%;
+            padding-bottom: 56%;
           }
           .aspect-ratio iframe {
             position: absolute;

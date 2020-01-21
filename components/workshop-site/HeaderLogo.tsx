@@ -1,3 +1,5 @@
+import React from 'react'
+
 export const ScriptConfLogo = ( {...props} ) => <>
   <div {...props} className="what" dangerouslySetInnerHTML={{__html: `
   <svg width="100%" viewBox="0 0 1039 175" version="1.1">

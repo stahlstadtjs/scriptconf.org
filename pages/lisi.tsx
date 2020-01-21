@@ -1,6 +1,7 @@
-import { SpeakerDetail } from '../components/2019-bold/SpeakerDetail';
-import Lisi from '../content/2019/lisi.mdx';
 import Head from "next/head";
+import Lisi from '../content/2019/lisi.mdx';
+import React from 'react'
+import { SpeakerDetail } from '../components/2019-bold/SpeakerDetail';
 
 export default function() {
   return <SpeakerDetail first="lisi" last="linhart">

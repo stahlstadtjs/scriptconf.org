@@ -1,8 +1,10 @@
-import Head from "next/head";
-import { FC } from "react";
 import "../../styles/Index.css";
+
+import { FC } from "react";
 import { Footer } from "../workshop-site/Footer";
+import Head from "next/head";
 import { Navigation } from "./Navigation";
+import React from 'react'
 
 export const SpeakerDetail:FC<{ first: string, last: string}> = ({ first, last, children}) => {
   return <>

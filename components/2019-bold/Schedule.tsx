@@ -1,3 +1,5 @@
+import React from 'react'
+
 function Speaker({speaker}) {
   return <>
     <style jsx>{`

@@ -1,3 +1,4 @@
+import React from 'react'
 import { Speaker } from "./Speaker";
 
 export function SpeakerGrid({data}) {

@@ -1,6 +1,7 @@
-import Vitaly from '../../content/2019/workshop-vitaly.mdx'
-import { SpeakerDetail } from '../../components/2019-bold/SpeakerDetail';
 import Head from "next/head";
+import React from 'react'
+import { SpeakerDetail } from '../../components/2019-bold/SpeakerDetail';
+import Vitaly from '../../content/2019/workshop-vitaly.mdx'
 
 export default function() {
   return <SpeakerDetail first="vitaly" last="friedman">

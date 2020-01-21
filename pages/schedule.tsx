@@ -1,6 +1,7 @@
 import { Footer } from "../components/workshop-site/Footer";
 import Head from "next/head";
 import { Navigation } from "../components/2019-bold/Navigation";
+import React from 'react'
 import { Schedule } from "../components/2019-bold/Schedule";
 
 const mainConference = [

@@ -1,6 +1,6 @@
-import { SFC, DetailedHTMLProps, AnchorHTMLAttributes, ButtonHTMLAttributes } from 'react'
-
 import '../../styles/Button.css'
+
+import React, { AnchorHTMLAttributes, ButtonHTMLAttributes, DetailedHTMLProps, SFC } from 'react'
 
 type JSXAnchorProps = DetailedHTMLProps<AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>
 type JSXButtonProps = DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>

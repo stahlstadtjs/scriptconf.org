@@ -1,5 +1,6 @@
-import { SpeakerBlock } from "./SpeakerBlock";
 import { More } from "./More";
+import React from 'react'
+import { SpeakerBlock } from "./SpeakerBlock";
 
 export function Masthead() {
   return <>

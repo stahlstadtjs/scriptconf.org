@@ -1,5 +1,7 @@
 import "../../styles/Collage.css";
 
+import React from 'react'
+
 export function Collage() {
   return (
     <div className="grid">

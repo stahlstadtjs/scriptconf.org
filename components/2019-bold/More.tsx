@@ -1,3 +1,5 @@
+import React from 'react'
+
 export function More() {
   return <>
     <style jsx>{`

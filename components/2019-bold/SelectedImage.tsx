@@ -1,3 +1,5 @@
+import React from 'react'
+
 export function SelectedImage({ selected }) {
   if (selected !== "") {
     return (<>

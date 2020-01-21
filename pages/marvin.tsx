@@ -1,6 +1,7 @@
-import Marvin from '../content/2019/marvin.mdx';
-import { SpeakerDetail } from '../components/2019-bold/SpeakerDetail';
 import Head from "next/head";
+import Marvin from '../content/2019/marvin.mdx';
+import React from 'react'
+import { SpeakerDetail } from '../components/2019-bold/SpeakerDetail';
 
 export default function() {
   return <SpeakerDetail first="marvin" last="hagemeister">

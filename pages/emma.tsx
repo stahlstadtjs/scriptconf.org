@@ -1,6 +1,7 @@
-import { SpeakerDetail } from '../components/2019-bold/SpeakerDetail';
 import Emma from '../content/2019/emma.mdx';
 import Head from "next/head";
+import React from 'react'
+import { SpeakerDetail } from '../components/2019-bold/SpeakerDetail';
 
 export default function() {
   return <SpeakerDetail first="emma" last="wedekind">

@@ -1,6 +1,7 @@
+import Head from "next/head";
+import React from 'react'
 import { SpeakerDetail } from '../components/2019-bold/SpeakerDetail';
 import Vanessa from '../content/2019/vanessa.mdx';
-import Head from "next/head";
 
 export default function() {
   return <SpeakerDetail first="vanessa" last="böhner">

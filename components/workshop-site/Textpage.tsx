@@ -1,9 +1,10 @@
 import { FC } from 'react';
-import { H1 } from './DocHeadline';
 import { Footer } from './Footer';
+import { H1 } from './DocHeadline';
 import { Header } from './Header';
 import { Layout } from './Layout';
 import { Nav } from './Nav';
+import React from 'react'
 import { Wrapper } from './Wrapper';
 
 export const Textpage:FC<{ title: string }> = ({ title, children }) => {

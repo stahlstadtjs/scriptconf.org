@@ -1,3 +1,5 @@
+import React from 'react'
+
 export function Navigation() {
   return <>
   <style jsx>{`
@@ -54,9 +56,9 @@ export function Navigation() {
   </style>
   <nav>
     <a href="/"><img className="nav-logo" src="/static/assets/caret.svg?v=2" alt="ScriptConf Home"/></a>
-    <a className="nav-link hide-sm" href="/#speakers">Speakers</a>
-    <a className="nav-link hide-sm" href="/#workshops">Workshops</a>
-    <a className="nav-link hide-sm" href="/#jam">JAM Session</a>
+    <a className="nav-link hide-sm" href="/2019/#speakers">Speakers</a>
+    <a className="nav-link hide-sm" href="/2019/#workshops">Workshops</a>
+    <a className="nav-link hide-sm" href="/2019/#jam">JAM Session</a>
     <a className="nav-link hide-sm" href="/schedule">Schedule</a>
     <a className="nav-button" href="https://ti.to/scriptconf/scriptconf-2019">Tickets @ 159 EUR</a>
   </nav>

@@ -19,8 +19,8 @@
     "isomorphic-unfetch": "^2.1.1",
     "js-yaml": "^3.13.1",
     "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
+    "preact": "^10.4.6",
+    "preact-render-to-string": "^5.1.10",
     "terser": "^3.14.1",
     "xml2js": "^0.4.19"
   },
@@ -36,7 +36,10 @@
     "serialize-javascript": ">=2.1.1",
     "standard": "^12.0.1",
     "typescript": "^3.2.2",
-    "typescript-eslint-parser": "^21.0.2"
+    "typescript-eslint-parser": "^21.0.2",
+    "react": "github:preact-compat/react#1.0.0",
+    "react-dom": "github:preact-compat/react-dom#1.0.0",
+    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.0.1"
   },
   "standard": {
     "parser": "typescript-eslint-parser",

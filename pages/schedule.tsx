@@ -1,3 +1,5 @@
+import "../styles/Index.css";
+
 import { Footer } from "../components/workshop-site/Footer";
 import Head from "next/head";
 import { Navigation } from "../components/2019-bold/Navigation";

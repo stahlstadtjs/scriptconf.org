@@ -36,7 +36,7 @@ jobs:
       contents: '**' 
       targetFolder: /var/www/scriptconf.org/dist
       cleanTargetFolder: true # Optional
-    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
       #overwrite: true # Optional
       #failOnEmptySource: false # Optional
       #flattenFolders: false # Optional

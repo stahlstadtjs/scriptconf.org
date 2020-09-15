@@ -22,7 +22,8 @@
     "preact": "^10.4.6",
     "preact-render-to-string": "^5.1.10",
     "terser": "^3.14.1",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.4.19",
+    "node-fetch": ">=2.6.1"
   },
   "devDependencies": {
     "@types/next": "latest",

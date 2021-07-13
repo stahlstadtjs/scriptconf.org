@@ -10,37 +10,38 @@
     "all": "npm run build && npm run prod && npm run copy"
   },
   "dependencies": {
-    "@mdx-js/mdx": "^0.15.4",
+    "@mdx-js/loader": "^1.6.22",
+    "@mdx-js/mdx": "^1.6.22",
+    "@next/mdx": "^11.0.1",
     "@zeit/next-css": "^1.0.1",
-    "@zeit/next-mdx": "^1.2.0",
     "@zeit/next-typescript": "1.1.0",
     "compression": "^1.7.3",
     "express": "^4.16.3",
     "isomorphic-unfetch": "^2.1.1",
     "js-yaml": "^3.13.1",
-    "next": "9",
+    "next": "^11.0.1",
     "preact": "^10.4.6",
     "preact-render-to-string": "^5.1.10",
     "terser": "^3.14.1",
-    "xml2js": "^0.4.19",
-    "node-fetch": ">=2.6.1"
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {
     "@types/next": "9",
     "@types/react": "latest",
     "@types/xml2js": "^0.4.3",
-    "babel-plugin-inline-react-svg": "^1.1.0",
+    "babel-plugin-inline-react-svg": "^2.0.1",
     "eslint-config-typescript": "^1.1.0",
     "eslint-plugin-typescript": "^0.14.0",
     "minimist": "^1.2.5",
+    "node-fetch": "^2.6.1",
+    "react": "github:preact-compat/react#1.0.0",
+    "react-dom": "github:preact-compat/react-dom#1.0.0",
     "react-icons": "^3.3.0",
+    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.0.1",
     "serialize-javascript": ">=3.1.0",
     "standard": "^12.0.1",
     "typescript": "^4.0",
-    "typescript-eslint-parser": "^21.0.2",
-    "react": "github:preact-compat/react#1.0.0",
-    "react-dom": "github:preact-compat/react-dom#1.0.0",
-    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.0.1"
+    "typescript-eslint-parser": "^21.0.2"
   },
   "standard": {
     "parser": "typescript-eslint-parser",
